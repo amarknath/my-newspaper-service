@@ -1,0 +1,423 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Futura Today';
+    src: url(../fonts/futura_today_normal.eot);
+    src: url(../fonts/futura_today_normal.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_normal.woff) format("woff"),
+         url(../fonts/futura_today_normal.ttf) format("truetype"),
+         url(../fonts/futura_today_normal.svg#Futura_Today) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Futura Today Bold';
+    src: url(../fonts/futura_today_bold.eot);
+    src: url(../fonts/futura_today_bold.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_bold.woff) format("woff"),
+         url(../fonts/futura_today_bold.ttf) format("truetype"),
+         url(../fonts/futura_today_bold.svg#Futura_Today_Bold) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Futura Today Demi Bold';
+    src: url(../fonts/futura_today_demibold.eot);
+    src: url(../fonts/futura_today_demibold.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_demibold.woff) format("woff"),
+         url(../fonts/futura_today_demibold.ttf) format("truetype"),
+         url(../fonts/futura_today_demibold.svg#Futura_Today) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Futura Today Light';
+    src: url(../fonts/futura_today_light.eot);
+    src: url(../fonts/futura_today_light.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_light.woff) format("woff"),
+         url(../fonts/futura_today_light.ttf) format("truetype"),
+         url(../fonts/futura_today_light.svg#Futura_Today_Light) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url(../fonts/helveticaneue-light-webfont.eot);
+    src: url(../fonts/helveticaneue-light-webfont.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/helveticaneue-light-webfont.woff) format("woff"),
+         url(../fonts/helveticaneue-light-webfont.ttf) format("truetype"),
+         url(../fonts/helveticaneue-light-webfont.svg#Futura_Today_Light) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* GENERAL */
+
+.publication-body {
+	background: #fff;
+  margin: 0px;
+  padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #4f4f4f;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+#main-header {
+	background-color: #000;
+	position:absolute;
+    left:0;
+    top:0;
+    margin: 0px;
+	height: 115px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.usa-today-logo {
+	margin: 20px 0px 20px 11%;
+    display: inline-block;
+    content: url(../img/usa-today-desktop-logo.png);
+	/*max-width: 35%;*/
+}
+
+.my-newspaper-service-logo img{
+    display: inline-block;
+	margin: -65px 11% 0px 0px;
+	float: right;
+}
+
+.second-header {
+	height: 207px;
+	width: 100%;
+	margin-top: 105px;
+}
+
+.publication img {
+	width: 50%;
+	margin: 0px 25% 0px 25%;
+	margin-top: 42px
+}
+
+.second-header div h2 {
+	font-family: "Futura Today Light", "Futura Today", "Futura", "Helvetica", sans-serif;
+	font-size: 68.8px;
+	color: #323232;
+  opacity: 0.9;
+	margin: 0px;
+  text-align:center;
+  letter-spacing: 2.5px;
+}
+
+.hairline {
+	border: 1px solid #cccccc;
+	margin: 42px 0px 0px;
+	height: 100%;
+	width: 100%;
+}
+
+/* MAIN */
+
+.service-info {
+	margin-left: 10%;
+	margin-right: 10%;
+  margin-top: 50px;
+}
+
+.info-text-heading {
+	width: 165px;
+	margin-right: 50px;
+	display: inline-block;
+	font-size: 25.51px;
+	font-family: "Futura Today Dem iBold", "Futura Today", "Futura", "Helvetica", sans-serif;
+	color: #323232;
+}
+
+.info-text-specifics {
+	display: inline-block;
+	font-size: 25.51px;
+	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
+	color: #323232;
+}
+
+.info-text-specifics a {
+	text-decoration: none;
+	color: #009aff;
+}
+
+.publication-button-menu {
+	margin-top: 72px;
+}
+
+.menu-item {
+	background-color: #009aff;
+    color: #fff;
+    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+	 font-size: 21.88px;
+    cursor: pointer;
+    padding: 29px 0px 29px 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+button.menu-item:after {
+    content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    padding: 5px 40px 5px 0px;
+}
+
+.menu-item.active, .menu-item:hover {
+	opacity: 0.8;
+  transform: scale(1.005);
+}
+
+/*FOOTER*/
+
+footer {
+    bottom: 0;
+    left: 0;
+    height: 234px;
+    width: 100%;
+    background-color: #252525;
+    margin-top: 65px;
+    font-size: 17px;
+}
+
+.footer-logos img {
+  width: 25%;
+  margin: 0px 37.5% 0px 37.5%;
+  margin-top: 42px
+}
+
+.footer-logos p {
+  margin-top: 30px;
+  text-align:center;
+  font-size: 17px;
+  color: #fff;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1150px) {
+
+	#main-header {
+    height: 160px;
+  }
+
+  .my-newspaper-service-logo img{
+  	margin: -20px 0px 20px 18%;
+  	float: left;
+  }
+
+  .second-header {
+    margin-top: 150px;
+  }
+
+  .publication img {
+      width: 75%;
+      margin: 0px 12.5% 0px 12.5%;
+      margin-top: 42px
+  }
+
+  .second-header div h2 {
+      font-size: 40.46px;
+  }
+
+  .footer-logos p {
+      margin-top: 30px;
+      font-size: 17px;
+      text-align:center;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .second-header div h2 {
+      font-size: 36.46px;
+  }
+
+  .service-info {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: -40px;
+  }
+
+  .info-text-heading {
+    width: 165px;
+    margin-right: 50px;
+    font-size: 22px;
+  }
+
+  .info-text-specifics {
+    font-size: 22px;
+  }
+
+  .menu-item {
+    font-size: 30px;
+      padding: 29px 0px 29px 40px;
+      height: 100px;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 2px;
+  }
+
+  .footer-logos img {
+    width: 40%;
+    margin: 0px 30% 0px 30%;
+    margin-top: 42px
+  }
+
+  .footer-logos p {
+    margin-top: 30px;
+    text-align:center;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    #main-header {
+        height: 220px;
+    }
+
+    .service-info {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10px;
+      margin-bottom: -50px;
+    }
+
+    .second-header {
+      height: 135px;
+      width: 100%;
+      margin-top: 190px;
+    }
+
+     .publication img {
+        width: 75%;
+        margin: 0px 12.5% 0px 12.5%;
+        margin-top: 70px
+    }
+
+    .second-header div h2 {
+        margin-bottom: -15px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -10px;
+      font-size: 20px;
+    }
+
+    .info-text-specifics {
+      font-size: 20px;
+    }
+
+
+    .usa-today-logo {
+        margin: 20px 13.1% 20px 13.1%;
+        max-width: 73.8%;
+        content: url(../img/usa-today-mobile-logo.png);
+    }
+
+    .my-newspaper-service-logo {
+        float: right;
+        position: relative;
+        margin: 20px 11% 0px 0px;
+        left: -21%;
+        right: 50%; 
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+	.usa-today-logo {
+        margin: 45px 13.1% 20px 13.1%;
+    }
+
+	.my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -13%;
+    }
+
+  .second-header div h2 {
+      font-size: 30.46px;
+  }
+
+    .service-info {
+      margin-left: 5%;
+      margin-right: 0%;
+      margin-top: 16px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -45px;
+      font-size: 15px;
+      line-height: 28px;
+    }
+
+    .info-text-specifics {
+      font-size: 17px;
+      line-height: 24px;
+    }
+
+    .menu-item {
+        font-size: 20px;
+        padding: 29px 0px 29px 5%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1px;
+        text-align: left;
+    }
+
+    button.menu-item:after {
+      content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
+      font-size: 13px;
+      color: #fff;
+      float: right;
+      padding: 5px 7% 5px 0px;
+    }
+
+    .footer-logos img {
+      width: 60%;
+      margin: 0px 20% 0px 20%;
+      margin-top: 60px
+    }
+
+    .footer-logos p {
+      margin-top: 30px;
+      font-size: 14px;
+      text-align:center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+

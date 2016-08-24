@@ -1,0 +1,903 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Futura Today';
+    src: url(../fonts/futura_today_normal.eot);
+    src: url(../fonts/futura_today_normal.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_normal.woff) format("woff"),
+         url(../fonts/futura_today_normal.ttf) format("truetype"),
+         url(../fonts/futura_today_normal.svg#Futura_Today) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Futura Today Bold';
+    src: url(../fonts/futura_today_bold.eot);
+    src: url(../fonts/futura_today_bold.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_bold.woff) format("woff"),
+         url(../fonts/futura_today_bold.ttf) format("truetype"),
+         url(../fonts/futura_today_bold.svg#Futura_Today_Bold) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Futura Today Demi Bold';
+    src: url(../fonts/futura_today_demibold.eot);
+    src: url(../fonts/futura_today_demibold.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_demibold.woff) format("woff"),
+         url(../fonts/futura_today_demibold.ttf) format("truetype"),
+         url(../fonts/futura_today_demibold.svg#Futura_Today) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Futura Today Light';
+    src: url(../fonts/futura_today_light.eot);
+    src: url(../fonts/futura_today_light.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/futura_today_light.woff) format("woff"),
+         url(../fonts/futura_today_light.ttf) format("truetype"),
+         url(../fonts/futura_today_light.svg#Futura_Today_Light) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url(../fonts/helveticaneue-light-webfont.eot);
+    src: url(../fonts/helveticaneue-light-webfont.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/helveticaneue-light-webfont.woff) format("woff"),
+         url(../fonts/helveticaneue-light-webfont.ttf) format("truetype"),
+         url(../fonts/helveticaneue-light-webfont.svg#Futura_Today_Light) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+/* GENERAL */
+
+.newspaper-body {
+	background: #fff;
+    margin: 0px;
+    padding: 0px;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 16px;
+	color: #4f4f4f;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+#main-header {
+    background-color: #000;
+    position:absolute;
+    left:0;
+    top:0;
+    margin: 0px;
+    height: 115px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.usa-today-logo {
+    margin: 20px 0px 20px 11%;
+    display: inline-block;
+    content: url(../img/usa-today-desktop-logo.png);
+    /*max-width: 35%;*/
+}
+
+.my-newspaper-service-logo img{
+    display: inline-block;
+    margin: -65px 11% 0px 0px;
+    float: right;
+}
+
+
+
+/* MAIN */
+
+/* HERO SECTION */
+
+.hero-section {
+    height: 635px;
+    width: 100%;
+    margin-bottom: 52px;
+    margin-top: 110px;
+    background: url(../img/hero_image_dark_translucent.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    position: relative;
+}
+
+.text-container {
+    width: 35%;
+    margin-left: 12.5%;
+}
+
+
+.title {
+    padding-top: 370px;
+    font-size: 86.29px;
+    line-height: 78px;
+    font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
+    color: #fff;
+}
+
+.tagline {
+    font-size: 29.52px;
+    line-height: 39.37px;
+    font-family: "Futura Today Light", "Futura", "Helvetica", sans-serif;
+    color: #02b8fd;
+    margin-top: -50px;
+}
+
+/* CHOOSE PUBLICATION SECTION */
+
+#publication-selection-section {
+    height: 320px;
+    z-index: 1;
+    position: relative;
+}
+
+#usa-today-button {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 27px;
+    background-color: #009aff;
+    padding: 34px 0px 34px 0px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    z-index: 2;
+    position: relative;
+}
+
+#usa-today-button.active,  #usa-today-button:hover {
+    opacity: 0.8;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+#usa-today-button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+    font-size: 30px;
+    z-index: 3;
+    position: relative;
+}
+
+#or-text {
+    text-align: center;
+    margin-top: 0px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 1.0%;
+    margin-left: 1.0%;
+    margin-bottom: 45px;
+}
+
+.hairline-left {
+    border: 1px solid #cccccc;
+    width: 16%;
+    display: inline-block;
+    margin-left: 31.5%;
+}
+
+.hairline-right {
+    border: 1px solid #cccccc;
+    width: 16%;
+    display: inline-block;
+    margin-right: 29.5%;
+}
+
+.state-heading {
+    font-size: 38px;
+    color: #0d0d0d;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 52px;
+}
+
+
+
+/* STATE BUTTONS */
+
+#state-menu{
+    height: 2800px;
+}
+
+ul {
+    list-style: none;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #fff;
+    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+    font-size: 21.88px;
+    cursor: pointer;
+    padding: 29px 0px 29px 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #009aff;
+}
+
+.accordion:after {
+    content: url(../img/down-arrow.png); 
+    font-size: 13px;
+    color: #fff;
+    float: right;
+    padding: 5px 40px 5px 0px;
+}
+
+.accordion.active:after {
+    content: url(../img/up.png); 
+}
+
+.accordion:hover, .accordion.active:after{ 
+
+}
+
+.accordion:hover { 
+    transform: scale(1.005);
+}
+
+.accordion.alabama {
+    background-color: #001028;
+}
+
+.accordion.arizona {
+    background-color: #001d35;
+}
+
+.accordion.arkansas {
+    background-color: #002840;
+}
+
+.accordion.california {
+    background-color: #00304a;
+}
+
+.accordion.colorado {
+    background-color: #003853;
+}
+
+.accordion.delaware {
+    background-color: #003f5c;
+}
+
+.accordion.florida {
+    background-color: #004664;
+}
+
+.accordion.guam {
+    background-color: #004664;
+}
+
+.accordion.indiana {
+    background-color: #005374;
+}
+
+.accordion.iowa {
+    background-color: #00597c;
+}
+
+.accordion.kentucky {
+    background-color: #005f84;
+}
+
+.accordion.louisiana {
+    background-color: #01658c;
+}
+
+.accordion.maryland {
+    background-color: #046b95;
+}
+
+.accordion.michigan {
+    background-color: #07729d;
+}
+
+.accordion.minnesota {
+    background-color: #002840;
+}
+
+.accordion.mississippi {
+    background-color: #0b7ead;
+}
+
+.accordion.missouri {
+    background-color: #0b7ead;
+}
+
+
+.accordion.montana {
+    background-color: #0c89bc;
+}
+
+.accordion.nevada {
+    background-color: #0b8fc4;
+}
+
+.accordion.newjersey {
+    background-color: #0996ce;
+}
+
+.accordion.newmexico {
+    background-color: #0e9bd1;
+}
+
+.accordion.newyork {
+    background-color: #1aa0d4;
+}
+
+.accordion.northcarolina {
+    background-color: #27a6d6;
+}
+
+.accordion.ohio {
+    background-color: #34abd9;
+}
+
+.accordion.oregon {
+    background-color: #41b0db;
+}
+
+.accordion.pennsylvania {
+    background-color: #4db5dd;
+}
+
+.accordion.southcarolina {
+    background-color: #5abbe0;
+}
+
+.accordion.southdakota {
+    background-color: #67c0e2;
+}
+
+.accordion.tennessee {
+    background-color: #74c5e5;
+}
+
+.accordion.texas {
+    background-color: #80cae7;
+}
+
+.accordion.utah {
+    background-color: #87cee8;
+}
+
+.accordion.vermont {
+    background-color: #8cd0e9;
+}
+
+.accordion.virginia {
+    background-color: #91d2ea;
+}
+
+.accordion.wisconsin {
+    background-color: #96d4eb;
+}
+
+.accordion.wisconsin.active  #state-menu{
+    height: 3500px;
+}
+
+
+.panel {
+    margin-left: 7%;
+    padding: 29px 0px 29px 40px;
+    line-height: 51.77px;
+    background-color: white;
+    display: none;
+    color: #0096ff;
+    font-size: 18.96px;
+    font-family: "Helvetica Neue Light", "Helvetica", Arial, sans-serif;
+    text-decoration: none;
+}
+
+.publication-list-item a {
+    text-decoration: none;
+    color: #0096ff;
+    font-size: 18.96px;
+    font-family: "Helvetica Neue Light", "Helvetica", Arial, sans-serif;
+    margin: 26px 0px;
+    height: 50px;
+}
+
+
+.panel.show {
+    display: block;
+}
+
+.panel.show {
+    opacity: 1;
+    max-height: 800px; 
+}
+
+
+/* FOOTER */
+
+footer {
+    bottom: 0;
+    left: 0;
+    height: 234px;
+    width: 100%;
+    background-color: #252525;
+    margin-top: 200px;
+}
+
+.footer-logos img {
+    width: 25%;
+    margin: 0px 37.5% 0px 37.5%;
+    margin-top: 42px
+}
+
+.footer-logos p {
+    margin-top: 30px;
+    text-align:center;
+    color: #fff;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1440px) {
+    .text-container {
+        width: 40%;
+        margin-left: 12.5%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+
+    #main-header {
+        height: 160px;
+    }
+
+    .my-newspaper-service-logo img{
+        margin: -20px 0px 20px 18%;
+        float: left;
+    }
+
+    .footer-logos p {
+        margin-top: 30px;
+        font-size: 14px;
+        text-align:center;
+    }
+
+    .hero-section {
+        margin-top: 150px;
+    }
+
+    .text-container {
+        width: 50%;
+        margin-left: 12.5%;
+    }
+
+    .title {
+        padding-top: 360px;
+        font-size: 86.29px;
+        line-height: 78px;
+        color: #fff;
+    }
+
+    .tagline {
+        font-size: 29.52px;
+        line-height: 39.37px;
+        color: #02b8fd;
+        margin-top: -40px;
+    }
+
+    .panel {
+        margin-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 944px) {
+     .text-container {
+        width: 63%;
+        margin-left: 12.5%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .footer-logos img {
+        width: 40%;
+        margin: 0px 30% 0px 30%;
+        margin-top: 42px
+    }
+
+    .footer-logos p {
+        margin-top: 30px;
+        text-align:center;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 52px;
+        margin-top: -20px;
+        background: url(../img/hero_image_dark_translucent.jpg);
+        background-position: 50% 110%;
+        background-size: 1000px auto;
+    }
+
+    .text-container {
+        width: 60%;
+        margin-left: 12.5%;
+    }
+
+    .title {
+        padding-top: 360px;
+        font-size: 70.29px;
+        line-height: 60px;
+        color: #fff;
+    }
+
+    .tagline {
+        font-size: 20.52px;
+        line-height: 30.37px;
+        color: #02b8fd;
+        margin-top: -40px;
+    }
+
+    #usa-today-button {
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80%;
+        margin-bottom: 27px;
+        background-color: #009aff;
+        padding: 34px 0px 34px 0px;
+        text-align: center;
+        border-radius: 5px;
+        border-style: none;
+        z-index: 2;
+        position: relative;
+    }
+
+    #or-text {
+        text-align: center;
+        margin-top: 0px;
+        font-family: "Helvetica", "Arial", sans-serif;
+        font-size: 25px;
+        display: inline-block;
+        margin-right: 1.0%;
+         margin-left: 1.0%;
+        margin-bottom: 5px;
+    }
+
+    .hairline-left {
+        border: 1px solid #cccccc;
+        width: 25%;
+        display: inline-block;
+        margin-left: 21.5%;
+    }
+
+    .hairline-right {
+        border: 1px solid #cccccc;
+        width: 25%;
+        display: inline-block;
+        margin-right: 19.5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    #main-header {
+        height: 220px;
+    }
+
+    .usa-today-logo {
+        margin: 20px 13.1% 20px 13.1%;
+        max-width: 73.8%;
+        content: url(../img/usa-today-mobile-logo.png);
+    }
+
+    .my-newspaper-service-logo {
+        float: right;
+        position: relative;
+        margin: 20px 11% 0px 0px;
+        left: -21%;
+        right: 50%; 
+        text-align: left;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 440px;
+        margin-bottom: 40px;
+        margin-top: -80px;
+        background: url(../img/hero_img_mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+        position: relative;
+    }
+
+    .title {
+        padding-top: 300px;
+        font-size: 47.83px;
+        line-height: 60px;
+    }
+
+    .tagline {
+        font-size: 26.52px;
+        line-height: 30.37px;
+        margin-top: -40px;
+        padding-left: 3.5%;
+    }
+
+    .text-container {
+        width: 70%;
+        margin-top: 300px;
+        margin-left: 17%;
+        margin-right: 13%;
+    }
+
+    #publication-selection-section {
+        height: 280px;
+        z-index: 1;
+        position: relative;
+    }
+
+    #usa-today-button {
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 110px;
+        margin-bottom: 27px;
+        background-color: #009aff;
+        padding: 34px 0px 34px 0px;
+        text-align: center;
+        border-radius: 5px;
+        border-style: none;
+        z-index: 2;
+        position: relative;
+    }
+
+    #state-menu{
+        height: 3800px;
+    }
+
+    .accordion {
+        font-size: 30px;
+        cursor: pointer;
+        padding: 29px 0px 29px 40px;
+        height: 100px;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2px;
+    }
+
+    .accordion:after {
+        content: url(../img/down-arrow.png); 
+        font-size: 20px;
+        color: #fff;
+        float: right;
+        padding: 5px 40px 5px 0px;
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+    }
+
+    .panel {
+        margin: -25px -6% -25px -6%;
+        line-height: 51.77px;
+        background-color: white;
+        display: none;
+        color: #0096ff;
+        font-size: 26px;
+        line-height: 70px;
+        font-family: "Helvetica Neue Light", "Helvetica", Arial, sans-serif;
+        text-decoration: none;
+    }
+
+    .publication-list-item a {
+        text-decoration: none;
+        color: #0096ff;
+        font-size: 26px;     
+    }
+
+
+    .panel.show {
+        display: block;
+    }
+
+    .panel.show {
+        opacity: 1;
+        max-height: 800px; 
+    }
+
+    footer {
+        bottom: 0;
+        left: 0;
+        height: 370px;
+        width: 100%;
+        background-color: #252525;
+        margin-top: 110px;
+    }
+
+    .footer-logos img {
+        width: 50%;
+        margin: 70px 25% 0px 25%;
+    }
+
+    .footer-logos p {
+        margin-top: 30px;
+        text-align:center;
+        font-size: 17.09px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .title {
+        padding-top: 300px;
+        font-size: 42.83px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .tagline {
+        font-size: 24.52px;
+        line-height: 30.37px;
+        margin-top: -40px;
+        text-align: center;
+        margin-left: -3%;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-top: 300px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .panel {
+        margin: -25px -10% -25px -10%;
+    }
+
+    .publication-list-item a {
+        text-decoration: none;
+        color: #0096ff;
+        font-size: 19px;     
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .usa-today-logo {
+        margin: 45px 13.1% 20px 13.1%;
+    }
+
+    .my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -13%;
+    }
+
+    .hairline-left {
+        border: 1px solid #cccccc;
+        width: 25%;
+        display: inline-block;
+        margin-left: 19.5%;
+    }
+
+    .hairline-right {
+        border: 1px solid #cccccc;
+        width: 25%;
+        display: inline-block;
+        margin-right: 17.5%;
+    }
+
+    .footer-logos img {
+        width: 60%;
+        margin: 0px 20% 0px 20%;
+        margin-top: 60px
+    }
+
+    .footer-logos p {
+        margin-top: 30px;
+        font-size: 14px;
+        text-align:center;
+    }
+
+
+}
+
+@media only screen and (max-width: 427px) {
+
+    .title {
+        padding-top: 300px;
+        font-size: 39.83px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .tagline {
+        font-size: 21.52px;
+        line-height: 30.37px;
+        margin-top: -40px;
+        text-align: center;
+        margin-left: -3%;
+    }
+
+    .text-container {
+        width: 100%;
+        margin-top: 300px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+}
+
+
+
+
+/*
+
+@media only screen and (max-width: 550px) {
+
+    .title {
+        padding-top: 300px;
+        font-size: 70.29px;
+        line-height: 60px;
+        color: #fff;
+    }
+
+    .tagline {
+        font-size: 19.52px;
+        line-height: 30.37px;
+        color: #02b8fd;
+        margin-top: -40px;
+    }
+
+    .text-container {
+        height: 100%;
+        width: 100%;
+        margin-top: 300px;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+    }
+
+
+}
+
+ */
+
+
+
