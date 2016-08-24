@@ -838,6 +838,20 @@ footer {
         left: -18%;
     }
 
+    .accordion {
+        font-size: 20px;
+        padding-top: 35px;
+    }
+
+    .accordion:after {
+        font-size: 5px;
+        color: #fff;
+        float: right;
+        margin-bottom: 0%;
+        margin-right: -10px;
+        transform: translateY(-25%) scale(0.3);
+    }
+
     .hairline-left {
         border: 1px solid #cccccc;
         width: 25%;
@@ -1021,6 +1035,23 @@ footer {
         display: inline-block;
         margin-right: 22.5%;
     }
+
+    footer {
+        bottom: 0;
+        left: 0;
+        height: 250px;
+        width: 100%;
+        background-color: #252525;
+        margin-top: 65px;
+        font-size: 17px;
+    }
+
+    .footer-logos p {
+      margin-top: 30px;
+      text-align:center;
+      font-size: 13px;
+      color: #fff;
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -1085,6 +1116,8 @@ footer {
         text-align: center;
         margin-left: -3%;
     }
+
+
 }
 
 
