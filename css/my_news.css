@@ -718,17 +718,17 @@ footer {
 
 
     .accordion:after {
-        content: url(../img/down-arrow.png); 
+        content: url(../img/larger_down_arrow.png); 
         font-size: 5px;
         color: #fff;
         float: right;
         padding: 10px 40px 4px 0px;
         margin-bottom: 90px;
-        transform: scale(1.2);
+        transform: scale(0.4);
     }
 
     .accordion.active:after {
-        content: url(../img/up.png); 
+        content: url(../img/larger_up_arrow.png); 
     }
 
     .panel {
