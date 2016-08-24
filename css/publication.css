@@ -78,33 +78,35 @@
 }
 
 .usa-today-logo {
-	margin: 20px 0px 20px 11%;
+    margin: 25px 0px 20px 11%;
     display: inline-block;
+    max-width: 400px;
     content: url(../img/usa-today-desktop-logo.png);
-	/*max-width: 35%;*/
+    /*max-width: 35%;*/
 }
 
 .my-newspaper-service-logo img{
     display: inline-block;
-	margin: -65px 11% 0px 0px;
-	float: right;
+    margin: -60px 11% 0px 0px;
+    float: right;
+    max-width: 300px;
 }
 
 .second-header {
-	height: 207px;
+	height: 150px;
 	width: 100%;
 	margin-top: 105px;
 }
 
 .publication img {
-	width: 50%;
-	margin: 0px 25% 0px 25%;
-	margin-top: 42px
+	width: 30%;
+	margin: 0px 35% 0px 35%;
+	margin-top: 32px
 }
 
 .second-header div h2 {
 	font-family: "Futura Today Light", "Futura Today", "Futura", "Helvetica", sans-serif;
-	font-size: 68.8px;
+	font-size: 42.8px;
 	color: #323232;
   opacity: 0.9;
 	margin: 0px;
@@ -114,7 +116,7 @@
 
 .hairline {
 	border: 1px solid #cccccc;
-	margin: 42px 0px 0px;
+	margin: 22px 0px 0px;
 	height: 100%;
 	width: 100%;
 }
@@ -131,14 +133,14 @@
 	width: 165px;
 	margin-right: 50px;
 	display: inline-block;
-	font-size: 25.51px;
+	font-size: 19.51px;
 	font-family: "Futura Today Dem iBold", "Futura Today", "Futura", "Helvetica", sans-serif;
 	color: #323232;
 }
 
 .info-text-specifics {
 	display: inline-block;
-	font-size: 25.51px;
+	font-size: 19.51px;
 	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
 	color: #323232;
 }
@@ -236,6 +238,16 @@ footer {
       font-size: 40.46px;
   }
 
+  .info-text-heading {
+    width: 165px;
+    margin-right: -10px;
+    font-size: 18px;
+  }
+
+  .info-text-specifics {
+      font-size: 18px;
+  }
+
   .footer-logos p {
       margin-top: 30px;
       font-size: 17px;
@@ -249,6 +261,87 @@ footer {
   .second-header div h2 {
       font-size: 36.46px;
   }
+
+  .info-text-heading {
+    width: 165px;
+    margin-right: -10px;
+    font-size: 18px;
+  }
+
+  .info-text-specifics {
+      font-size: 18px;
+  }
+
+  .footer-logos img {
+    width: 40%;
+    margin: 0px 30% 0px 30%;
+    margin-top: 42px
+  }
+
+  .footer-logos p {
+    margin-top: 30px;
+    text-align:center;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    #main-header {
+        height: 220px;
+    }
+
+    .second-header {
+      height: 135px;
+      width: 100%;
+      margin-top: 190px;
+    }
+
+     .publication img {
+        width: 75%;
+        margin: 0px 12.5% 0px 12.5%;
+        margin-top: 70px
+    }
+
+    .second-header div h2 {
+        margin-bottom: -15px;
+    }
+
+    .service-info {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10px;
+      margin-bottom: -50px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -10px;
+      font-size: 20px;
+    }
+
+    .info-text-specifics {
+      font-size: 20px;
+    }
+
+
+    .usa-today-logo {
+        margin: 20px 13.1% 20px 13.1%;
+        max-width: 73.8%;
+        content: url(../img/usa-today-mobile-logo.png);
+    }
+
+    .my-newspaper-service-logo {
+        float: right;
+        position: relative;
+        margin: 20px 11% 0px 0px;
+        left: -21%;
+        right: 50%; 
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 680px) {
 
   .service-info {
     margin-left: 5%;
@@ -277,73 +370,6 @@ footer {
       margin-top: 2px;
   }
 
-  .footer-logos img {
-    width: 40%;
-    margin: 0px 30% 0px 30%;
-    margin-top: 42px
-  }
-
-  .footer-logos p {
-    margin-top: 30px;
-    text-align:center;
-  }
-
-}
-
-@media only screen and (max-width: 700px) {
-
-    #main-header {
-        height: 220px;
-    }
-
-    .service-info {
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 10px;
-      margin-bottom: -50px;
-    }
-
-    .second-header {
-      height: 135px;
-      width: 100%;
-      margin-top: 190px;
-    }
-
-     .publication img {
-        width: 75%;
-        margin: 0px 12.5% 0px 12.5%;
-        margin-top: 70px
-    }
-
-    .second-header div h2 {
-        margin-bottom: -15px;
-    }
-
-    .info-text-heading {
-      width: 165px;
-      margin-right: -10px;
-      font-size: 20px;
-    }
-
-    .info-text-specifics {
-      font-size: 20px;
-    }
-
-
-    .usa-today-logo {
-        margin: 20px 13.1% 20px 13.1%;
-        max-width: 73.8%;
-        content: url(../img/usa-today-mobile-logo.png);
-    }
-
-    .my-newspaper-service-logo {
-        float: right;
-        position: relative;
-        margin: 20px 11% 0px 0px;
-        left: -21%;
-        right: 50%; 
-        text-align: left;
-    }
 }
 
 @media only screen and (max-width: 520px) {

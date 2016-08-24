@@ -79,16 +79,18 @@
 }
 
 .usa-today-logo {
-    margin: 20px 0px 20px 11%;
+    margin: 25px 0px 20px 11%;
     display: inline-block;
+    max-width: 400px;
     content: url(../img/usa-today-desktop-logo.png);
     /*max-width: 35%;*/
 }
 
 .my-newspaper-service-logo img{
     display: inline-block;
-    margin: -65px 11% 0px 0px;
+    margin: -60px 11% 0px 0px;
     float: right;
+    max-width: 300px;
 }
 
 
@@ -117,16 +119,16 @@
 
 
 .title {
-    padding-top: 370px;
+    padding-top: 340px;
     font-size: 86.29px;
-    line-height: 78px;
-    font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
+    line-height: 100px;
+    font-family: "Futura Today Demi Bold", "Futura", "Helvetica", sans-serif;
     color: #fff;
 }
 
 .tagline {
-    font-size: 29.52px;
-    line-height: 39.37px;
+    font-size: 27.52px;
+    line-height: 10.37px;
     font-family: "Futura Today Light", "Futura", "Helvetica", sans-serif;
     color: #02b8fd;
     margin-top: -50px;
@@ -142,9 +144,9 @@
 
 #usa-today-button {
     text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    width: 50%;
+    margin-right: 31%;
+    margin-left: 31%;
+    width: 38%;
     margin-bottom: 27px;
     background-color: #009aff;
     padding: 34px 0px 34px 0px;
@@ -169,7 +171,7 @@
     text-decoration: none;
     color: #fff;
     font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
-    font-size: 30px;
+    font-size: 21px;
     z-index: 3;
     position: relative;
 }
@@ -200,10 +202,10 @@
 }
 
 .state-heading {
-    font-size: 38px;
+    font-size: 30px;
     color: #0d0d0d;
     text-align: center;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: 52px;
 }
 
@@ -213,6 +215,7 @@
 
 #state-menu{
     height: 2800px;
+    margin-top: -50px;
 }
 
 ul {
@@ -224,6 +227,7 @@ ul {
     color: #fff;
     font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
     font-size: 21.88px;
+    line-height: auto;
     cursor: pointer;
     padding: 29px 0px 29px 40px;
     width: 80%;
@@ -248,10 +252,10 @@ ul {
 
 .accordion:after {
     content: url(../img/down-arrow.png); 
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
     float: right;
-    padding: 5px 40px 5px 0px;
+    padding: 0px 40px 5px 0px;
 }
 
 .accordion.active:after {
@@ -403,9 +407,6 @@ ul {
     background-color: #96d4eb;
 }
 
-.accordion.wisconsin.active  #state-menu{
-    height: 3500px;
-}
 
 
 .panel {
@@ -465,13 +466,24 @@ footer {
 }
 
 
+.whiteSpace {
+    height: 500px;
+}
+
+
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1440px) {
     .text-container {
-        width: 40%;
+        width: 42%;
         margin-left: 12.5%;
+    }
+}
+
+@media only screen and (max-width: 1189px) {
+    .text-container {
+        width: 43%;
     }
 }
 
@@ -497,7 +509,7 @@ footer {
     }
 
     .text-container {
-        width: 50%;
+        width: 54%;
         margin-left: 12.5%;
     }
 
@@ -591,8 +603,8 @@ footer {
         font-size: 25px;
         display: inline-block;
         margin-right: 1.0%;
-         margin-left: 1.0%;
-        margin-bottom: 5px;
+        margin-left: 1.0%;
+        margin-bottom: 45px;
     }
 
     .hairline-left {
@@ -660,10 +672,10 @@ footer {
     }
 
     .text-container {
-        width: 70%;
+        width: 73%;
         margin-top: 300px;
-        margin-left: 17%;
-        margin-right: 13%;
+        margin-left: 15%;
+        margin-right: 11%;
     }
 
     #publication-selection-section {
@@ -690,6 +702,7 @@ footer {
 
     #state-menu{
         height: 3800px;
+        margin-top: 0px;
     }
 
     .accordion {
@@ -703,14 +716,19 @@ footer {
         margin-top: 2px;
     }
 
+
     .accordion:after {
         content: url(../img/down-arrow.png); 
-        font-size: 20px;
+        font-size: 5px;
         color: #fff;
         float: right;
-        padding: 5px 40px 5px 0px;
-        -webkit-transform: scale(1.4);
-        -moz-transform: scale(1.4);
+        padding: 10px 40px 4px 0px;
+        margin-bottom: 90px;
+        transform: scale(1.2);
+    }
+
+    .accordion.active:after {
+        content: url(../img/up.png); 
     }
 
     .panel {
@@ -765,6 +783,10 @@ footer {
 
 @media only screen and (max-width: 650px) {
 
+    .my-newspaper-service-logo {
+        left: -20%;
+    }
+
     .title {
         padding-top: 300px;
         font-size: 42.83px;
@@ -777,7 +799,7 @@ footer {
         line-height: 30.37px;
         margin-top: -40px;
         text-align: center;
-        margin-left: -3%;
+        margin-left: -3.5%;
     }
 
     .text-container {
@@ -785,6 +807,10 @@ footer {
         margin-top: 300px;
         margin-left: 0%;
         margin-right: 0%;
+    }
+
+    #state-menu{
+        margin-top: 0px;
     }
 
     .panel {
@@ -802,12 +828,12 @@ footer {
 @media only screen and (max-width: 520px) {
 
     .usa-today-logo {
-        margin: 45px 13.1% 20px 13.1%;
+        margin: 35px 13.1% 20px 13.1%;
     }
 
     .my-newspaper-service-logo {
         margin: 15px 11% 0px 0px;
-        left: -13%;
+        left: -18%;
     }
 
     .hairline-left {
@@ -839,12 +865,46 @@ footer {
 
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 490px) {
+
+    .my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -16%;
+    }
 
     .title {
         padding-top: 300px;
-        font-size: 39.83px;
-        line-height: 60px;
+        font-size: 37.83px;
+        line-height: 65px;
+        text-align: center;
+    }
+
+    .tagline {
+        font-size: 21.52px;
+        line-height: 35.37px;
+        margin-top: -40px;
+        text-align: center;
+        margin-left: -4%;
+    }
+
+}
+
+@media only screen and (max-width: 427px) {
+
+    .usa-today-logo {
+        max-width: 80%;
+        margin: 50px 10% 20px 10%;
+    }
+
+    .my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -13%;
+    }
+
+    .title {
+        padding-top: 300px;
+        font-size: 35.83px;
+        line-height: 55px;
         text-align: center;
     }
 
@@ -865,39 +925,159 @@ footer {
 
 }
 
+@media only screen and (max-width: 390px) {
 
+    .usa-today-logo {
+        max-width: 80%;
+        margin: 45px 10% 20px 10%;
+    }
 
+    .my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -7%;
+    }
 
-/*
-
-@media only screen and (max-width: 550px) {
+    .my-newspaper-service-logo img{
+        width: 90%;
+    }
 
     .title {
         padding-top: 300px;
-        font-size: 70.29px;
-        line-height: 60px;
-        color: #fff;
+        font-size: 33.83px;
+        line-height: 55px;
+        text-align: center;
     }
 
     .tagline {
-        font-size: 19.52px;
+        font-size: 17.52px;
         line-height: 30.37px;
-        color: #02b8fd;
         margin-top: -40px;
+        text-align: center;
+        margin-left: -3%;
     }
 
-    .text-container {
-        height: 100%;
-        width: 100%;
-        margin-top: 300px;
-        margin-left: 5.5%;
-        margin-right: 5.5%;
+    .state-heading {
+        font-size: 30px;
+        color: #0d0d0d;
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 32px;
     }
 
+    #state-menu{
+        margin-top: -20px;
+    }
 
+    .accordion {
+        font-size: 19.88px;
+        padding-top: -40px;
+    }
+
+    .accordion:after {
+        content: url(../img/down-arrow.png); 
+        font-size: 5px;
+        color: #fff;
+        float: right;
+        padding: 10px 40px 4px 0px;
+        margin-bottom: 90px;
+        transform: scale(1.2);
+    }
 }
 
- */
+@media only screen and (max-width: 350px) {
+    .title {
+        padding-top: 300px;
+        font-size: 30.33px;
+        line-height: 55px;
+        text-align: center;
+    }
+
+    .tagline {
+        font-size: 15.52px;
+        line-height: 35.37px;
+        margin-top: -40px;
+        text-align: center;
+        margin-left: -3%;
+    }
+
+    .hairline-left {
+        border: 1px solid #cccccc;
+        width: 18%;
+        display: inline-block;
+        margin-left: 25.5%;
+    }
+
+    .hairline-right {
+        border: 1px solid #cccccc;
+        width: 18%;
+        display: inline-block;
+        margin-right: 22.5%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+
+    .usa-today-logo {
+        max-width: 90%;
+        margin: 55px 5% 20px 5%;
+    }
+
+    .my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -6%;
+    }
+
+    .my-newspaper-service-logo img{
+        width: 85%;
+    }
+
+    .title {
+        padding-top: 300px;
+        font-size: 27.83px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .tagline {
+        font-size: 15.52px;
+        line-height: 30.37px;
+        margin-top: -40px;
+        text-align: center;
+        margin-left: -3%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .usa-today-logo {
+        max-width: 90%;
+        margin: 55px 5% 20px 5%;
+    }
+
+    .my-newspaper-service-logo {
+        margin: 15px 11% 0px 0px;
+        left: -6%;
+    }
+
+    .my-newspaper-service-logo img{
+        width: 85%;
+    }
+
+    .title {
+        padding-top: 300px;
+        font-size: 22.83px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .tagline {
+        font-size: 13.52px;
+        line-height: 30.37px;
+        margin-top: -40px;
+        text-align: center;
+        margin-left: -3%;
+    }
+}
 
 
 
