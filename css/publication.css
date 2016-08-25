@@ -117,7 +117,7 @@
 
 .hairline {
 	border-top: 1px solid #cccccc;
-	margin: 22px 0px 0px;
+	margin: 50px 0px 0px;
 	height: 100%;
 	width: 100%;
 }
@@ -225,6 +225,12 @@ footer {
         margin-right: 10%;
     }
 
+    .main-header-wrap {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
 }
 
 
@@ -316,6 +322,10 @@ footer {
     margin-top: 32px
   }
 
+  .hairline {
+    margin-top: 25px;
+  }
+
 }
 
 @media only screen and (max-width: 1150px) {
@@ -329,6 +339,10 @@ footer {
   .second-header div h2 {
       font-size: 40.46px;
       letter-spacing: auto;
+  }
+
+  .hairline {
+    margin-top: 5px;
   }
 
   .info-text-heading {
@@ -382,6 +396,10 @@ footer {
     width: 35%;
     margin-right: 5%;
     margin-top: -52.5px;
+  }
+
+  .hairline {
+    margin-top: -60px;
   }
 
 }
@@ -474,6 +492,10 @@ footer {
 }
 
 @media only screen and (max-width: 700px) {
+
+    .hairline {
+      margin-top: 40px;
+    }
 
     #main-header {
         height: 190px;
@@ -649,6 +671,10 @@ footer {
 }
 
 @media only screen and (max-width: 441px) {
+
+    .hairline {
+      margin-top: -50px;
+    }
 
     .my-newspaper-service-logo {
         float: none;
