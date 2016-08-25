@@ -327,21 +327,21 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5px;
-    margin-bottom: -55px;
+    margin-bottom: -50px;
   }
 
   .info-text-heading {
     width: 165px;
     margin-right: -10px;
     font-size: 17px;
-    line-height: 24px;
+    line-height: 17px;
     transform: translateY(-2%);
   }
 
   .info-text-specifics {
       font-size: 18px;
-      /*line-height: 23.5px;
-      transform: translateY(1%);*/
+      line-height: 16.5px;
+      transform: translateY(1%);
   }
 
   .publication-button-menu {
