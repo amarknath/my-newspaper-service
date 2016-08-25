@@ -144,17 +144,23 @@
 
 #usa-today-button {
     text-align: center;
-    margin-right: 31%;
-    margin-left: 31%;
-    width: 38%;
-    margin-bottom: 27px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    margin-bottom: 32px;
     background-color: #009aff;
-    padding: 34px 0px 34px 0px;
+    padding: 25px 0px 25px 0px;
     text-align: center;
     border-radius: 5px;
     border-style: none;
     z-index: 2;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+    font-size: 21px;
+    z-index: 3;
     position: relative;
+    text-decoration: none;
 }
 
 #usa-today-button.active,  #usa-today-button:hover {
@@ -165,6 +171,10 @@
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
+}
+
+a {
+    text-decoration: none;
 }
 
 #usa-today-button a {
@@ -215,7 +225,7 @@
 
 #state-menu{
     height: 2800px;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 ul {
@@ -588,7 +598,7 @@ footer {
         width: 80%;
         margin-bottom: 27px;
         background-color: #009aff;
-        padding: 34px 0px 34px 0px;
+        padding: 25px 0px 25px 0px;
         text-align: center;
         border-radius: 5px;
         border-style: none;
@@ -605,6 +615,10 @@ footer {
         margin-right: 1.0%;
         margin-left: 1.0%;
         margin-bottom: 45px;
+    }
+
+    #state-menu{
+        margin-top: -20px;
     }
 
     .hairline-left {
@@ -689,10 +703,9 @@ footer {
         margin-right: 5%;
         margin-left: 5%;
         width: 90%;
-        height: 110px;
         margin-bottom: 27px;
         background-color: #009aff;
-        padding: 34px 0px 34px 0px;
+        padding: 25px 0px 25px 0px;
         text-align: center;
         border-radius: 5px;
         border-style: none;
@@ -702,7 +715,7 @@ footer {
 
     #state-menu{
         height: 3800px;
-        margin-top: 0px;
+        margin-top: 22px;
     }
 
     .accordion {
@@ -764,15 +777,15 @@ footer {
     footer {
         bottom: 0;
         left: 0;
-        height: 370px;
+        height: 264px;
         width: 100%;
         background-color: #252525;
         margin-top: 110px;
     }
 
     .footer-logos img {
-        width: 50%;
-        margin: 70px 25% 0px 25%;
+        width: 40%;
+        margin: 70px 30% 0px 30%;
     }
 
     .footer-logos p {
@@ -823,6 +836,15 @@ footer {
         text-decoration: none;
         color: #0096ff;
         font-size: 19px;     
+    }
+
+    .footer-logos img {
+        width: 40%;
+        margin: 40px 30% 0px 30%;
+    }
+
+    footer {
+        height: 240px;
     }
 
 }
@@ -1084,6 +1106,10 @@ footer {
         text-align: center;
         margin-left: -3%;
     }
+
+    .accordion {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 300px) {
@@ -1117,6 +1143,9 @@ footer {
         margin-left: -3%;
     }
 
+    #usa-today-button {
+        padding: 15px 0px;
+    }
 
 }
 

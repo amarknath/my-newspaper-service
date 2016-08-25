@@ -560,7 +560,35 @@ footer {
       letter-spacing: -0.75px;
     }
 
-    
+@media only screen and (max-width: 315px) {
+
+  .menu-item {
+      font-size: 14px;
+      padding-top: 40px;
+  }
+
+  .service-info {
+      margin-left: 1.5%;
+      margin-right: 0%;
+      margin-top: 13px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -90px;
+      font-size: 12px;
+      line-height: 28px;
+    }
+
+    .info-text-specifics {
+      font-size: 15px;
+      line-height: 24.5px;
+      transform: translateY(1.0%);
+      letter-spacing: -0.75px;
+    }
+
+}    
 
 
 }
