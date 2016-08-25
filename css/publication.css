@@ -552,9 +552,48 @@ footer {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 441px) {
 
+    .my-newspaper-service-logo {
+        float: none;
+        margin: 80px 20% 0px -20%;
+        transform: scale(1.7) translateX(-15%);
+        text-align: left;
+    }
 
+    #main-header {
+        height: 150px;
+    }
+
+    .publication img {
+      width: 75%;
+      margin-top: -40px;
+        
+  }
+
+  .second-header div h2 {
+      font-size: 30.46px;
+  }
+
+    .service-info {
+      margin-left: 5%;
+      margin-right: 0%;
+      margin-top: 13px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -70px;
+      font-size: 12px;
+      line-height: 28px;
+    }
+
+    .info-text-specifics {
+      font-size: 16px;
+      line-height: 23px;
+      transform: translateY(-0.5%);
+    }
 
 }
 
@@ -604,6 +643,8 @@ footer {
 
 @media only screen and (max-width: 380px) {
 
+
+
     .my-newspaper-service-logo {
         float: none;
         margin: 80px 20% 0px -20%;
@@ -641,11 +682,20 @@ footer {
 
     .info-text-specifics {
       font-size: 16px;
-      line-height: 24.5px;
-      transform: translateY(1.5%);
+      line-height: 23px;
+      transform: translateY(-0.5%);
     }
 
-@media only screen and (max-width: 315px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .publication img {
+      width: 75%;
+      margin-top: -80px;
+        
+  }
 
   .menu-item {
       font-size: 14px;
@@ -653,7 +703,7 @@ footer {
   }
 
   .service-info {
-      margin-left: 1.5%;
+      margin-left: 5%;
       margin-right: 0%;
       margin-top: 13px;
       margin-bottom: -40px;
@@ -661,7 +711,7 @@ footer {
 
     .info-text-heading {
       width: 165px;
-      margin-right: -90px;
+      margin-right: -75px;
       font-size: 12px;
       line-height: 28px;
     }
@@ -669,7 +719,7 @@ footer {
     .info-text-specifics {
       font-size: 15px;
       line-height: 24.5px;
-      transform: translateY(1.0%);
+      transform: translateY(0%);
       letter-spacing: -0.75px;
     }
 
