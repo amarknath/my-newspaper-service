@@ -284,34 +284,81 @@ footer {
 
 @media only screen and (max-width: 1000px) {
 
-  #main-header {
-    height: 160px;
-  }
-
   .my-newspaper-service-logo img{
-    margin: -20px 0px 20px 18%;
-    float: left;
+    width: 35%;
+    margin-right: 5%;
+    margin-top: -53px;
   }
 
-  .second-header {
-    margin-top: 150px;
-  }
 }
 
 @media only screen and (max-width: 800px) {
 
+  #main-header {
+    background-color: #000;
+    position:absolute;
+    left:0;
+    top:0;
+    margin: 0px;
+    height: 75px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .usa-today-logo {
+    margin: 17px 0px 20px 5%;
+    display: inline-block;
+    width: 40%;  
+  }
+
+  .publication img {
+    width: 43%;
+    margin: 0px 28.5% 0px 28.5%;
+    margin-top: 0px
+  }
+
   .second-header div h2 {
       font-size: 36.46px;
+      letter-spacing: 0.05;
+  }
+
+  .service-info {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 22px;
+    margin-bottom: -50px;
   }
 
   .info-text-heading {
     width: 165px;
     margin-right: -10px;
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 24px;
+    transform: translateY(-2%);
   }
 
   .info-text-specifics {
       font-size: 18px;
+      /*line-height: 23.5px;
+      transform: translateY(1%);*/
+  }
+
+  .menu-item {
+    background-color: #009aff;
+    color: #fff;
+    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+    font-size: 18.88px;
+    cursor: pointer;
+    padding: 20px 0px 20px 40px;
+    height:63px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
   }
 
   .footer-logos img {
@@ -558,7 +605,6 @@ footer {
       font-size: 16px;
       line-height: 24.5px;
       transform: translateY(3.5%);
-      letter-spacing: -0.75px;
     }
 
 @media only screen and (max-width: 315px) {
