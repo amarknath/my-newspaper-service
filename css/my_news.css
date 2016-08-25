@@ -65,6 +65,12 @@
     box-sizing: border-box;
 }
 
+.main-content {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* HEADER */
 
 #main-header {
@@ -678,6 +684,10 @@ footer {
 
 @media only screen and (max-width: 944px) {
 
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
+
     #main-header {
         width: 100%;
     }
@@ -693,6 +703,10 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
 
     #main-header {
         width: 100%;
@@ -770,6 +784,7 @@ footer {
 
     #state-menu{
         margin-top: -20px;
+        margin-bottom: 60px;
     }
 
     .hairline-left {
@@ -791,6 +806,9 @@ footer {
 
 @media only screen and (max-width: 700px) {
 
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
 
     .hero-section {
         width: 100%;
@@ -955,6 +973,10 @@ footer {
 
 @media only screen and (max-width: 650px) {
 
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
+
     #main-header {
         width: 100%;
     }
@@ -1015,6 +1037,10 @@ footer {
 }
 
 @media only screen and (max-width: 520px) {
+
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
 
     #main-header {
         width: 100%;
@@ -1078,6 +1104,10 @@ footer {
 
 @media only screen and (max-width: 490px) {
 
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
+
     #main-header {
         width: 100%;
     }
@@ -1110,6 +1140,10 @@ footer {
 }
 
 @media only screen and (max-width: 427px) {
+
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
 
     #main-header {
         width: 100%;
@@ -1155,6 +1189,10 @@ footer {
 }
 
 @media only screen and (max-width: 390px) {
+
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
 
     #main-header {
         width: 100%;
@@ -1230,6 +1268,10 @@ footer {
 
 @media only screen and (max-width: 350px) {
 
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
+
     #main-header {
         width: 100%;
     }
@@ -1288,6 +1330,10 @@ footer {
 
 @media only screen and (max-width: 330px) {
 
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
+
     #main-header {
         width: 100%;
     }
@@ -1332,6 +1378,10 @@ footer {
 }
 
 @media only screen and (max-width: 300px) {
+
+    .accordion:hover { 
+        transform: scale(1.0);
+    }
 
     #main-header {
         width: 100%;
