@@ -104,6 +104,10 @@
 	margin-top: 32px
 }
 
+#back-arrow {
+  visibility: hidden;    
+}
+
 .second-header div h2 {
 	font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
 	font-size: 50.8px;
@@ -426,7 +430,14 @@ footer {
   .publication img {
     width: 43%;
     margin: 0px 28.5% 0px 28.5%;
-    margin-top: -15px
+    margin-top: -15px;
+    display: inline-block;
+  }
+
+  #back-arrow {
+    visibility: visible;
+    transform: scale(0.75);
+    margin-left: 2.5%;
   }
 
   .second-header div h2 {
