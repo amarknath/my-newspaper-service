@@ -604,8 +604,29 @@ footer {
 
 @media only screen and (max-width: 380px) {
 
+    .my-newspaper-service-logo {
+        float: none;
+        margin: 80px 20% 0px -20%;
+        transform: scale(1.7) translateX(-15%);
+        text-align: left;
+    }
+
+    #main-header {
+        height: 150px;
+    }
+
+    .publication img {
+      width: 75%;
+      margin-top: -40px;
+        
+  }
+
+  .second-header div h2 {
+      font-size: 30.46px;
+  }
+
     .service-info {
-      margin-left: 2.5%;
+      margin-left: 5%;
       margin-right: 0%;
       margin-top: 13px;
       margin-bottom: -40px;
@@ -613,7 +634,7 @@ footer {
 
     .info-text-heading {
       width: 165px;
-      margin-right: -85px;
+      margin-right: -70px;
       font-size: 12px;
       line-height: 28px;
     }
@@ -621,7 +642,7 @@ footer {
     .info-text-specifics {
       font-size: 16px;
       line-height: 24.5px;
-      transform: translateY(3.5%);
+      transform: translateY(1.5%);
     }
 
 @media only screen and (max-width: 315px) {
