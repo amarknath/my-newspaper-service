@@ -115,7 +115,7 @@
 }
 
 .hairline {
-	border: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
 	margin: 22px 0px 0px;
 	height: 100%;
 	width: 100%;
@@ -126,7 +126,7 @@
 .service-info {
 	margin-left: 10%;
 	margin-right: 10%;
-  margin-top: 50px;
+  margin-top: 42px;
 }
 
 .info-text-heading {
@@ -151,7 +151,7 @@
 }
 
 .publication-button-menu {
-	margin-top: 72px;
+	margin-top: 42px;
 }
 
 .menu-item {
@@ -287,7 +287,7 @@ footer {
   .my-newspaper-service-logo img{
     width: 35%;
     margin-right: 5%;
-    margin-top: -53px;
+    margin-top: -60px;
   }
 
 }
@@ -302,7 +302,7 @@ footer {
     margin: 0px;
     height: 75px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .usa-today-logo {
@@ -314,19 +314,20 @@ footer {
   .publication img {
     width: 43%;
     margin: 0px 28.5% 0px 28.5%;
-    margin-top: 0px
+    margin-top: -15px
   }
 
   .second-header div h2 {
       font-size: 36.46px;
       letter-spacing: 0.05;
+      margin-bottom: -10px;
   }
 
   .service-info {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 22px;
-    margin-bottom: -50px;
+    margin-top: 5px;
+    margin-bottom: -55px;
   }
 
   .info-text-heading {
@@ -341,6 +342,10 @@ footer {
       font-size: 18px;
       /*line-height: 23.5px;
       transform: translateY(1%);*/
+  }
+
+  .publication-button-menu {
+    margin-top: 62px;
   }
 
   .menu-item {
@@ -377,7 +382,7 @@ footer {
 @media only screen and (max-width: 700px) {
 
     #main-header {
-        height: 220px;
+        height: 190px;
     }
 
     .second-header {
@@ -414,17 +419,15 @@ footer {
 
 
     .usa-today-logo {
-        margin: 20px 13.1% 20px 13.1%;
-        max-width: 73.8%;
+        margin: 20px 0px 20px 20%;
+        width: 100%;
         content: url(../img/usa-today-mobile-logo.png);
     }
 
     .my-newspaper-service-logo {
-        float: right;
-        position: relative;
-        margin: 20px 11% 0px 0px;
-        left: -21%;
-        right: 50%; 
+        float: none;
+        margin: 100px 20% 0px -20%;
+        transform: scale(1.7) translateX(-15%);
         text-align: left;
     }
 }
@@ -460,23 +463,31 @@ footer {
       margin-top: 2px;
   }
 
+
+}
+
+@media only screen and (max-width: 620px) {
+
+
+  .usa-today-logo {
+        margin: 20px 13.1% 20px 13.1%;
+        max-width: 73.8%;
+        content: url(../img/usa-today-mobile-logo.png);
+    }
+
+    .my-newspaper-service-logo {
+        float: none;
+        margin: 100px 20% 0px -20%;
+        transform: scale(1.7) translateX(-15%);
+        text-align: left;
+    }
+
+
 }
 
 @media only screen and (max-width: 520px) {
 
-	.usa-today-logo {
-        margin: 45px 13.1% 20px 13.1%;
-    }
 
-	.my-newspaper-service-logo {
-        margin: 15px 11% 0px 0px;
-        left: -13%;
-    }
-
-  .my-newspaper-service-logo img{
-        margin: -10px 11% 0px 0px;
-        transform: translateX(8.5%);
-    }
 
   .publication img {
       width: 75%;
@@ -541,6 +552,12 @@ footer {
 
 }
 
+@media only screen and (max-width: 480px) {
+
+
+
+}
+
 @media only screen and (max-width: 410px) {
 
   .menu-item {
@@ -576,11 +593,11 @@ footer {
       line-height: 24px;
     }
 
-    .my-newspaper-service-logo img{
+    /*.my-newspaper-service-logo img{
         margin: -10px 11% 0px 0px;
         transform: translateX(27.5%);
         width: 90%;
-    }
+    }*/
 
 
 }
