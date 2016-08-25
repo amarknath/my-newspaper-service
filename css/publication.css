@@ -111,6 +111,7 @@
   opacity: 0.9;
 	margin: 0px;
   text-align:center;
+  letter-spacing: auto;
   /*letter-spacing: 1.2px;*/
 }
 
@@ -235,6 +236,7 @@ footer {
 
   .second-header div h2 {
       font-size: 40.46px;
+      letter-spacing: auto;
   }
 
   .info-text-heading {
@@ -319,7 +321,7 @@ footer {
 
   .second-header div h2 {
       font-size: 36.46px;
-      letter-spacing: 0.05;
+      letter-spacing: auto;
       margin-bottom: -10px;
   }
 
@@ -389,6 +391,7 @@ footer {
       height: 135px;
       width: 100%;
       margin-top: 190px;
+      letter-spacing: auto;
     }
 
      .publication img {
@@ -497,6 +500,7 @@ footer {
 
   .second-header div h2 {
       font-size: 30.46px;
+      letter-spacing: auto;
   }
 
     .service-info {
@@ -573,6 +577,7 @@ footer {
 
   .second-header div h2 {
       font-size: 30.46px;
+      letter-spacing: auto;
   }
 
     .service-info {
@@ -664,6 +669,7 @@ footer {
 
   .second-header div h2 {
       font-size: 30.46px;
+      letter-spacing: auto;
   }
 
     .service-info {
@@ -726,7 +732,7 @@ footer {
 }    
 
 
-}
+
 
 
 
