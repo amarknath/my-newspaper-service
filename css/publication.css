@@ -220,9 +220,9 @@ footer {
 @media only screen and (min-width: 1440px) {
 
     .main-content {
-        max-width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .main-header-wrap {
