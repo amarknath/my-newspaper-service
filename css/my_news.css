@@ -65,12 +65,6 @@
     box-sizing: border-box;
 }
 
-.main-content {
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 /* HEADER */
 
 #main-header {
@@ -618,6 +612,15 @@ footer {
 }
 
 
+@media only screen and (min-width: 1440px) {
+
+    .main-content {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
 
 @media only screen and (max-width: 1440px) {
     .text-container {
