@@ -628,8 +628,13 @@ footer {
 
 @media only screen and (max-width: 1180px) {
 
+    .hero-section {
+        width: 100%;
+    }
+
     #main-header {
         height: 160px;
+        width: 100%;
     }
 
     .my-newspaper-service-logo img{
@@ -672,6 +677,15 @@ footer {
 }
 
 @media only screen and (max-width: 944px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
      .text-container {
         width: 63%;
         margin-left: 12.5%;
@@ -679,6 +693,14 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
 
     .footer-logos img {
         width: 40%;
@@ -769,8 +791,14 @@ footer {
 
 @media only screen and (max-width: 700px) {
 
+
+    .hero-section {
+        width: 100%;
+    }
+
     #main-header {
         height: 220px;
+        width: 100%;
     }
 
     .usa-today-logo {
@@ -927,6 +955,14 @@ footer {
 
 @media only screen and (max-width: 650px) {
 
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
     .my-newspaper-service-logo {
         left: -20%;
     }
@@ -979,6 +1015,14 @@ footer {
 }
 
 @media only screen and (max-width: 520px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
 
     .usa-today-logo {
         margin: 35px 13.1% 20px 13.1%;
@@ -1034,6 +1078,14 @@ footer {
 
 @media only screen and (max-width: 490px) {
 
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
     .my-newspaper-service-logo {
         margin: 15px 11% 0px 0px;
         left: -16%;
@@ -1057,6 +1109,14 @@ footer {
 }
 
 @media only screen and (max-width: 427px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
 
     .usa-today-logo {
         max-width: 80%;
@@ -1093,6 +1153,14 @@ footer {
 }
 
 @media only screen and (max-width: 390px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
 
     .usa-today-logo {
         max-width: 80%;
@@ -1158,6 +1226,15 @@ footer {
 }
 
 @media only screen and (max-width: 350px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
     .title {
         padding-top: 300px;
         font-size: 30.33px;
@@ -1207,6 +1284,14 @@ footer {
 
 @media only screen and (max-width: 330px) {
 
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
+
     .usa-today-logo {
         max-width: 90%;
         margin: 55px 5% 20px 5%;
@@ -1242,6 +1327,14 @@ footer {
 }
 
 @media only screen and (max-width: 300px) {
+
+    #main-header {
+        width: 100%;
+    }
+
+    .hero-section {
+        width: 100%;
+    }
 
     .usa-today-logo {
         max-width: 90%;
