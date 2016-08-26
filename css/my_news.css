@@ -239,7 +239,7 @@ ul {
     font-size: 21.88px;
     line-height: auto;
     cursor: pointer;
-    padding: 29px 0px 29px 40px;
+    padding: 27px 0px 27px 40px;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -266,6 +266,7 @@ ul {
     color: #fff;
     float: right;
     padding: 0px 40px 5px 0px;
+    transform: translateY(45%);
 }
 
 .accordion.active:after {
@@ -810,6 +811,18 @@ footer {
         margin-right: 19.5%;
     }
 
+    .accordion {
+        padding-top: 15px;
+        padding-bottom: -40px;
+        padding-left: 10px;
+        height: 60px;
+        padding-left: 5%;
+    }
+
+    .accordion:after {
+        transform: translateY(50%);
+    }
+
 }
 
 
@@ -1070,7 +1083,13 @@ footer {
 
     .accordion {
         font-size: 20px;
-        padding-top: 35px;
+        padding-top: 15px;
+        height: 60px;
+        margin-top: 1px;
+    }
+
+    #state-menu {
+        height: 2400px;
     }
 
     .accordion:after {
@@ -1199,6 +1218,7 @@ footer {
 
 @media only screen and (max-width: 390px) {
 
+
     .accordion:hover { 
         transform: scale(1.0);
     }
@@ -1257,8 +1277,10 @@ footer {
     }
 
     .accordion {
-        font-size: 21.88px;
-        padding-top: 40px;
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: 59px;
         padding-left: 5.5%;
     }
 

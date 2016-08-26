@@ -105,7 +105,9 @@
 }
 
 #back-arrow {
-  visibility: hidden;    
+  visibility: visible; 
+  margin-left: 5%; 
+  transform: translateY(-30%);
 }
 
 .second-header div h2 {
@@ -576,7 +578,7 @@ footer {
 
     .my-newspaper-service-logo {
         float: none;
-        margin: 100px 20% 0px -20%;
+        margin: 75px 20% 0px -20%;
         transform: scale(1.7) translateX(-15%);
         text-align: left;
     }
@@ -613,6 +615,17 @@ footer {
       margin-top: 2px;
   }
 
+  .publication img {
+      width: 60%;
+      margin: 52px 20% 0px 20%;
+        
+  }
+
+  .second-header div h2 {
+      font-size: 30.46px;
+      letter-spacing: auto;
+  }
+
 
 }
 
@@ -627,10 +640,21 @@ footer {
 
     .my-newspaper-service-logo {
         float: none;
-        margin: 100px 20% 0px -20%;
+        margin: 75px 20% 0px -20%;
         transform: scale(1.7) translateX(-15%);
         text-align: left;
     }
+
+    .publication img {
+      width: 75%;
+      margin: 52px 12.5% 0px 12.5%;
+        
+  }
+
+  .second-header div h2 {
+      font-size: 30.46px;
+      letter-spacing: auto;
+  }
 
 
 }
@@ -671,11 +695,12 @@ footer {
 
     .menu-item {
         font-size: 20px;
-        padding: 35px 0px 29px 5%;
+        padding: 20px 0px 40px 5%;
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
         margin-top: 1px;
+        height: 40px;
         text-align: left;
         transform: translateY(2%);
     }
@@ -706,7 +731,7 @@ footer {
 @media only screen and (max-width: 441px) {
 
     .hairline {
-      margin-top: -50px;
+      margin-top: -70px;
     }
 
     .my-newspaper-service-logo {
@@ -722,7 +747,7 @@ footer {
 
     .publication img {
       width: 75%;
-      margin-top: -40px;
+      margin-top: -20px;
         
   }
 
@@ -761,7 +786,8 @@ footer {
 
   .menu-item {
       font-size: 16px;
-      padding-top: 40px;
+      padding-top: 15px;
+      height: 50px;
   }
 
   button.menu-item:after {
@@ -770,7 +796,7 @@ footer {
       color: #fff;
       float: right;
       padding: 5px 7% 5px 0px;
-      transform: translateY(-17%);
+      transform: translateY(-19%);
   }
 
     .service-info {
@@ -791,6 +817,8 @@ footer {
       font-size: 16px;
       line-height: 24px;
     }
+
+
 
     /*.my-newspaper-service-logo img{
         margin: -10px 11% 0px 0px;
@@ -819,13 +847,15 @@ footer {
     }
 
     .publication img {
-      width: 75%;
-      margin-top: -40px;
+      width: 65%;
+      margin-left: 18%;
+      margin-top: -50px;
         
   }
 
+
   .second-header div h2 {
-      font-size: 30.46px;
+      font-size: 25.46px;
       letter-spacing: auto;
   }
 
@@ -833,7 +863,7 @@ footer {
       margin-left: 5%;
       margin-right: 0%;
       margin-top: 13px;
-      margin-bottom: -40px;
+      margin-bottom: -60px;
     }
 
     .info-text-heading {
@@ -862,7 +892,7 @@ footer {
 
   .menu-item {
       font-size: 14px;
-      padding-top: 40px;
+      padding-top:-20px;
   }
 
   .service-info {
