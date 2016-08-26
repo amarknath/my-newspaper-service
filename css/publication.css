@@ -313,9 +313,18 @@ footer {
     color: #fff;
   }
 
+    .hairline {
+    margin-top: 25px;
+  }
+
 }
 
+@media only screen and (min-width: 1460px) {
+  .hairline {
+    margin-top: 25px;
+  }
 
+}
 
 
 @media only screen and (max-width: 1460px) {
