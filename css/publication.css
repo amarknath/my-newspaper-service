@@ -449,9 +449,8 @@ footer {
 
   #back-arrow {
     visibility: visible;
-    transform: scale(0.55);
     margin-left: 2.5%;
-    transform: translateY(-60%)
+    transform: translateY(-60%) scale(0.55);
   }
 
   .second-header div h2 {
@@ -465,7 +464,7 @@ footer {
   .service-info {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: -5px;
+    margin-top: 5px;
     margin-bottom: -65px;
   }
 
@@ -484,7 +483,7 @@ footer {
   }
 
   .publication-button-menu {
-    margin-top: 62px;
+    margin-top: 72px;
     margin-bottom: -50px;
   }
 
@@ -492,9 +491,9 @@ footer {
     background-color: #009aff;
     color: #fff;
     font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
-    font-size: 18.88px;
+    font-size: 16.88px;
     cursor: pointer;
-    padding: 15px 0px 15px 40px;
+    padding: 17px 0px 17px 40px;
     height:53px;
     width: 80%;
     margin-left: 10%;
@@ -507,13 +506,14 @@ footer {
   }
 
   footer {
-    height: 170px;
+    height: 110px;
+    margin-top: 80px;
   }
 
   .footer-logos img {
     width: 30%;
     margin: 0px 35% 0px 35%;
-    margin-top: 40px
+    margin-top: 10px
   }
 
   .footer-logos p {
