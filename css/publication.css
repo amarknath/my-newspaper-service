@@ -100,14 +100,14 @@
 
 .publication img {
 	width: 30%;
-	margin: 0px 35% 0px 35%;
+	margin: 0px 32% 0px 38%;
 	margin-top: 32px
 }
 
 #back-arrow {
   visibility: visible; 
   margin-left: 5%; 
-  transform: translateY(-30%);
+  transform: translateY(-40%);
 }
 
 .second-header div h2 {
@@ -140,14 +140,14 @@
 	width: 165px;
 	margin-right: 50px;
 	display: inline-block;
-	font-size: 19.51px;
+	font-size: 15.51px;
 	font-family: "Futura Today Dem iBold", "Futura Today", "Futura", "Helvetica", sans-serif;
 	color: #323232;
 }
 
 .info-text-specifics {
 	display: inline-block;
-	font-size: 19.51px;
+	font-size: 15s.51px;
 	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
 	color: #323232;
 }
@@ -241,7 +241,7 @@ footer {
 
 
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1900px) {
 
   .usa-today-logo {
       max-width: 400px;
@@ -258,7 +258,7 @@ footer {
 
   .publication img {
     max-width: 25%;
-    margin: 0px 37.5% 0px 37.5%;
+    margin: 25px 37.5% 0px 37.5%;
   }
 
   .second-header div h2 {
@@ -270,22 +270,28 @@ footer {
     width: 100%;
   }
 
-  .service-info {
-    max-width: 30%;
+  #back-arrow {
+    visibility: visible; 
+    margin-left: 5%; 
+    transform: translateY(-50%);
   }
 
-  .info-text-heading {
-    max-width: 400px;
+  .service-info {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    margin-bottom: -30px;
   }
+
 
   .publication-button-menu {
     margin-top: 42px;
   }
 
   .menu-item {
-    max-width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   button.menu-item:after {
