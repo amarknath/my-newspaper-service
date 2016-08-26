@@ -113,7 +113,7 @@
 	font-size: 50.8px;
 	color: #323232;
   opacity: 0.9;
-	margin: 0px;
+	margin-top: -50px;
   text-align:center;
   letter-spacing: auto;
   /*letter-spacing: 1.2px;*/
@@ -403,12 +403,17 @@ footer {
   }
 
   .hairline {
-    margin-top: -60px;
+    margin-top: -10px;
   }
+
 
 }
 
 @media only screen and (max-width: 800px) {
+
+  .hairline {
+    margin-top: -90px;
+  }
 
   #main-header {
     background-color: #000;
@@ -429,28 +434,30 @@ footer {
 
   .publication img {
     width: 43%;
-    margin: 0px 28.5% 0px 28.5%;
-    margin-top: -15px;
+    margin: -20px 28.5% 0px 28.5%;
     display: inline-block;
   }
 
   #back-arrow {
     visibility: visible;
-    transform: scale(0.75);
+    transform: scale(0.55);
     margin-left: 2.5%;
+    transform: translateY(-60%)
   }
 
   .second-header div h2 {
-      font-size: 36.46px;
+      font-size: 30.46px;
       letter-spacing: auto;
       margin-bottom: -10px;
+      margin-top: -20px;
+      transform: translateY(-100%) translateX(0%);
   }
 
   .service-info {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5px;
-    margin-bottom: -50px;
+    margin-top: -5px;
+    margin-bottom: -65px;
   }
 
   .info-text-heading {
@@ -469,6 +476,7 @@ footer {
 
   .publication-button-menu {
     margin-top: 62px;
+    margin-bottom: -50px;
   }
 
   .menu-item {
@@ -477,8 +485,8 @@ footer {
     font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
     font-size: 18.88px;
     cursor: pointer;
-    padding: 20px 0px 20px 40px;
-    height:63px;
+    padding: 15px 0px 15px 40px;
+    height:53px;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -489,14 +497,19 @@ footer {
     transition: 0.4s;
   }
 
+  footer {
+    height: 130px;
+  }
+
   .footer-logos img {
-    width: 40%;
-    margin: 0px 30% 0px 30%;
-    margin-top: 42px
+    width: 30%;
+    margin: 0px 35% 0px 35%;
+    margin-top: 22px
   }
 
   .footer-logos p {
-    margin-top: 30px;
+    font-size: 12px;
+    margin-top: 10px;
     text-align:center;
   }
 
@@ -729,6 +742,10 @@ footer {
       transform: translateY(-0.5%);
     }
 
+    footer {
+      height: 210px;
+    }
+
 }
 
 @media only screen and (max-width: 410px) {
@@ -780,10 +797,12 @@ footer {
 
 
     .my-newspaper-service-logo {
-        float: none;
-        margin: 80px 20% 0px -20%;
-        transform: scale(1.7) translateX(-15%);
-        text-align: left;
+        margin: 85px 11% 0px 0px;
+        left: -9%;
+    }
+
+    .my-newspaper-service-logo img{
+        width: 50%;
     }
 
     #main-header {

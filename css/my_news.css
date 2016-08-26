@@ -1205,21 +1205,24 @@ footer {
 
     #main-header {
         width: 100%;
+        height: 150px;
     }
+
 
     .hero-section {
         width: 100%;
         height: 370px;
+        margin-top: -150px;
     }
 
     .usa-today-logo {
-        max-width: 80%;
-        margin: 45px 10% 20px 10%;
+        max-width: 75%;
+        margin: 20px 12.5% 20px 12.5%;
     }
 
     .my-newspaper-service-logo {
         margin: 15px 11% 0px 0px;
-        left: -7%;
+        left: -9%;
     }
 
     .my-newspaper-service-logo img{
@@ -1281,8 +1284,21 @@ footer {
         transform: scale(1.0);
     }
 
-    #main-header {
+        #main-header {
         width: 100%;
+        height: 150px;
+    }
+
+
+    .hero-section {
+        width: 100%;
+        height: 370px;
+        margin-top: -150px;
+    }
+
+    .usa-today-logo {
+        max-width: 75%;
+        margin: 10px 12.5% 20px 12.5%;
     }
 
     .hero-section {
@@ -1345,16 +1361,19 @@ footer {
 
     #main-header {
         width: 100%;
+        height: 150px;
+    }
+
+
+    .hero-section {
+        width: 100%;
+        height: 370px;
+        margin-top: -150px;
     }
 
     .hero-section {
         width: 100%;
         height: 370px;
-    }
-
-    .usa-today-logo {
-        max-width: 90%;
-        margin: 55px 5% 20px 5%;
     }
 
     .my-newspaper-service-logo {
