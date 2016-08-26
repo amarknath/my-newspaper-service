@@ -463,13 +463,13 @@ footer {
   .info-text-heading {
     width: 165px;
     margin-right: -10px;
-    font-size: 17px;
+    font-size: 14px;
     line-height: 17px;
     transform: translateY(-2%);
   }
 
   .info-text-specifics {
-      font-size: 18px;
+      font-size: 15px;
       line-height: 16.5px;
       transform: translateY(1%);
   }
