@@ -502,9 +502,9 @@ footer {
     }
 
     .hero-section {
-        height: 835px;
+        height: 735px;
         width: 100%;
-        background-position: 50% 8%;
+        background-position: 50% 30%;
     }
 
     .text-container {
@@ -514,7 +514,7 @@ footer {
 
 
     .title {
-        padding-top: 500px;
+        padding-top: 400px;
         font-size: 86.29px;
         line-height: 100px;
     }
