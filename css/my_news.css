@@ -502,17 +502,18 @@ footer {
     }
 
     .hero-section {
-        height: 635px;
+        height: 835px;
         width: 100%;
+        background-position: 50% 8%;
     }
 
     .text-container {
-        max-width: 25%;
+        max-width: 20%;
     }
 
 
     .title {
-        padding-top: 340px;
+        padding-top: 500px;
         font-size: 86.29px;
         line-height: 100px;
     }
@@ -549,13 +550,13 @@ footer {
     }
 
     .hairline-left {
-        width: 16%;
-        margin-left: 31.5%;
+        width: 12%;
+        margin-left: 36%;
     }
 
     .hairline-right {
-        width: 16%;
-        margin-right: 29.5%;
+        width: 12%;
+        margin-right: 34%;
     }
 
     .state-heading {
@@ -573,10 +574,9 @@ footer {
 
     .accordion {
         font-size: 21.88px;
-        width: 60%;
-        max-width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 
