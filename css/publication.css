@@ -95,6 +95,7 @@
 .second-header {
 	height: 150px;
 	width: 100%;
+  margin-bottom: 6%;
 	margin-top: 105px;
 }
 
@@ -545,7 +546,8 @@ footer {
     .second-header {
       height: 135px;
       width: 100%;
-      margin-top: 190px;
+      margin-bottom: 9%;
+      margin-top: 160px;
       letter-spacing: auto;
     }
 
@@ -755,6 +757,10 @@ footer {
       width: 75%;
       margin-top: -20px;
         
+  }
+  .second-header {
+    margin-bottom: 9%;
+      margin-top: 190px;
   }
 
   .second-header div h2 {
