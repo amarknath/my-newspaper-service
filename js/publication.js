@@ -1,7 +1,6 @@
 var market = decodeURIComponent(location.search.split('market=')[1])
 
 if(market != undefined){
-	debugger;
   $.getJSON( "test.json", function( data ) {
 
   $.each( data, function( key, val ) {
@@ -46,7 +45,10 @@ function setParameters(data){
   				while (element.firstChild) {
     				element.removeChild(element.firstChild);
 				}
-				element.appendChild(document.createTextNode(val));
+				element.appendChild(document.createTextNode('Mon-Fri '+val));
+				
+				var element = document.getElementById("weekend-hours");
+				element.innerHTML = 'Sat-Sun Limited Hours'
 		}
 		if (key=='sitename' && val!='') {
 			var element = document.getElementById("header-image");

@@ -1,5 +1,6 @@
 $.getJSON( "test.json", function( data ) {
   document.getElementById('states').appendChild(createDOM(data));
+  donaftrloading();
 });
 
 function createDOM(data) {
@@ -32,14 +33,13 @@ function makeSublist(data) {
   return div;
 }
 
-$(window).load(function() {
-debugger;
+function donaftrloading() {
 var acc = document.getElementsByClassName("accordion");
 var space = document.getElementsByClassName("whiteSpace");
 var i;
 for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function(){
-      debugger;
+      
         this.classList.toggle("active");
         this.nextElementSibling.classList.toggle("show");
     }
@@ -53,6 +53,10 @@ $( acc ).click(function() {
 $( acc ).click(function() {
  $( space ).toggle( "duration (default: 400)" );
 });
-});
-
-
+}
+// debugger;
+// $('.accordion').click(function() {
+//    $('.panel').not(this).find('ul').hide();
+//    $(this).find('ul').toggle();
+// });
+// });
