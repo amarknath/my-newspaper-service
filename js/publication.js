@@ -12,7 +12,6 @@ if (market != undefined) {
                 });
             };
         });
-
     });
 }
 
@@ -48,20 +47,30 @@ function setParameters(data) {
         }
         if (key == 'sitename' && val != '') {
             var element = document.getElementById("header-image");
-            // element.setAttribute('src', 'http://www.gannett-cdn.com/sites/' + val + '/images/footer-logo.png');
-            element.setAttribute('src', 'http://www.gannett-cdn.com/sites/' + val + '/images/footer-logo@2x.png' );
+            var img = new Image();
+            img.src = 'http://www.gannett-cdn.com/sites/' + val + '/images/footer-logo.png';
+            img.setAttribute('onerror',"this.onerror=null;this.src='http://www.gannett-cdn.com/sites/" + val + "/images/footer-logo@2x.png';" )
+            img.style.height = "80px";
+            element.appendChild(img);
+
             element = document.getElementById("sign-in");
             element.setAttribute('href', 'https://account.' + val + '.com/personal-information');
+
             element = document.getElementById("member-guide");
-            element.setAttribute('href', 'http://' + val + '.com/memberguide')
+            element.setAttribute('href', 'http://' + val + '.com/memberguide');
+
             element = document.getElementById("e-newspaper");
             element.setAttribute('href', 'https://account.' + val + '.com/enewspaper');
+
             element = document.getElementById("start-stop");
             element.setAttribute('href', 'https://account.' + val + '.com/delivery-temporary-stop');
+
             element = document.getElementById("report-issue");
             element.setAttribute('href', 'https://account.' + val + '.com/delivery-issue');
+
             element = document.getElementById("payment");
             element.setAttribute('href', 'https://account.' + val + '.com/pay');
+            
             element = document.getElementById("history");
             element.setAttribute('href', 'https://account.' + val + '.com/history');
         }
