@@ -50,7 +50,7 @@ function setParameters(data) {
             var img = new Image();
             img.src = 'http://www.gannett-cdn.com/sites/' + val + '/images/footer-logo.png';
             img.setAttribute('onerror',"this.onerror=null;this.src='http://www.gannett-cdn.com/sites/" + val + "/images/footer-logo@2x.png';" )
-            img.style.height = "80px";
+            
             element.appendChild(img);
 
             element = document.getElementById("sign-in");
