@@ -95,12 +95,13 @@
 .second-header {
 	height: 150px;
 	width: 100%;
+  
 	margin-top: 105px;
 }
 
 .publication img {
-	width: 30%;
-	margin: 0px 32% 0px 38%;
+	width: 25%;
+	margin: 0px 37.5% 0px 37.5%;
 	margin-top: 32px
 }
 
@@ -141,13 +142,13 @@
 	margin-right: 50px;
 	display: inline-block;
 	font-size: 15.51px;
-	font-family: "Futura Today Dem iBold", "Futura Today", "Futura", "Helvetica", sans-serif;
+	font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
 	color: #323232;
 }
 
 .info-text-specifics {
 	display: inline-block;
-	font-size: 15s.51px;
+	font-size: 15.51px;
 	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
 	color: #323232;
 }
@@ -239,7 +240,188 @@ footer {
 
 }
 
+@media only screen and (min-width: 3300px) {
 
+    #back-arrow {
+    visibility: visible; 
+    margin-left: 5%; 
+    transform: translateY(30%);
+  }
+
+   .hairline {
+    transform: translateY(1000%);
+
+
+  }
+
+  .service-info {
+    padding-top: 0px;
+  }
+
+    .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
+    padding-left: 2.5%;
+    transform: translateX(4%);
+
+  }
+
+    .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(10%);
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (min-width: 3000px) {
+
+    #back-arrow {
+    visibility: visible; 
+    margin-left: 5%; 
+    transform: translateY(30%);
+  }
+
+   .hairline {
+    transform: translateY(1000%);
+  }
+
+  .service-info {
+    padding-top: -30px;
+  }
+
+    .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
+    padding-left: 0.5%;
+    transform: translateX(2%);
+
+  }
+
+    .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(10%);
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (min-width: 2700px) {
+
+  .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
+    padding-left: 0.5%;
+
+  }
+
+   .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(15%);
+    text-align: center;
+  }
+
+    .second-header div h2 {
+    font-size: 40.8px;
+
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 2500px) {
+
+  .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
+
+  }
+
+  .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(17%);
+    text-align: center;
+  }
+
+    .second-header div h2 {
+    font-size: 40.8px;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 2300px) {
+
+  .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
+
+  }
+
+  .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(35%);
+    text-align: center;
+  }
+
+  .second-header div h2 {
+    font-size: 40.8px;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 2000px) {
+
+  .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
+  }
+
+  .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(35%);
+    text-align: center;
+  }
+
+    .second-header div h2 {
+    font-size: 40.8px;
+
+  }
+
+
+
+}
 
 @media only screen and (min-width: 1900px) {
 
@@ -255,31 +437,44 @@ footer {
     height: 150px;
     width: 100%;
   }
-
-  .publication img {
-    max-width: 25%;
-    margin: 25px 37.5% 0px 37.5%;
+  .publication {
+    max-width: 20%;
+    margin: 45px 40% 0px 40%;
   }
 
-  .second-header div h2 {
-    font-size: 50.8px;
+  .another-wrapper img{
+    max-height: 100px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    transform: translateX(-30%);
+    text-align: center;
+  }
+
+    .second-header div h2 {
+    font-size: 40.8px;
+
   }
 
   .hairline {
     height: 100%;
     width: 100%;
+    transform: translateY(-5000%);
+    padding-top: -20px;
+
   }
 
   #back-arrow {
     visibility: visible; 
     margin-left: 5%; 
-    transform: translateY(-50%);
+    transform: translateY(-20%);
   }
 
   .service-info {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 0px;
+    margin-top: -50px;
     margin-bottom: -30px;
   }
 
@@ -322,30 +517,61 @@ footer {
   }
 
     .hairline {
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
 }
 
-@media only screen and (min-width: 1460px) {
-  .hairline {
-    margin-top: 25px;
+@media only screen and (min-width: 1600px) {
+
+
+    #back-arrow {
+    visibility: visible; 
+    margin-left: 5%; 
+    transform: translateY(-55%);
+  }
+
+    .hairline {
+    margin-top: 90px;
   }
 
 }
+
+@media only screen and (max-width: 1600px) {
+
+
+    .hairline {
+    margin-top: 95px;
+  }
+
+}
+
 
 
 @media only screen and (max-width: 1460px) {
 
-  .publication img {
+   #back-arrow {
+    visibility: visible; 
+    margin-left: 5%; 
+    transform: translateY(-75%);
+  }
+
+    .my-newspaper-service-logo img{
     width: 35%;
-    margin: 0px 32.5% 0px 32.5%;
-    margin-top: 32px
+    margin-right: 5%;
+    margin-top: -52.5px;
   }
 
   .hairline {
-    margin-top: 25px;
+    margin-top: 95px;
   }
+
+  .publication img {
+    width: 30%;
+    margin: 50px 35% 0px 35%;
+    display: inline-block;
+  }
+
 
 }
 
@@ -353,8 +579,8 @@ footer {
 
   .publication img {
     width: 40%;
-    margin: 0px 30% 0px 30%;
-    margin-top: 32px
+    margin: 20px 30% 0px 30%;
+    margin-top: 42px
   }
 
   .second-header div h2 {
@@ -363,7 +589,7 @@ footer {
   }
 
   .hairline {
-    margin-top: 5px;
+    margin-top:25px;
   }
 
   .info-text-heading {
@@ -409,6 +635,23 @@ footer {
     text-align:center;
   }
 
+    .my-newspaper-service-logo img{
+    width: 35%;
+    margin-right: 5%;
+    margin-top: -52.5px;
+  }
+
+.hairline {
+    margin-top: 45px;
+  }
+
+  .publication img {
+    width: 30%;
+    margin: 40px 35% 0px 35%;
+    display: inline-block;
+  }
+
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -419,9 +662,38 @@ footer {
     margin-top: -52.5px;
   }
 
-  .hairline {
-    margin-top: -10px;
+.hairline {
+    margin-top: 45px;
   }
+
+  .publication img {
+    width: 30%;
+    margin: 40px 35% 0px 35%;
+    display: inline-block;
+  }
+
+
+}
+
+@media only screen and (max-width: 950px) {
+
+  .my-newspaper-service-logo img{
+    width: 35%;
+    margin-right: 5%;
+    margin-top: -52.5px;
+  }
+
+.hairline {
+    margin-top: 40px;
+  }
+
+  .publication img {
+    width: 30%;
+    margin: 40px 35% 0px 35%;
+    display: inline-block;
+  }
+
+
 
 
 }
@@ -429,7 +701,7 @@ footer {
 @media only screen and (max-width: 800px) {
 
   .hairline {
-    margin-top: -90px;
+    margin-top: -40px;
   }
 
   #main-header {
@@ -450,10 +722,12 @@ footer {
   }
 
   .publication img {
-    width: 43%;
-    margin: -20px 28.5% 0px 28.5%;
+    width: 30%;
+    margin: -10px 35% 0px 35%;
     display: inline-block;
   }
+  
+  
 
   #back-arrow {
     visibility: visible;
@@ -481,7 +755,7 @@ footer {
     margin-right: -10px;
     font-size: 14px;
     line-height: 17px;
-    transform: translateY(-2%);
+    transform: translateY(0%);
   }
 
   .info-text-specifics {
@@ -535,7 +809,7 @@ footer {
 @media only screen and (max-width: 700px) {
 
     .hairline {
-      margin-top: 40px;
+      margin-top: -15px;
     }
 
     #main-header {
@@ -545,14 +819,16 @@ footer {
     .second-header {
       height: 135px;
       width: 100%;
-      margin-top: 190px;
+      margin-bottom: 9%;
+      margin-top: 160px;
       letter-spacing: auto;
     }
 
-     .publication img {
-        width: 50%;
-        margin: 52px 25% 0px 25%;
-    }
+      .publication img {
+      width: 40%;
+      margin: 52px 30% 0px 30%;
+        
+  }
 
     .second-header div h2 {
         margin-bottom: 0px;
@@ -569,6 +845,7 @@ footer {
       width: 165px;
       margin-right: -10px;
       font-size: 20px;
+      transform: translateY(2%);
     }
 
     .info-text-specifics {
@@ -603,7 +880,7 @@ footer {
       width: 165px;
       margin-right: -15px;
       font-size: 19px;
-      line-height: 27px;
+      line-height: 24px;
     }
 
     .info-text-specifics {
@@ -621,9 +898,9 @@ footer {
       margin-top: 2px;
   }
 
-  .publication img {
-      width: 60%;
-      margin: 52px 20% 0px 20%;
+   .publication img {
+      width: 40%;
+      margin: 52px 30% 0px 30%;
         
   }
 
@@ -632,11 +909,20 @@ footer {
       letter-spacing: auto;
   }
 
+  .hairline {
+      margin-top: -25px;
+    }
+
 
 }
 
 @media only screen and (max-width: 620px) {
 
+   .publication img {
+      width: 40%;
+      margin: 52px 30% 0px 30%;
+        
+  }
 
   .usa-today-logo {
         margin: 20px 13.1% 20px 13.1%;
@@ -651,36 +937,17 @@ footer {
         text-align: left;
     }
 
-    .publication img {
-      width: 75%;
-      margin: 52px 12.5% 0px 12.5%;
-        
-  }
+     .publication img {
+        width: 50%;
+        margin: 52px 25% 0px 25%;
+    }
 
   .second-header div h2 {
       font-size: 30.46px;
       letter-spacing: auto;
   }
 
-
-}
-
-@media only screen and (max-width: 520px) {
-
-
-
-  .publication img {
-      width: 75%;
-      margin: 52px 12.5% 0px 12.5%;
-        
-  }
-
-  .second-header div h2 {
-      font-size: 30.46px;
-      letter-spacing: auto;
-  }
-
-    .service-info {
+      .service-info {
       margin-left: 5%;
       margin-right: 0%;
       margin-top: 16px;
@@ -689,13 +956,58 @@ footer {
 
     .info-text-heading {
       width: 165px;
-      margin-right: -45px;
-      font-size: 15px;
-      line-height: 28px;
+      margin-right: -15px;
+      font-size: 17px;
+      line-height: 24px;
     }
 
     .info-text-specifics {
       font-size: 17px;
+      line-height: 25px;
+    }
+
+        .hairline {
+      margin-top: -5px;
+    }
+
+
+} 
+
+@media only screen and (max-width: 520px) {
+
+
+
+  .publication img {
+      width: 50%;
+      margin: 52px 25% 0px 25%;
+        
+  }
+
+  .second-header div h2 {
+      font-size: 30.46px;
+      letter-spacing: auto;
+  }
+
+      .hairline {
+      margin-top: -5px;
+    }
+
+    .service-info {
+      margin-left: 5%;
+      margin-right: 0%;
+      margin-top: 15px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -68px;
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    .info-text-specifics {
+      font-size: 16px;
       line-height: 24px;
     }
 
@@ -731,13 +1043,50 @@ footer {
       text-align:center;
     }
 
+    footer {
+      height: 210px;
+    }
+
 
 }
+
+@media only screen and (max-width: 450px) {
+
+    .service-info {
+      margin-left: 1.0%;
+      margin-right: 0%;
+      margin-top: 15px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -88px;
+      font-size: 13px;
+      line-height: 26px;
+      transform: translateY(-0.25%);
+    }
+
+    .info-text-specifics {
+      font-size: 14px;
+      line-height: 26px;
+      margin-right: 0px;
+    }
+
+        .hairline {
+      margin-top: -15px;
+    }
+
+
+
+}
+
+/*
 
 @media only screen and (max-width: 441px) {
 
     .hairline {
-      margin-top: -70px;
+      margin-top: -90px;
     }
 
     .my-newspaper-service-logo {
@@ -755,6 +1104,10 @@ footer {
       width: 75%;
       margin-top: -20px;
         
+  }
+  .second-header {
+    margin-bottom: 9%;
+      margin-top: 190px;
   }
 
   .second-header div h2 {
@@ -786,7 +1139,7 @@ footer {
       height: 210px;
     }
 
-}
+} */
 
 @media only screen and (max-width: 410px) {
 
@@ -806,22 +1159,33 @@ footer {
   }
 
     .service-info {
-      margin-left: 2.5%;
+      margin-left: 1.0%;
       margin-right: 0%;
-      margin-top: 16px;
+      margin-top: 15px;
       margin-bottom: -40px;
     }
 
     .info-text-heading {
       width: 165px;
-      margin-right: -55px;
-      font-size: 14px;
+      margin-right: -88px;
+      font-size: 13px;
       line-height: 27px;
+      transform: translateY(1.2%);
     }
 
     .info-text-specifics {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 14px;
+      line-height: 26px;
+      margin-right: 0px;
+    }
+
+      .second-header div h2 {
+      font-size: 25.46px;
+      letter-spacing: auto;
+    }
+
+        .hairline {
+      margin-top: -15px;
     }
 
 
@@ -833,10 +1197,88 @@ footer {
     }*/
 
 
-}
+} 
 
 @media only screen and (max-width: 380px) {
 
+     #main-header {
+      height: 150px;
+    }
+
+      .publication img {
+      width: 50%;
+      margin: 22px 25% 0px 25%;
+        
+  }
+
+    .service-info {
+      margin-left: 1.0%;
+      margin-right: 0%;
+      margin-top: 15px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -88px;
+      font-size: 12px;
+      line-height: 26px;
+      transform: translateY(-0%);
+    }
+
+    .info-text-specifics {
+      font-size: 13px;
+      line-height: 26px;
+      margin-right: 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    #main-header {
+      height: 150px;
+    }
+
+      .publication img {
+      width: 50%;
+      margin: 22px 25% 0px 25%;
+        
+  }
+
+    .service-info {
+      margin-left: 1.0%;
+      margin-right: 0%;
+      margin-top: 15px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -105px;
+      font-size: 10.5px;
+      line-height: 29px;
+      transform: translateY(1.4%);
+    }
+
+    .info-text-specifics {
+      font-size: 10.5px;
+      line-height: 29px;
+      margin-right: 0px;
+    }
+
+        .hairline {
+      margin-top: -25px;
+    }
+
+
+}
+
+
+/*
+
+@media only screen and (max-width: 380px) {
 
 
     .my-newspaper-service-logo {
@@ -859,6 +1301,9 @@ footer {
         
   }
 
+    .hairline {
+      margin-top: -100px;
+    }
 
   .second-header div h2 {
       font-size: 25.46px;
@@ -888,18 +1333,20 @@ footer {
 
 }
 
+
+
+@media only screen and (max-width: 370px) {
+
+  .hairline {
+      margin-top: -90px;
+    }
+} 
+
 @media only screen and (max-width: 320px) {
 
-  .publication img {
-      width: 75%;
-      margin-top: -80px;
-        
-  }
-
-  .menu-item {
-      font-size: 14px;
-      padding-top:-20px;
-  }
+  .hairline {
+      margin-top: -90px;
+    }
 
   .service-info {
       margin-left: 5%;
@@ -922,7 +1369,52 @@ footer {
       letter-spacing: -0.75px;
     }
 
-}    
+
+
+}   
+
+@media only screen and (max-width: 300px) {
+
+
+
+  .service-info {
+      margin-left: 5%;
+      margin-right: 0%;
+      margin-top: 13px;
+      margin-bottom: -40px;
+    }
+
+    .info-text-heading {
+      width: 165px;
+      margin-right: -75px;
+      font-size: 12px;
+      line-height: 28px;
+    }
+
+    .info-text-specifics {
+      font-size: 15px;
+      line-height: 24.5px;
+      transform: translateY(0%);
+      letter-spacing: -0.75px;
+    }
+
+}
+
+*/    
+
+@media only screen and (max-width: 290px) {
+
+
+    .menu-item {
+      font-size: 13px;
+      padding-top: 15px;
+      height: 50px;
+      margin-right: 2%;
+    }
+
+
+
+} 
 
 
 
