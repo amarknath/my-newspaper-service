@@ -53,7 +53,7 @@
     font-weight: 400;
 }
 
-.publication-body {
+.pb-publication-body {
     background: rgb(255,255,255);
     color: rgb(79,79,79);
     font-family: Helvetica, Arial, sans-serif;
@@ -65,7 +65,7 @@
     padding: 0px;
 }
 
-#main-header {
+#mh-main-header {
     background-color: rgb(0,0,0);
     height: 115px;
     margin-bottom: 10px;
@@ -77,38 +77,38 @@
     top:0;
 }
 
-.usa-today-logo {
+.mh-usa-today-logo {
     content: url(../img/usa-today-desktop-logo.png);
     display: inline-block;
     margin: 25px 0px 20px 11%;
     max-width: 400px;
 }
 
-.my-newspaper-service-logo img {
+.mh-mns-image {
     display: inline-block;
     float: right;
     margin: -60px 11% 0px 0px;
     max-width: 300px;
 }
 
-.second-header {
+.sh-second-header {
     height: 150px;
     margin-top: 105px;
     width: 100%;
 }
 
-.publication img {
+.sh-actual-pub-logo {
     margin: 32px 37.5% 0px 37.5%;
     width: 25%;
 }
 
-#back-arrow {
+#sh-back-arrow {
     margin-left: 5%; 
     transform: translateY(-40%);
     visibility: visible; 
 }
 
-.second-header div h2 {
+.sh-heading {
     color: rgb(50,50,50);
     font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
     font-size: 50.8px;
@@ -119,7 +119,7 @@
     text-align:center;
 }
 
-.hairline {
+.mcis-hairline {
     border-top: 1px solid rgb(204,204,204);
     height: 100%;
     margin: 50px 0px 0px;
@@ -127,13 +127,13 @@
     border-top: 1px solid rgba(204,204,204, 1.0);
 }
 
-.service-info {
+.mcis-service-info {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 42px;
 }
 
-.info-text-heading {
+.mcis-info-text-heading {
     color: rgb(50,50,50);
     display: inline-block;
     font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
@@ -143,7 +143,7 @@
     color: rgba(50,50,50, 1.0);
 }
 
-.info-text-specifics {
+.mcis-info-text-specifics {
     color: rgb(50,50,50);
     display: inline-block;
     font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
@@ -151,17 +151,17 @@
     color: rgba(50,50,50, 1.0);
 }
 
-.info-text-specifics a {
+.mcis-info-text-specifics a {
     color: rgb(0,154,255);
     text-decoration: none;
     color: rgba(0,154,255, 1.0);
 }
 
-.publication-button-menu {
+.pbm-publication-button-menu {
 	   margin-top: 42px;
 }
 
-.menu-item {
+.pbm-menu-item {
     background-color: rgb(0,154,255);
     background-color: rgba(0,154,255, 1.0);
     border: none;
@@ -181,7 +181,7 @@
     width: 80%;
 }
 
-button.menu-item:after {
+.pbm-menu-item:after {
     color: rgb(255,255,255);
     color: rgba(255,255,255, 1.0);
     content: url(../img/right-arrow.png); 
@@ -191,12 +191,13 @@ button.menu-item:after {
     transform: translateY(-10%);
 }
 
-.menu-item.active, .menu-item:hover {
+.pbm-menu-item.active, 
+.pbm-menu-item:hover {
   	opacity: 0.8;
     transform: scale(1.005);
 }
 
-footer {
+#fb-footer {
     background-color: rgb(37,37,37);
     background-color: rgba(37,37,37, 1.0);
     bottom: 0;
@@ -207,12 +208,12 @@ footer {
     width: 100%;
 }
 
-.footer-logos img {
+.fb-image-logos {
     margin: 42px 37.5% 0px 37.5%;
     width: 25%;
 }
 
-.footer-logos p {
+.fb-copyright {
     color: rgb(255,255,255);
     color: rgba(255,255,255, 1.0);
     font-size: 17px;
@@ -222,13 +223,13 @@ footer {
 
 @media only screen and (min-width: 1440px) {
 
-    .main-content {
+    .mcis-main-content {
         margin-left: auto;
         margin-right: auto;
         max-width: 1000px;
     }
 
-    .main-header-wrap {
+    .mh-main-header-wrap {
         margin-left: 10%;
         margin-right: 10%;
         max-width: 80%;
@@ -238,28 +239,28 @@ footer {
 
 @media only screen and (min-width: 3300px) {
 
-    #back-arrow {
+    #sh-back-arrow {
         margin-left: 5%; 
         transform: translateY(30%);
         visibility: visible; 
     }
 
-    .hairline {
+    .mcis-hairline {
         transform: translateY(1000%); 
     }
 
-    .service-info {
+    .mcis-service-info {
         padding-top: 0px;
     }
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
         padding-left: 2.5%;
         transform: translateX(4%);
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -269,33 +270,32 @@ footer {
         width: auto;
     }
 
-
 }
 
 @media only screen and (min-width: 3000px) {
 
-    #back-arrow {
+    #sh-back-arrow {
         margin-left: 5%; 
         transform: translateY(30%);
         visibility: visible; 
     }
 
-   .hairline {
+   .mcis-hairline {
         transform: translateY(1000%);
     }
 
-    .service-info {
+    .mcis-service-info {
         padding-top: -30px;
     }
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
         padding-left: 0.5%;
         transform: translateX(2%);
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -309,13 +309,13 @@ footer {
 
 @media only screen and (min-width: 2700px) {
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
         padding-left: 0.5%;
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -325,7 +325,7 @@ footer {
         width: auto;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 40.8px;
     }
 
@@ -333,12 +333,12 @@ footer {
 
 @media only screen and (min-width: 2500px) {
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -348,7 +348,7 @@ footer {
         width: auto;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 40.8px;
     }
 
@@ -356,12 +356,12 @@ footer {
 
 @media only screen and (min-width: 2300px) {
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -371,7 +371,7 @@ footer {
         width: auto;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 40.8px;
     }
 
@@ -379,12 +379,12 @@ footer {
 
 @media only screen and (min-width: 2000px) {
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -394,7 +394,7 @@ footer {
         width: auto;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 40.8px;
     }
 
@@ -402,25 +402,25 @@ footer {
 
 @media only screen and (min-width: 1900px) {
 
-    .usa-today-logo {
+    .mh-usa-today-logo {
         max-width: 400px;
     }
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         max-width: 300px;
     }
 
-    .second-header {
+    .sh-second-header {
         height: 150px;
         width: 100%;
     }
 
-    .publication {
+    .sh-publication {
         margin: 45px 40% 0px 40%;
         max-width: 20%;
     }
 
-    .another-wrapper img{
+    .sh-actual-pub-logo {
         height: auto;
         margin-top: 40px;
         max-height: 100px;
@@ -430,11 +430,11 @@ footer {
         width: auto;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 40.8px;
     }
 
-    .hairline {
+    .mcis-hairline {
         height: 100%;
         padding-top: -20px;
         transform: translateY(-5000%);
@@ -442,30 +442,30 @@ footer {
 
     }
 
-    #back-arrow {
+    #sh-back-arrow {
         margin-left: 5%; 
         transform: translateY(-20%);
         visibility: visible; 
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -30px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: -50px;
     }
 
-    .publication-button-menu {
+    .pbm-publication-button-menu {
         margin-top: 42px;
     }
 
-    .menu-item {
+    .pbm-menu-item {
         margin-left: 10%;
         margin-right: 10%;
         max-width: 80%;
     }
 
-    button.menu-item:after {
+    .pbm-menu-item:after {
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
         content: url(../img/right-arrow.png); 
@@ -475,17 +475,17 @@ footer {
         transform: translateY(-10%);
     }
 
-    footer {
+    #fb-footer {
         height: 234px;
         width: 100%;
     }
 
-    .footer-logos img {
+    .fb-image-logos {
         margin: 42px 45% 0px 45%;
         max-width: 10%;
     }
 
-    .footer-logos p {
+    .fb-copyright {
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
         font-size: 17px;
@@ -493,7 +493,7 @@ footer {
         text-align:center;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 35px;
     }
 
@@ -501,13 +501,13 @@ footer {
 
 @media only screen and (min-width: 1600px) {
 
-    #back-arrow {
+    #sh-back-arrow {
         margin-left: 5%; 
         transform: translateY(-55%);
         visibility: visible; 
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 90px;
     }
 
@@ -515,7 +515,7 @@ footer {
 
 @media only screen and (max-width: 1600px) {
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 95px;
     }
 
@@ -525,23 +525,23 @@ footer {
 
 @media only screen and (max-width: 1460px) {
 
-    #back-arrow {
+    #sh-back-arrow {
         margin-left: 5%; 
         transform: translateY(-75%);
         visibility: visible; 
     }
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 95px;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         display: inline-block;
         margin: 50px 35% 0px 35%;
         width: 30%;
@@ -551,31 +551,31 @@ footer {
 
 @media only screen and (max-width: 1150px) {
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 42px 30% 0px 30%;
         width: 40%;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 40.46px;
         letter-spacing: auto;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top:25px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 18px;
         margin-right: -10px;
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 18px;
     }
 
-    .menu-item {
+    .pbm-menu-item {
         background-color: rgb(0,154,255);
         background-color: rgba(0,154,255, 1.0);
         border: none;
@@ -595,7 +595,7 @@ footer {
         width: 80%;
     }
 
-    button.menu-item:after {
+    .pbm-menu-item:after {
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
         content: url(../img/right-arrow.png); 
@@ -605,23 +605,23 @@ footer {
         transform: translateY(-10%);
     }
 
-    .footer-logos p {
+    .fb-copyright {
         font-size: 17px;
         margin-top: 30px;
         text-align:center;
     }
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 45px;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         display: inline-block;
         margin: 40px 35% 0px 35%;
         width: 30%;
@@ -631,17 +631,17 @@ footer {
 
 @media only screen and (max-width: 1000px) {
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 45px;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         display: inline-block;
         margin: 40px 35% 0px 35%;
         width: 30%;
@@ -651,17 +651,17 @@ footer {
 
 @media only screen and (max-width: 950px) {
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: 40px;
     }
 
-    .publication img {
+    .sh-actual-pub-logo{
         display: inline-block;
         margin: 40px 35% 0px 35%;
         width: 30%;
@@ -671,11 +671,11 @@ footer {
 
 @media only screen and (max-width: 800px) {
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -40px;
     }
 
-    #main-header {
+    #mh-main-header {
         background-color: rgb(0,0,0);
         background-color: rgba(0,0,0, 1.0);
         height: 75px;
@@ -687,25 +687,25 @@ footer {
         width: 100%;
     }
 
-    .usa-today-logo {
+    .mh-usa-today-logo {
         display: inline-block;
         margin: 17px 0px 20px 5%;
         width: 40%;  
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         display: inline-block;
         margin: -10px 35% 0px 35%;
         width: 30%;
     }
 
-    #back-arrow {
+    #sh-back-arrow {
         margin-left: 2.5%;
         transform: translateY(-60%) scale(0.55);
         visibility: visible;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 30.46px;
         letter-spacing: auto;
         margin-bottom: -10px;
@@ -713,14 +713,14 @@ footer {
         transform: translateY(-100%) translateX(0%);
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -65px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 14px;
         line-height: 17px;
         margin-right: -10px;
@@ -728,18 +728,18 @@ footer {
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 15px;
         line-height: 16.5px;
         transform: translateY(1%);
     }
 
-    .publication-button-menu {
+    .pbm-publication-button-menu {
         margin-top: 72px;
         margin-bottom: -50px;
     }
 
-    .menu-item {
+    .pbm-menu-item {
         background-color: rgb(0,154,255);
         background-color: rgba(0,154,255, 1.0);
         border: none;
@@ -759,17 +759,17 @@ footer {
         width: 80%;
     }
 
-    footer {
+    #fb-footer {
         height: 125px;
         margin-top: 80px;
     }
 
-    .footer-logos img {
+    .fb-image-logos {
         margin: 15px 35% 0px 35%;
         width: 30%;
     }
 
-    .footer-logos p {
+    .fb-copyright {
         font-size: 12px;
         margin-top: 10px;
         text-align:center;
@@ -779,15 +779,15 @@ footer {
 
 @media only screen and (max-width: 700px) {
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -15px;
     }
 
-    #main-header {
+    #mh-main-header {
         height: 190px;
     }
 
-    .second-header {
+    .sh-second-header {
         height: 135px;
         letter-spacing: auto;
         margin-bottom: 9%;
@@ -795,40 +795,40 @@ footer {
         width: 100%;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 52px 30% 0px 30%;
         width: 40%;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         margin-bottom: 0px;
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -50px;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 10px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 20px;
         margin-right: -10px;
         transform: translateY(2%);
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 20px;
     }
 
-    .usa-today-logo {
+    .mh-usa-today-logo {
         content: url(../img/usa-today-mobile-logo.png);
         margin: 20px 0px 20px 20%;
         width: 100%;
     }
 
-    .my-newspaper-service-logo img {
+    .mh-mns-image {
         float: right;
         left: -21%;
         margin: -5px 11% 0px 0px;
@@ -841,26 +841,26 @@ footer {
 
 @media only screen and (max-width: 680px) {
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 5%;
         margin-right: 0%;
         margin-top: 16px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 19px;
         line-height: 24px;
         margin-right: -15px;
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 19px;
         line-height: 25px;
     }
 
-    .menu-item {
+    .pbm-menu-item {
         font-size: 25px;
         height: 100px;
         margin-left: 0%;
@@ -870,17 +870,17 @@ footer {
         width: 100%;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 52px 30% 0px 30%;
         width: 40%;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 30.46px;
         letter-spacing: auto;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -25px;
     }
 
@@ -888,53 +888,53 @@ footer {
 
 @media only screen and (max-width: 620px) {
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 52px 30% 0px 30%;   
         width: 40%;
     }
 
-    .usa-today-logo {
+    .mh-usa-today-logo {
         content: url(../img/usa-today-mobile-logo.png);
         margin: 20px 13.1% 20px 13.1%;
         max-width: 73.8%;
     }
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin: -10px 11% 0px 0px;
         transform: translateX(27.5%);
         width: 80%;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 52px 25% 0px 25%;
         width: 50%;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 30.46px;
         letter-spacing: auto;
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 5%;
         margin-right: 0%;
         margin-top: 16px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 17px;
         line-height: 24px;
         margin-right: -15px;
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 17px;
         line-height: 25px;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -5px;
     }
 
@@ -942,40 +942,40 @@ footer {
 
 @media only screen and (max-width: 520px) {
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 52px 25% 0px 25%;  
         width: 50%;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 30.46px;
         letter-spacing: auto;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -5px;
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 5%;
         margin-right: 0%;
         margin-top: 15px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 14px;
         line-height: 26px;
         margin-right: -68px;
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 16px;
         line-height: 24px;
     }
 
-    .menu-item {
+    .pbm-menu-item {
         font-size: 20px;
         height: 40px;
         margin-left: 0%;
@@ -987,7 +987,7 @@ footer {
         width: 100%;
     }
 
-    button.menu-item:after {
+    .pbm-menu-item:after {
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
         content: url(../img/right-arrow.png); 
@@ -996,18 +996,18 @@ footer {
         padding: 5px 7% 5px 0px;
     }
 
-    .footer-logos img {
+    .fb-image-logos {
         margin: 60px 20% 0px 20%;
         width: 60%;
     }
 
-    .footer-logos p {
+    .fb-copyright {
         font-size: 14px;
         margin-top: 30px;
         text-align:center;
     }
 
-    footer {
+    #fb-footer {
         height: 210px;
     }
 
@@ -1015,14 +1015,14 @@ footer {
 
 @media only screen and (max-width: 450px) {
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 13px;
         line-height: 26px;
         margin-right: -88px;
@@ -1030,17 +1030,17 @@ footer {
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 14px;
         line-height: 26px;
         margin-right: 0px;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -15px;
     }
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin: -10px 11% 0px 0px;
         transform: translateX(27.5%);
         width: 80%;
@@ -1051,13 +1051,13 @@ footer {
 
 @media only screen and (max-width: 410px) {
 
-    .menu-item {
+    .pbm-menu-item {
         font-size: 16px;
         height: 50px;
         padding-top: 15px;
     }
 
-    button.menu-item:after {
+    .pbm-menu-item:after {
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
         content: url(../img/right-arrow.png); 
@@ -1067,14 +1067,14 @@ footer {
         transform: translateY(-19%);
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 13px;
         line-height: 27px;
         margin-right: -88px;
@@ -1082,22 +1082,22 @@ footer {
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 14px;
         line-height: 26px;
         margin-right: 0px;
     }
 
-    .second-header div h2 {
+    .sh-heading {
         font-size: 25.46px;
         letter-spacing: auto;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -15px;
     }
 
-    .my-newspaper-service-logo img{
+    .mh-mns-image {
         margin: -10px 11% 0px 0px;
         transform: translateX(27.5%);
         width: 80%;
@@ -1107,23 +1107,23 @@ footer {
 
 @media only screen and (max-width: 380px) {
 
-    #main-header {
+    #mh-main-header {
         height: 150px;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 22px 25% 0px 25%;
         width: 50%;
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 12px;
         line-height: 26px;
         margin-right: -88px;
@@ -1131,7 +1131,7 @@ footer {
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 13px;
         line-height: 26px;
         margin-right: 0px;
@@ -1141,23 +1141,23 @@ footer {
 
 @media only screen and (max-width: 350px) {
 
-    #main-header {
+    #mh-main-header {
         height: 150px;
     }
 
-    .publication img {
+    .sh-actual-pub-logo {
         margin: 22px 25% 0px 25%;
         width: 50%;
     }
 
-    .service-info {
+    .mcis-service-info {
         margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
     }
 
-    .info-text-heading {
+    .mcis-info-text-heading {
         font-size: 10.5px;
         line-height: 29px;
         margin-right: -105px;
@@ -1165,13 +1165,13 @@ footer {
         width: 165px;
     }
 
-    .info-text-specifics {
+    .mcis-info-text-specifics {
         font-size: 10.5px;
         line-height: 29px;
         margin-right: 0px;
     }
 
-    .hairline {
+    .mcis-hairline {
         margin-top: -25px;
     }
 
@@ -1179,7 +1179,7 @@ footer {
 
 @media only screen and (max-width: 290px) {
 
-    .menu-item {
+    .pbm-menu-item {
         font-size: 13px;
         height: 50px;
         margin-right: 2%;
