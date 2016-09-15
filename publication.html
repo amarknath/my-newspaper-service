@@ -9,62 +9,67 @@
 		<title>MyNewspaperSite.com</title>
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
-	<body class="publication-body">
+	<body class="pb-publication-body">
 		<main>
 			<header>
-				<div id="main-header">
-				<div class="main-header-wrap">
-						<a href="http://www.gannett.com/"><div class="usa-today-logo"></div></a>
-						<div class="my-newspaper-service-logo">
+				<!--mh = main header-->
+				<div id="mh-main-header">
+				<div class="mh-main-header-wrap">
+						<a href="http://www.gannett.com/"><div class="mh-usa-today-logo"></div></a>
+						<div class="mh-my-newspaper-service-logo">
 							<a href="http://www.mynewspaperservice.com/">
-								<img src="img/mynewspaperservice-logo.png">
+								<img src="img/mynewspaperservice-logo.png" class="mh-mns-image">
 							</a>
 						</div>
 					</div>
 				</div>
 			</header>
-		<div class="second-header">
-				<div class="publication">
-					<div class="another-wrapper"><a href=""><div id="header-image"></div></a></div>
+		<!--sh = second header-->
+		<div class="sh-second-header">
+				<div class="sh-publication">
+					<div class="sh-another-wrapper"><a href=""><div id="sh-header-image"></div></a></div>
 				</div>
-				<a href="index.html" target="_parent"><img id="back-arrow" src="img/back_arrow.png"></a>
+				<a href="index.html" target="_parent"><img id="sh-back-arrow" src="img/back_arrow.png"></a>
 				<div>
-					<h2 id="heading">Customer Service</h2>
+					<h2 class="sh-heading">Customer Service</h2>
 				</div>
 		</div>
-		<div class="hairline"></div>
-		<div class="main-content">
+		<!--mcis = main content info section-->
+		<div class="mcis-hairline"></div>
+		<div class="mcis-main-content">
 
-			<section class="service-info">
-				<div class="info-text-heading">
+			<section class="mcis-service-info">
+				<div class="mcis-info-text-heading">
 					<p>Phone:</p>
 					<p>Availability:</p><br>
 					<p>Email:</p>
 				</div>
-				<div class="info-text-specifics">
-					<a id="phone-number-link" href="#"><p id="phone-number"></p></a> <!--Change phone number for each publication page-->
-					<p id="working-hours"></p>
-					<p id="weekend-hours"></p>
-					<a id=email-link href="#"><p id="email"></p></a> <!--Change email for each publication page-->
+				<div class="mcis-info-text-specifics">
+					<a id="mcis-phone-number-link" href="#"><p id="mcis-phone-number"></p></a> <!--Change phone number for each publication page-->
+					<p id="mcis-working-hours"></p>
+					<p id="mcis-weekend-hours"></p>
+					<a id="mcis-email-link" href="#"><p id="mcis-email"></p></a> <!--Change email for each publication page-->
 				</div>
 			</section>
 
-			<section class="publication-button-menu">
-				<a id="sign-in" href="#"><button class="menu-item">SIGN IN TO ACCOUNT</button></a>
-				<a id="chat-url" href="#"><button class="menu-item">LIVE CHAT WITH SERVICE REP</button></a>
-				<a id="member-guide" href="#"><button class="menu-item">MEMBER GUIDE</button></a>
-				<a id="e-newspaper" href="#"><button class="menu-item">E-NEWSPAPER</button></a>
-				<a id="start-stop" href="#"><button class="menu-item">TEMPORARY START / STOP</button></a>
-				<a id="report-issue" href="#"><button class="menu-item">REPORT A DELIVERY ISSUE</button></a>
-				<a id="payment" href="#"><button class="menu-item">MAKE A PAYMENT</button></a>
-				<a id="history" href="#"><button class="menu-item">VIEW ACCOUNT HISTORY</button></a>
+			<!--pbm = publication menu-->
+			<section class="pbm-publication-button-menu">
+				<a id="pbm-sign-in" href="#"><button class="pbm-menu-item">SIGN IN TO ACCOUNT</button></a>
+				<a id="pbm-chat-url" href="#"><button class="pbm-menu-item">LIVE CHAT WITH SERVICE REP</button></a>
+				<a id="pbm-member-guide" href="#"><button class="pbm-menu-item">MEMBER GUIDE</button></a>
+				<a id="pbm-e-newspaper" href="#"><button class="pbm-menu-item">E-NEWSPAPER</button></a>
+				<a id="pbm-start-stop" href="#"><button class="pbm-menu-item">TEMPORARY START / STOP</button></a>
+				<a id="pbm-report-issue" href="#"><button class="pbm-menu-item">REPORT A DELIVERY ISSUE</button></a>
+				<a id="pbm-payment" href="#"><button class="pbm-menu-item">MAKE A PAYMENT</button></a>
+				<a id="pbm-history" href="#"><button class="pbm-menu-item">VIEW ACCOUNT HISTORY</button></a>
 			</section>
 		</div>
 
-			<footer>
-				<div class="footer-logos">
-					<img src="img/footer-logos.png">
-					<p class="copyright">&copy; Gannett Co., Inc. 2016 All Rights Reserved</p>
+			<!--fb = footer bottom-->
+			<footer id="fb-footer">
+				<div class="fb-footer-logos">
+					<img src="img/footer-logos.png" class="fb-image-logos">
+					<p class="fb-copyright">&copy; Gannett Co., Inc. 2016 All Rights Reserved</p>
 				</div>
 				<script src="js/publication.js"></script>
 			</footer>
