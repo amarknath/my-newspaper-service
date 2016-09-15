@@ -55,16 +55,19 @@
 
 .publication-body {
   	background: rgb(255,255,255);
+    background: rgba(255,255,255, 1.0);
     margin: 0px;
     padding: 0px;
   	font-family: Helvetica, Arial, sans-serif;
   	font-size: 16px;
   	color: rgb(79,79,79);
+    color: rgba(79,79,79, 1.0);
     box-sizing: border-box;
 }
 
 #main-header {
   	background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 1.0);
   	position:absolute;
     left:0;
     top:0;
@@ -110,6 +113,7 @@
   	font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
   	font-size: 50.8px;
   	color: rgb(50,50,50);
+    color: rgba(50,50,50, 1.0);
     opacity: 0.9;
   	margin-top: -50px;
     text-align:center;
@@ -118,6 +122,7 @@
 
 .hairline {
   	border-top: 1px solid rgb(204,204,204);
+    border-top: 1px solid rgba(204,204,204, 1.0);
   	margin: 50px 0px 0px;
   	height: 100%;
   	width: 100%;
@@ -136,6 +141,7 @@
   	font-size: 15.51px;
   	font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
   	color: rgb(50,50,50);
+    color: rgba(50,50,50, 1.0);
 }
 
 .info-text-specifics {
@@ -143,11 +149,13 @@
   	font-size: 15.51px;
   	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
   	color: rgb(50,50,50);
+    color: rgba(50,50,50, 1.0);
 }
 
 .info-text-specifics a {
   	text-decoration: none;
   	color: rgb(0,154,255);
+    color: rgba(0,154,255, 1.0);
 }
 
 .publication-button-menu {
@@ -156,7 +164,9 @@
 
 .menu-item {
   	background-color: rgb(0,154,255);
+    background-color: rgba(0,154,255, 1.0);
     color: rgb(255,255,255);
+    color: rgba(255,255,255, 1.0);
     font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
     font-size: 21.88px;
     height:73px;
@@ -176,6 +186,7 @@ button.menu-item:after {
     content: url(../img/right-arrow.png); 
     font-size: 13px;
     color: rgb(255,255,255);
+    color: rgba(255,255,255, 1.0);
     float: right;
     padding: 5px 40px 5px 0px;
     transform: translateY(-10%);
@@ -192,6 +203,7 @@ footer {
     height: 234px;
     width: 100%;
     background-color: rgb(37,37,37);
+    background-color: rgba(37,37,37, 1.0);
     margin-top: 65px;
     font-size: 17px;
 }
@@ -207,6 +219,7 @@ footer {
     text-align:center;
     font-size: 17px;
     color: rgb(255,255,255);
+    color: rgba(255,255,255, 1.0);
 }
 
 @media only screen and (min-width: 1440px) {
@@ -458,6 +471,7 @@ footer {
         content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
         font-size: 13px;
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
         float: right;
         padding: 5px 40px 5px 0px;
         transform: translateY(-10%);
@@ -479,6 +493,7 @@ footer {
         text-align:center;
         font-size: 17px;
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
     }
 
     .hairline {
@@ -566,7 +581,9 @@ footer {
 
     .menu-item {
         background-color: rgb(0,154,255);
+        background-color: rgba(0,154,255, 1.0);
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
         font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
         font-size: 21.88px;
         cursor: pointer;
@@ -586,6 +603,7 @@ footer {
         content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
         font-size: 13px;
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
         float: right;
         padding: 4px 40px 4px 0px;
         transform: translateY(-10%);
@@ -663,6 +681,7 @@ footer {
 
     #main-header {
         background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 1.0);
         position:absolute;
         left:0;
         top:0;
@@ -726,7 +745,9 @@ footer {
 
     .menu-item {
         background-color: rgb(0,154,255);
+        background-color: rgba(0,154,255, 1.0);
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
         font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
         font-size: 16.88px;
         cursor: pointer;
@@ -975,6 +996,7 @@ footer {
         content: url(../img/right-arrow.png); 
         font-size: 13px;
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
         float: right;
         padding: 5px 7% 5px 0px;
     }
@@ -993,7 +1015,6 @@ footer {
     footer {
         height: 210px;
     }
-
 
 }
 
@@ -1030,7 +1051,6 @@ footer {
         width: 80%;
     }
 
-
 }
 
 
@@ -1046,6 +1066,7 @@ footer {
         content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
         font-size: 13px;
         color: rgb(255,255,255);
+        color: rgba(255,255,255, 1.0);
         float: right;
         padding: 5px 7% 5px 0px;
         transform: translateY(-19%);
@@ -1089,7 +1110,6 @@ footer {
         width: 80%;
     }
 
-
 } 
 
 @media only screen and (max-width: 380px) {
@@ -1123,7 +1143,6 @@ footer {
         line-height: 26px;
         margin-right: 0px;
     }
-
 
 }
 
@@ -1164,9 +1183,6 @@ footer {
     }
 
 }
-
-
-
 
 @media only screen and (max-width: 290px) {
 
