@@ -54,107 +54,106 @@
 }
 
 .publication-body {
-  	background: rgb(255,255,255);
+    background: rgb(255,255,255);
+    color: rgb(79,79,79);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
     background: rgba(255,255,255, 1.0);
+    box-sizing: border-box;
+    color: rgba(79,79,79, 1.0);
     margin: 0px;
     padding: 0px;
-  	font-family: Helvetica, Arial, sans-serif;
-  	font-size: 16px;
-  	color: rgb(79,79,79);
-    color: rgba(79,79,79, 1.0);
-    box-sizing: border-box;
 }
 
 #main-header {
-  	background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0);
+    height: 115px;
+    margin-bottom: 10px;
+    position:absolute;
+    width: 100%;
     background-color: rgba(0,0,0, 1.0);
-  	position:absolute;
     left:0;
-    top:0;
     margin: 0px;
-  	height: 115px;
-  	width: 100%;
-  	margin-bottom: 10px;
+    top:0;
 }
 
 .usa-today-logo {
-    margin: 25px 0px 20px 11%;
-    display: inline-block;
-    max-width: 400px;
     content: url(../img/usa-today-desktop-logo.png);
+    display: inline-block;
+    margin: 25px 0px 20px 11%;
+    max-width: 400px;
 }
 
 .my-newspaper-service-logo img {
     display: inline-block;
-    margin: -60px 11% 0px 0px;
     float: right;
+    margin: -60px 11% 0px 0px;
     max-width: 300px;
 }
 
 .second-header {
-  	height: 150px;
-  	width: 100%;
-  	margin-top: 105px;
+    height: 150px;
+    margin-top: 105px;
+    width: 100%;
 }
 
 .publication img {
-  	width: 25%;
-  	margin: 0px 37.5% 0px 37.5%;
-  	margin-top: 32px
+    margin: 32px 37.5% 0px 37.5%;
+    width: 25%;
 }
 
 #back-arrow {
-    visibility: visible; 
     margin-left: 5%; 
     transform: translateY(-40%);
+    visibility: visible; 
 }
 
 .second-header div h2 {
-  	font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
-  	font-size: 50.8px;
-  	color: rgb(50,50,50);
+    color: rgb(50,50,50);
+    font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
+    font-size: 50.8px;
+    margin-top: -50px;
     color: rgba(50,50,50, 1.0);
-    opacity: 0.9;
-  	margin-top: -50px;
-    text-align:center;
     letter-spacing: auto;
+    opacity: 0.9;
+    text-align:center;
 }
 
 .hairline {
-  	border-top: 1px solid rgb(204,204,204);
+    border-top: 1px solid rgb(204,204,204);
+    height: 100%;
+    margin: 50px 0px 0px;
+    width: 100%;
     border-top: 1px solid rgba(204,204,204, 1.0);
-  	margin: 50px 0px 0px;
-  	height: 100%;
-  	width: 100%;
 }
 
 .service-info {
-  	margin-left: 10%;
-  	margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 42px;
 }
 
 .info-text-heading {
-  	width: 165px;
-  	margin-right: 50px;
-  	display: inline-block;
-  	font-size: 15.51px;
-  	font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
-  	color: rgb(50,50,50);
+    color: rgb(50,50,50);
+    display: inline-block;
+    font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
+    font-size: 15.51px;
+    margin-right: 50px;
+    width: 165px;
     color: rgba(50,50,50, 1.0);
 }
 
 .info-text-specifics {
-  	display: inline-block;
-  	font-size: 15.51px;
-  	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
-  	color: rgb(50,50,50);
+    color: rgb(50,50,50);
+    display: inline-block;
+    font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
+    font-size: 15.51px;
     color: rgba(50,50,50, 1.0);
 }
 
 .info-text-specifics a {
-  	text-decoration: none;
-  	color: rgb(0,154,255);
+    color: rgb(0,154,255);
+    text-decoration: none;
     color: rgba(0,154,255, 1.0);
 }
 
@@ -163,31 +162,31 @@
 }
 
 .menu-item {
-  	background-color: rgb(0,154,255);
+    background-color: rgb(0,154,255);
     background-color: rgba(0,154,255, 1.0);
+    border: none;
     color: rgb(255,255,255);
     color: rgba(255,255,255, 1.0);
+    cursor: pointer;
     font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
     font-size: 21.88px;
     height:73px;
-    cursor: pointer;
-    padding: 24px 0px 24px 40px;
-    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1px;
-    text-align: left;
-    border: none;
     outline: none;
+    padding: 24px 0px 24px 40px;
+    text-align: left;
     transition: 0.4s;
+    width: 80%;
 }
 
 button.menu-item:after {
-    content: url(../img/right-arrow.png); 
-    font-size: 13px;
     color: rgb(255,255,255);
     color: rgba(255,255,255, 1.0);
+    content: url(../img/right-arrow.png); 
     float: right;
+    font-size: 13px;
     padding: 5px 40px 5px 0px;
     transform: translateY(-10%);
 }
@@ -198,42 +197,41 @@ button.menu-item:after {
 }
 
 footer {
-    bottom: 0;
-    left: 0;
-    height: 234px;
-    width: 100%;
     background-color: rgb(37,37,37);
     background-color: rgba(37,37,37, 1.0);
-    margin-top: 65px;
+    bottom: 0;
     font-size: 17px;
+    height: 234px;
+    left: 0;
+    margin-top: 65px;
+    width: 100%;
 }
 
 .footer-logos img {
+    margin: 42px 37.5% 0px 37.5%;
     width: 25%;
-    margin: 0px 37.5% 0px 37.5%;
-    margin-top: 42px
 }
 
 .footer-logos p {
-    margin-top: 30px;
-    text-align:center;
-    font-size: 17px;
     color: rgb(255,255,255);
     color: rgba(255,255,255, 1.0);
+    font-size: 17px;
+    margin-top: 30px;
+    text-align:center;
 }
 
 @media only screen and (min-width: 1440px) {
 
     .main-content {
-        max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+        max-width: 1000px;
     }
 
     .main-header-wrap {
-        max-width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+        max-width: 80%;
     }
 
 }
@@ -241,9 +239,9 @@ footer {
 @media only screen and (min-width: 3300px) {
 
     #back-arrow {
-        visibility: visible; 
         margin-left: 5%; 
         transform: translateY(30%);
+        visibility: visible; 
     }
 
     .hairline {
@@ -255,20 +253,20 @@ footer {
     }
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
         padding-left: 2.5%;
         transform: translateX(4%);
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(10%);
         text-align: center;
+        transform: translateX(10%);
+        width: auto;
     }
 
 
@@ -277,9 +275,9 @@ footer {
 @media only screen and (min-width: 3000px) {
 
     #back-arrow {
-        visibility: visible; 
         margin-left: 5%; 
         transform: translateY(30%);
+        visibility: visible; 
     }
 
    .hairline {
@@ -291,20 +289,20 @@ footer {
     }
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
         padding-left: 0.5%;
         transform: translateX(2%);
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(10%);
         text-align: center;
+        transform: translateX(10%);
+        width: auto;
     }
 
 }
@@ -312,19 +310,19 @@ footer {
 @media only screen and (min-width: 2700px) {
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
         padding-left: 0.5%;
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(15%);
         text-align: center;
+        transform: translateX(15%);
+        width: auto;
     }
 
     .second-header div h2 {
@@ -336,18 +334,18 @@ footer {
 @media only screen and (min-width: 2500px) {
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(17%);
         text-align: center;
+        transform: translateX(17%);
+        width: auto;
     }
 
     .second-header div h2 {
@@ -359,18 +357,18 @@ footer {
 @media only screen and (min-width: 2300px) {
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(35%);
         text-align: center;
+        transform: translateX(35%);
+        width: auto;
     }
 
     .second-header div h2 {
@@ -382,18 +380,18 @@ footer {
 @media only screen and (min-width: 2000px) {
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(35%);
         text-align: center;
+        transform: translateX(35%);
+        width: auto;
     }
 
     .second-header div h2 {
@@ -418,18 +416,18 @@ footer {
     }
 
     .publication {
-        max-width: 20%;
         margin: 45px 40% 0px 40%;
+        max-width: 20%;
     }
 
     .another-wrapper img{
+        height: auto;
+        margin-top: 40px;
         max-height: 100px;
         max-width: 300px;
-        height: auto;
-        width: auto;
-        margin-top: 40px;
-        transform: translateX(-30%);
         text-align: center;
+        transform: translateX(-30%);
+        width: auto;
     }
 
     .second-header div h2 {
@@ -438,23 +436,23 @@ footer {
 
     .hairline {
         height: 100%;
-        width: 100%;
-        transform: translateY(-5000%);
         padding-top: -20px;
+        transform: translateY(-5000%);
+        width: 100%;
 
     }
 
     #back-arrow {
-        visibility: visible; 
         margin-left: 5%; 
         transform: translateY(-20%);
+        visibility: visible; 
     }
 
     .service-info {
+        margin-bottom: -30px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: -50px;
-        margin-bottom: -30px;
     }
 
     .publication-button-menu {
@@ -462,17 +460,17 @@ footer {
     }
 
     .menu-item {
-        max-width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+        max-width: 80%;
     }
 
     button.menu-item:after {
-        content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-        font-size: 13px;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        content: url(../img/right-arrow.png); 
         float: right;
+        font-size: 13px;
         padding: 5px 40px 5px 0px;
         transform: translateY(-10%);
     }
@@ -483,17 +481,16 @@ footer {
     }
 
     .footer-logos img {
+        margin: 42px 45% 0px 45%;
         max-width: 10%;
-        margin: 0px 45% 0px 45%;
-        margin-top: 42px
     }
 
     .footer-logos p {
-        margin-top: 30px;
-        text-align:center;
-        font-size: 17px;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        font-size: 17px;
+        margin-top: 30px;
+        text-align:center;
     }
 
     .hairline {
@@ -505,9 +502,9 @@ footer {
 @media only screen and (min-width: 1600px) {
 
     #back-arrow {
-        visibility: visible; 
         margin-left: 5%; 
         transform: translateY(-55%);
+        visibility: visible; 
     }
 
     .hairline {
@@ -529,15 +526,15 @@ footer {
 @media only screen and (max-width: 1460px) {
 
     #back-arrow {
-        visibility: visible; 
         margin-left: 5%; 
         transform: translateY(-75%);
+        visibility: visible; 
     }
 
     .my-newspaper-service-logo img{
-        width: 35%;
         margin-right: 5%;
         margin-top: -52.5px;
+        width: 35%;
     }
 
     .hairline {
@@ -545,9 +542,9 @@ footer {
     }
 
     .publication img {
-        width: 30%;
-        margin: 50px 35% 0px 35%;
         display: inline-block;
+        margin: 50px 35% 0px 35%;
+        width: 30%;
     }
 
 }
@@ -555,9 +552,8 @@ footer {
 @media only screen and (max-width: 1150px) {
 
     .publication img {
+        margin: 42px 30% 0px 30%;
         width: 40%;
-        margin: 20px 30% 0px 30%;
-        margin-top: 42px
     }
 
     .second-header div h2 {
@@ -570,9 +566,9 @@ footer {
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -10px;
         font-size: 18px;
+        margin-right: -10px;
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -582,43 +578,43 @@ footer {
     .menu-item {
         background-color: rgb(0,154,255);
         background-color: rgba(0,154,255, 1.0);
+        border: none;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        cursor: pointer;
         font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
         font-size: 21.88px;
-        cursor: pointer;
-        padding: 24px 0px 24px 40px;
         height:73px;
-        width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 1px;
-        text-align: left;
-        border: none;
         outline: none;
+        padding: 24px 0px 24px 40px;
+        text-align: left;
         transition: 0.4s;
+        width: 80%;
     }
 
     button.menu-item:after {
-        content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-        font-size: 13px;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        content: url(../img/right-arrow.png); 
         float: right;
+        font-size: 13px;
         padding: 4px 40px 4px 0px;
         transform: translateY(-10%);
     }
 
     .footer-logos p {
-        margin-top: 30px;
         font-size: 17px;
+        margin-top: 30px;
         text-align:center;
     }
 
     .my-newspaper-service-logo img{
-        width: 35%;
         margin-right: 5%;
         margin-top: -52.5px;
+        width: 35%;
     }
 
     .hairline {
@@ -626,9 +622,9 @@ footer {
     }
 
     .publication img {
-        width: 30%;
-        margin: 40px 35% 0px 35%;
         display: inline-block;
+        margin: 40px 35% 0px 35%;
+        width: 30%;
     }
 
 }
@@ -636,9 +632,9 @@ footer {
 @media only screen and (max-width: 1000px) {
 
     .my-newspaper-service-logo img{
-        width: 35%;
         margin-right: 5%;
         margin-top: -52.5px;
+        width: 35%;
     }
 
     .hairline {
@@ -646,9 +642,9 @@ footer {
     }
 
     .publication img {
-        width: 30%;
-        margin: 40px 35% 0px 35%;
         display: inline-block;
+        margin: 40px 35% 0px 35%;
+        width: 30%;
     }
 
 }
@@ -656,9 +652,9 @@ footer {
 @media only screen and (max-width: 950px) {
 
     .my-newspaper-service-logo img{
-        width: 35%;
         margin-right: 5%;
         margin-top: -52.5px;
+        width: 35%;
     }
 
     .hairline {
@@ -666,9 +662,9 @@ footer {
     }
 
     .publication img {
-        width: 30%;
-        margin: 40px 35% 0px 35%;
         display: inline-block;
+        margin: 40px 35% 0px 35%;
+        width: 30%;
     }
 
 }
@@ -682,31 +678,31 @@ footer {
     #main-header {
         background-color: rgb(0,0,0);
         background-color: rgba(0,0,0, 1.0);
-        position:absolute;
-        left:0;
-        top:0;
-        margin: 0px;
         height: 75px;
-        width: 100%;
+        left:0;
         margin-bottom: 0px;
+        margin: 0px;
+        position:absolute;
+        top:0;
+        width: 100%;
     }
 
     .usa-today-logo {
-        margin: 17px 0px 20px 5%;
         display: inline-block;
+        margin: 17px 0px 20px 5%;
         width: 40%;  
     }
 
     .publication img {
-        width: 30%;
-        margin: -10px 35% 0px 35%;
         display: inline-block;
+        margin: -10px 35% 0px 35%;
+        width: 30%;
     }
 
     #back-arrow {
-        visibility: visible;
         margin-left: 2.5%;
         transform: translateY(-60%) scale(0.55);
+        visibility: visible;
     }
 
     .second-header div h2 {
@@ -718,18 +714,18 @@ footer {
     }
 
     .service-info {
+        margin-bottom: -65px;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5px;
-        margin-bottom: -65px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -10px;
         font-size: 14px;
         line-height: 17px;
+        margin-right: -10px;
         transform: translateY(0%);
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -746,21 +742,21 @@ footer {
     .menu-item {
         background-color: rgb(0,154,255);
         background-color: rgba(0,154,255, 1.0);
+        border: none;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        cursor: pointer;
         font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
         font-size: 16.88px;
-        cursor: pointer;
-        padding: 16px 0px 16px 40px;
         height:53px;
-        width: 80%;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 1px;
-        text-align: left;
-        border: none;
         outline: none;
+        padding: 16px 0px 16px 40px;
+        text-align: left;
         transition: 0.4s;
+        width: 80%;
     }
 
     footer {
@@ -769,9 +765,8 @@ footer {
     }
 
     .footer-logos img {
+        margin: 15px 35% 0px 35%;
         width: 30%;
-        margin: 0px 35% 0px 35%;
-        margin-top: 15px
     }
 
     .footer-logos p {
@@ -794,15 +789,15 @@ footer {
 
     .second-header {
         height: 135px;
-        width: 100%;
+        letter-spacing: auto;
         margin-bottom: 9%;
         margin-top: 160px;
-        letter-spacing: auto;
+        width: 100%;
     }
 
     .publication img {
-        width: 40%;
         margin: 52px 30% 0px 30%;
+        width: 40%;
     }
 
     .second-header div h2 {
@@ -810,17 +805,17 @@ footer {
     }
 
     .service-info {
+        margin-bottom: -50px;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 10px;
-        margin-bottom: -50px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -10px;
         font-size: 20px;
+        margin-right: -10px;
         transform: translateY(2%);
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -828,9 +823,9 @@ footer {
     }
 
     .usa-today-logo {
+        content: url(../img/usa-today-mobile-logo.png);
         margin: 20px 0px 20px 20%;
         width: 100%;
-        content: url(../img/usa-today-mobile-logo.png);
     }
 
     .my-newspaper-service-logo img {
@@ -847,17 +842,17 @@ footer {
 @media only screen and (max-width: 680px) {
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 5%;
         margin-right: 0%;
         margin-top: 16px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -15px;
         font-size: 19px;
         line-height: 24px;
+        margin-right: -15px;
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -867,17 +862,17 @@ footer {
 
     .menu-item {
         font-size: 25px;
-        padding: 29px 0px 29px 40px;
         height: 100px;
-        width: 100%;
         margin-left: 0%;
         margin-right: 0%;
         margin-top: 2px;
+        padding: 29px 0px 29px 40px;
+        width: 100%;
     }
 
     .publication img {
-        width: 40%;
         margin: 52px 30% 0px 30%;
+        width: 40%;
     }
 
     .second-header div h2 {
@@ -894,14 +889,14 @@ footer {
 @media only screen and (max-width: 620px) {
 
     .publication img {
-        width: 40%;
         margin: 52px 30% 0px 30%;   
+        width: 40%;
     }
 
     .usa-today-logo {
+        content: url(../img/usa-today-mobile-logo.png);
         margin: 20px 13.1% 20px 13.1%;
         max-width: 73.8%;
-        content: url(../img/usa-today-mobile-logo.png);
     }
 
     .my-newspaper-service-logo img{
@@ -911,8 +906,8 @@ footer {
     }
 
     .publication img {
-        width: 50%;
         margin: 52px 25% 0px 25%;
+        width: 50%;
     }
 
     .second-header div h2 {
@@ -921,17 +916,17 @@ footer {
     }
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 5%;
         margin-right: 0%;
         margin-top: 16px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -15px;
         font-size: 17px;
         line-height: 24px;
+        margin-right: -15px;
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -948,8 +943,8 @@ footer {
 @media only screen and (max-width: 520px) {
 
     .publication img {
-        width: 50%;
         margin: 52px 25% 0px 25%;  
+        width: 50%;
     }
 
     .second-header div h2 {
@@ -962,17 +957,17 @@ footer {
     }
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 5%;
         margin-right: 0%;
         margin-top: 15px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -68px;
         font-size: 14px;
         line-height: 26px;
+        margin-right: -68px;
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -982,33 +977,33 @@ footer {
 
     .menu-item {
         font-size: 20px;
-        padding: 20px 0px 40px 5%;
-        width: 100%;
+        height: 40px;
         margin-left: 0%;
         margin-right: 0%;
         margin-top: 1px;
-        height: 40px;
+        padding: 20px 0px 40px 5%;
         text-align: left;
         transform: translateY(2%);
+        width: 100%;
     }
 
     button.menu-item:after {
-        content: url(../img/right-arrow.png); 
-        font-size: 13px;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        content: url(../img/right-arrow.png); 
         float: right;
+        font-size: 13px;
         padding: 5px 7% 5px 0px;
     }
 
     .footer-logos img {
-        width: 60%;
         margin: 60px 20% 0px 20%;
+        width: 60%;
     }
 
     .footer-logos p {
-        margin-top: 30px;
         font-size: 14px;
+        margin-top: 30px;
         text-align:center;
     }
 
@@ -1021,18 +1016,18 @@ footer {
 @media only screen and (max-width: 450px) {
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -88px;
         font-size: 13px;
         line-height: 26px;
+        margin-right: -88px;
         transform: translateY(-0.25%);
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -1058,33 +1053,33 @@ footer {
 
     .menu-item {
         font-size: 16px;
-        padding-top: 15px;
         height: 50px;
+        padding-top: 15px;
     }
 
     button.menu-item:after {
-        content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-        font-size: 13px;
         color: rgb(255,255,255);
         color: rgba(255,255,255, 1.0);
+        content: url(../img/right-arrow.png); 
         float: right;
+        font-size: 13px;
         padding: 5px 7% 5px 0px;
         transform: translateY(-19%);
     }
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -88px;
         font-size: 13px;
         line-height: 27px;
+        margin-right: -88px;
         transform: translateY(1.2%);
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -1102,8 +1097,6 @@ footer {
         margin-top: -15px;
     }
 
-
-
     .my-newspaper-service-logo img{
         margin: -10px 11% 0px 0px;
         transform: translateX(27.5%);
@@ -1119,23 +1112,23 @@ footer {
     }
 
     .publication img {
-        width: 50%;
         margin: 22px 25% 0px 25%;
+        width: 50%;
     }
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -88px;
         font-size: 12px;
         line-height: 26px;
+        margin-right: -88px;
         transform: translateY(-0%);
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -1153,23 +1146,23 @@ footer {
     }
 
     .publication img {
-        width: 50%;
         margin: 22px 25% 0px 25%;
+        width: 50%;
     }
 
     .service-info {
+        margin-bottom: -40px;
         margin-left: 1.0%;
         margin-right: 0%;
         margin-top: 15px;
-        margin-bottom: -40px;
     }
 
     .info-text-heading {
-        width: 165px;
-        margin-right: -105px;
         font-size: 10.5px;
         line-height: 29px;
+        margin-right: -105px;
         transform: translateY(1.4%);
+        width: 165px;
     }
 
     .info-text-specifics {
@@ -1188,9 +1181,9 @@ footer {
 
     .menu-item {
         font-size: 13px;
-        padding-top: 15px;
         height: 50px;
         margin-right: 2%;
+        padding-top: 15px;
     }
 
 } 
