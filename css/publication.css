@@ -54,24 +54,24 @@
 }
 
 .publication-body {
-	background: #fff;
-  margin: 0px;
-  padding: 0px;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	color: #4f4f4f;
-  box-sizing: border-box;
+  	background: rgb(255,255,255);
+    margin: 0px;
+    padding: 0px;
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 16px;
+  	color: rgb(79,79,79);
+    box-sizing: border-box;
 }
 
 #main-header {
-	background-color: #000;
-	position:absolute;
+  	background-color: rgb(0,0,0);
+  	position:absolute;
     left:0;
     top:0;
     margin: 0px;
-	height: 115px;
-	width: 100%;
-	margin-bottom: 10px;
+  	height: 115px;
+  	width: 100%;
+  	margin-bottom: 10px;
 }
 
 .usa-today-logo {
@@ -81,7 +81,7 @@
     content: url(../img/usa-today-desktop-logo.png);
 }
 
-.my-newspaper-service-logo {
+.my-newspaper-service-logo img {
     display: inline-block;
     margin: -60px 11% 0px 0px;
     float: right;
@@ -89,136 +89,125 @@
 }
 
 .second-header {
-	height: 150px;
-	width: 100%;
-  
-	margin-top: 105px;
+  	height: 150px;
+  	width: 100%;
+  	margin-top: 105px;
 }
 
 .publication img {
-	width: 25%;
-	margin: 0px 37.5% 0px 37.5%;
-	margin-top: 32px
+  	width: 25%;
+  	margin: 0px 37.5% 0px 37.5%;
+  	margin-top: 32px
 }
 
 #back-arrow {
-  visibility: visible; 
-  margin-left: 5%; 
-  transform: translateY(-40%);
+    visibility: visible; 
+    margin-left: 5%; 
+    transform: translateY(-40%);
 }
 
 .second-header div h2 {
-	font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
-	font-size: 50.8px;
-	color: #323232;
-  opacity: 0.9;
-	margin-top: -50px;
-  text-align:center;
-  letter-spacing: auto;
-  /*letter-spacing: 1.2px;*/
+  	font-family: 'Futura Today Light', "Futura Today", "Futura", "Helvetica", sans-serif;
+  	font-size: 50.8px;
+  	color: rgb(50,50,50);
+    opacity: 0.9;
+  	margin-top: -50px;
+    text-align:center;
+    letter-spacing: auto;
 }
 
 .hairline {
-	border-top: 1px solid #cccccc;
-	margin: 50px 0px 0px;
-	height: 100%;
-	width: 100%;
+  	border-top: 1px solid rgb(204,204,204);
+  	margin: 50px 0px 0px;
+  	height: 100%;
+  	width: 100%;
 }
 
-/* MAIN */
-
 .service-info {
-	margin-left: 10%;
-	margin-right: 10%;
-  margin-top: 42px;
+  	margin-left: 10%;
+  	margin-right: 10%;
+    margin-top: 42px;
 }
 
 .info-text-heading {
-	width: 165px;
-	margin-right: 50px;
-	display: inline-block;
-	font-size: 15.51px;
-	font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
-	color: #323232;
+  	width: 165px;
+  	margin-right: 50px;
+  	display: inline-block;
+  	font-size: 15.51px;
+  	font-family: "Futura Today Demi Bold", "Futura Today", "Futura", "Helvetica", sans-serif;
+  	color: rgb(50,50,50);
 }
 
 .info-text-specifics {
-	display: inline-block;
-	font-size: 15.51px;
-	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
-	color: #323232;
+  	display: inline-block;
+  	font-size: 15.51px;
+  	font-family: "Futura Today", "Futura", "Helvetica", sans-serif;
+  	color: rgb(50,50,50);
 }
 
 .info-text-specifics a {
-	text-decoration: none;
-	color: #009aff;
+  	text-decoration: none;
+  	color: rgb(0,154,255);
 }
 
 .publication-button-menu {
-	margin-top: 42px;
+	   margin-top: 42px;
 }
 
 .menu-item {
-	background-color: #009aff;
-  color: #fff;
-  font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
-  font-size: 21.88px;
-  height:73px;
-  cursor: pointer;
-  padding: 24px 0px 24px 40px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 1px;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
+  	background-color: rgb(0,154,255);
+    color: rgb(255,255,255);
+    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+    font-size: 21.88px;
+    height:73px;
+    cursor: pointer;
+    padding: 24px 0px 24px 40px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
 }
 
 button.menu-item:after {
-    content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
+    content: url(../img/right-arrow.png); 
     font-size: 13px;
-    color: #fff;
+    color: rgb(255,255,255);
     float: right;
     padding: 5px 40px 5px 0px;
     transform: translateY(-10%);
 }
 
 .menu-item.active, .menu-item:hover {
-	opacity: 0.8;
-  transform: scale(1.005);
+  	opacity: 0.8;
+    transform: scale(1.005);
 }
-
-/*FOOTER*/
 
 footer {
     bottom: 0;
     left: 0;
     height: 234px;
     width: 100%;
-    background-color: #252525;
+    background-color: rgb(37,37,37);
     margin-top: 65px;
     font-size: 17px;
 }
 
 .footer-logos img {
-  width: 25%;
-  margin: 0px 37.5% 0px 37.5%;
-  margin-top: 42px
+    width: 25%;
+    margin: 0px 37.5% 0px 37.5%;
+    margin-top: 42px
 }
 
 .footer-logos p {
-  margin-top: 30px;
-  text-align:center;
-  font-size: 17px;
-  color: #fff;
+    margin-top: 30px;
+    text-align:center;
+    font-size: 17px;
+    color: rgb(255,255,255);
 }
-
-
-
-/* MEDIA QUERIES */
-
 
 @media only screen and (min-width: 1440px) {
 
@@ -239,38 +228,35 @@ footer {
 @media only screen and (min-width: 3300px) {
 
     #back-arrow {
-    visibility: visible; 
-    margin-left: 5%; 
-    transform: translateY(30%);
-  }
+        visibility: visible; 
+        margin-left: 5%; 
+        transform: translateY(30%);
+    }
 
-   .hairline {
-    transform: translateY(1000%);
+    .hairline {
+        transform: translateY(1000%); 
+    }
 
-
-  }
-
-  .service-info {
-    padding-top: 0px;
-  }
+    .service-info {
+        padding-top: 0px;
+    }
 
     .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
-    padding-left: 2.5%;
-    transform: translateX(4%);
-
-  }
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+        padding-left: 2.5%;
+        transform: translateX(4%);
+    }
 
     .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(10%);
-    text-align: center;
-  }
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(10%);
+        text-align: center;
+    }
 
 
 }
@@ -278,267 +264,248 @@ footer {
 @media only screen and (min-width: 3000px) {
 
     #back-arrow {
-    visibility: visible; 
-    margin-left: 5%; 
-    transform: translateY(30%);
-  }
+        visibility: visible; 
+        margin-left: 5%; 
+        transform: translateY(30%);
+    }
 
    .hairline {
-    transform: translateY(1000%);
-  }
+        transform: translateY(1000%);
+    }
 
-  .service-info {
-    padding-top: -30px;
-  }
+    .service-info {
+        padding-top: -30px;
+    }
 
     .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
-    padding-left: 0.5%;
-    transform: translateX(2%);
-
-  }
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+        padding-left: 0.5%;
+        transform: translateX(2%);
+    }
 
     .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(10%);
-    text-align: center;
-  }
-
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(10%);
+        text-align: center;
+    }
 
 }
 
 @media only screen and (min-width: 2700px) {
 
-  .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
-    padding-left: 0.5%;
+    .publication {
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+        padding-left: 0.5%;
+    }
 
-  }
-
-   .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(15%);
-    text-align: center;
-  }
+    .another-wrapper img{
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(15%);
+        text-align: center;
+    }
 
     .second-header div h2 {
-    font-size: 40.8px;
-
-  }
-
+        font-size: 40.8px;
+    }
 
 }
 
-
-
 @media only screen and (min-width: 2500px) {
 
-  .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
+    .publication {
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+    }
 
-  }
-
-  .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(17%);
-    text-align: center;
-  }
+    .another-wrapper img{
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(17%);
+        text-align: center;
+    }
 
     .second-header div h2 {
-    font-size: 40.8px;
-
-  }
-
+        font-size: 40.8px;
+    }
 
 }
 
 @media only screen and (min-width: 2300px) {
 
-  .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
+    .publication {
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+    }
 
-  }
+    .another-wrapper img{
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(35%);
+        text-align: center;
+    }
 
-  .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(35%);
-    text-align: center;
-  }
-
-  .second-header div h2 {
-    font-size: 40.8px;
-
-  }
-
+    .second-header div h2 {
+        font-size: 40.8px;
+    }
 
 }
 
 @media only screen and (min-width: 2000px) {
 
-  .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
-  }
+    .publication {
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+    }
 
-  .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(35%);
-    text-align: center;
-  }
+    .another-wrapper img{
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(35%);
+        text-align: center;
+    }
 
     .second-header div h2 {
-    font-size: 40.8px;
-
-  }
-
-
+        font-size: 40.8px;
+    }
 
 }
 
 @media only screen and (min-width: 1900px) {
 
-  .usa-today-logo {
-      max-width: 400px;
-  }
+    .usa-today-logo {
+        max-width: 400px;
+    }
 
-  .my-newspaper-service-logo {
-      max-width: 300px;
-  }
+    .my-newspaper-service-logo img{
+        max-width: 300px;
+    }
 
-  .second-header {
-    height: 150px;
-    width: 100%;
-  }
-  .publication {
-    max-width: 20%;
-    margin: 45px 40% 0px 40%;
-  }
+    .second-header {
+        height: 150px;
+        width: 100%;
+    }
 
-  .another-wrapper img{
-    max-height: 100px;
-    max-width: 300px;
-    height: auto;
-    width: auto;
-    margin-top: 40px;
-    transform: translateX(-30%);
-    text-align: center;
-  }
+    .publication {
+        max-width: 20%;
+        margin: 45px 40% 0px 40%;
+    }
+
+    .another-wrapper img{
+        max-height: 100px;
+        max-width: 300px;
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+        transform: translateX(-30%);
+        text-align: center;
+    }
 
     .second-header div h2 {
-    font-size: 40.8px;
-
-  }
-
-  .hairline {
-    height: 100%;
-    width: 100%;
-    transform: translateY(-5000%);
-    padding-top: -20px;
-
-  }
-
-  #back-arrow {
-    visibility: visible; 
-    margin-left: 5%; 
-    transform: translateY(-20%);
-  }
-
-  .service-info {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -50px;
-    margin-bottom: -30px;
-  }
-
-
-  .publication-button-menu {
-    margin-top: 42px;
-  }
-
-  .menu-item {
-    max-width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  button.menu-item:after {
-      content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-      font-size: 13px;
-      color: #fff;
-      float: right;
-      padding: 5px 40px 5px 0px;
-      transform: translateY(-10%);
-  }
-
-  footer {
-      height: 234px;
-      width: 100%;
-  }
-
-  .footer-logos img {
-    max-width: 10%;
-    margin: 0px 45% 0px 45%;
-    margin-top: 42px
-  }
-
-  .footer-logos p {
-    margin-top: 30px;
-    text-align:center;
-    font-size: 17px;
-    color: #fff;
-  }
+        font-size: 40.8px;
+    }
 
     .hairline {
-    margin-top: 35px;
-  }
+        height: 100%;
+        width: 100%;
+        transform: translateY(-5000%);
+        padding-top: -20px;
+
+    }
+
+    #back-arrow {
+        visibility: visible; 
+        margin-left: 5%; 
+        transform: translateY(-20%);
+    }
+
+    .service-info {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -50px;
+        margin-bottom: -30px;
+    }
+
+    .publication-button-menu {
+        margin-top: 42px;
+    }
+
+    .menu-item {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    button.menu-item:after {
+        content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: rgb(255,255,255);
+        float: right;
+        padding: 5px 40px 5px 0px;
+        transform: translateY(-10%);
+    }
+
+    footer {
+        height: 234px;
+        width: 100%;
+    }
+
+    .footer-logos img {
+        max-width: 10%;
+        margin: 0px 45% 0px 45%;
+        margin-top: 42px
+    }
+
+    .footer-logos p {
+        margin-top: 30px;
+        text-align:center;
+        font-size: 17px;
+        color: rgb(255,255,255);
+    }
+
+    .hairline {
+        margin-top: 35px;
+    }
 
 }
 
 @media only screen and (min-width: 1600px) {
 
-
     #back-arrow {
-    visibility: visible; 
-    margin-left: 5%; 
-    transform: translateY(-55%);
-  }
+        visibility: visible; 
+        margin-left: 5%; 
+        transform: translateY(-55%);
+    }
 
     .hairline {
-    margin-top: 90px;
-  }
+        margin-top: 90px;
+    }
 
 }
 
 @media only screen and (max-width: 1600px) {
 
-
     .hairline {
-    margin-top: 95px;
-  }
+        margin-top: 95px;
+    }
 
 }
 
@@ -546,266 +513,258 @@ footer {
 
 @media only screen and (max-width: 1460px) {
 
-   #back-arrow {
-    visibility: visible; 
-    margin-left: 5%; 
-    transform: translateY(-75%);
-  }
+    #back-arrow {
+        visibility: visible; 
+        margin-left: 5%; 
+        transform: translateY(-75%);
+    }
 
     .my-newspaper-service-logo img{
-    width: 35%;
-    margin-right: 5%;
-    margin-top: -52.5px;
-  }
+        width: 35%;
+        margin-right: 5%;
+        margin-top: -52.5px;
+    }
 
-  .hairline {
-    margin-top: 95px;
-  }
+    .hairline {
+        margin-top: 95px;
+    }
 
-  .publication img {
-    width: 30%;
-    margin: 50px 35% 0px 35%;
-    display: inline-block;
-  }
-
+    .publication img {
+        width: 30%;
+        margin: 50px 35% 0px 35%;
+        display: inline-block;
+    }
 
 }
 
 @media only screen and (max-width: 1150px) {
 
-  .publication img {
-    width: 40%;
-    margin: 20px 30% 0px 30%;
-    margin-top: 42px
-  }
+    .publication img {
+        width: 40%;
+        margin: 20px 30% 0px 30%;
+        margin-top: 42px
+    }
 
-  .second-header div h2 {
-      font-size: 40.46px;
-      letter-spacing: auto;
-  }
+    .second-header div h2 {
+        font-size: 40.46px;
+        letter-spacing: auto;
+    }
 
-  .hairline {
-    margin-top:25px;
-  }
+    .hairline {
+        margin-top:25px;
+    }
 
-  .info-text-heading {
-    width: 165px;
-    margin-right: -10px;
-    font-size: 18px;
-  }
+    .info-text-heading {
+        width: 165px;
+        margin-right: -10px;
+        font-size: 18px;
+    }
 
-  .info-text-specifics {
-      font-size: 18px;
-  }
+    .info-text-specifics {
+        font-size: 18px;
+    }
 
-  .menu-item {
-    background-color: #009aff;
-    color: #fff;
-    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
-    font-size: 21.88px;
-    cursor: pointer;
-    padding: 24px 0px 24px 40px;
-    height:73px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
+    .menu-item {
+        background-color: rgb(0,154,255);
+        color: rgb(255,255,255);
+        font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+        font-size: 21.88px;
+        cursor: pointer;
+        padding: 24px 0px 24px 40px;
+        height:73px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 1px;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
 
-  button.menu-item:after {
-    content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #fff;
-    float: right;
-    padding: 4px 40px 4px 0px;
-    transform: translateY(-10%);
-  }
+    button.menu-item:after {
+        content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: rgb(255,255,255);
+        float: right;
+        padding: 4px 40px 4px 0px;
+        transform: translateY(-10%);
+    }
 
-  .footer-logos p {
-    margin-top: 30px;
-    font-size: 17px;
-    text-align:center;
-  }
+    .footer-logos p {
+        margin-top: 30px;
+        font-size: 17px;
+        text-align:center;
+    }
 
     .my-newspaper-service-logo img{
-    width: 35%;
-    margin-right: 5%;
-    margin-top: -52.5px;
-  }
+        width: 35%;
+        margin-right: 5%;
+        margin-top: -52.5px;
+    }
 
-.hairline {
-    margin-top: 45px;
-  }
+    .hairline {
+        margin-top: 45px;
+    }
 
-  .publication img {
-    width: 30%;
-    margin: 40px 35% 0px 35%;
-    display: inline-block;
-  }
-
+    .publication img {
+        width: 30%;
+        margin: 40px 35% 0px 35%;
+        display: inline-block;
+    }
 
 }
 
 @media only screen and (max-width: 1000px) {
 
-  .my-newspaper-service-logo img{
-    width: 35%;
-    margin-right: 5%;
-    margin-top: -52.5px;
-  }
+    .my-newspaper-service-logo img{
+        width: 35%;
+        margin-right: 5%;
+        margin-top: -52.5px;
+    }
 
-.hairline {
-    margin-top: 45px;
-  }
+    .hairline {
+        margin-top: 45px;
+    }
 
-  .publication img {
-    width: 30%;
-    margin: 40px 35% 0px 35%;
-    display: inline-block;
-  }
-
+    .publication img {
+        width: 30%;
+        margin: 40px 35% 0px 35%;
+        display: inline-block;
+    }
 
 }
 
 @media only screen and (max-width: 950px) {
 
-  .my-newspaper-service-logo img{
-    width: 35%;
-    margin-right: 5%;
-    margin-top: -52.5px;
-  }
+    .my-newspaper-service-logo img{
+        width: 35%;
+        margin-right: 5%;
+        margin-top: -52.5px;
+    }
 
-.hairline {
-    margin-top: 40px;
-  }
+    .hairline {
+        margin-top: 40px;
+    }
 
-  .publication img {
-    width: 30%;
-    margin: 40px 35% 0px 35%;
-    display: inline-block;
-  }
-
-
-
+    .publication img {
+        width: 30%;
+        margin: 40px 35% 0px 35%;
+        display: inline-block;
+    }
 
 }
 
 @media only screen and (max-width: 800px) {
 
-  .hairline {
-    margin-top: -40px;
-  }
+    .hairline {
+        margin-top: -40px;
+    }
 
-  #main-header {
-    background-color: #000;
-    position:absolute;
-    left:0;
-    top:0;
-    margin: 0px;
-    height: 75px;
-    width: 100%;
-    margin-bottom: 0px;
-  }
+    #main-header {
+        background-color: rgb(0,0,0);
+        position:absolute;
+        left:0;
+        top:0;
+        margin: 0px;
+        height: 75px;
+        width: 100%;
+        margin-bottom: 0px;
+    }
 
-  .usa-today-logo {
-    margin: 17px 0px 20px 5%;
-    display: inline-block;
-    width: 40%;  
-  }
+    .usa-today-logo {
+        margin: 17px 0px 20px 5%;
+        display: inline-block;
+        width: 40%;  
+    }
 
-  .publication img {
-    width: 30%;
-    margin: -10px 35% 0px 35%;
-    display: inline-block;
-  }
-  
-  
+    .publication img {
+        width: 30%;
+        margin: -10px 35% 0px 35%;
+        display: inline-block;
+    }
 
-  #back-arrow {
-    visibility: visible;
-    margin-left: 2.5%;
-    transform: translateY(-60%) scale(0.55);
-  }
+    #back-arrow {
+        visibility: visible;
+        margin-left: 2.5%;
+        transform: translateY(-60%) scale(0.55);
+    }
 
-  .second-header div h2 {
-      font-size: 30.46px;
-      letter-spacing: auto;
-      margin-bottom: -10px;
-      margin-top: -20px;
-      transform: translateY(-100%) translateX(0%);
-  }
+    .second-header div h2 {
+        font-size: 30.46px;
+        letter-spacing: auto;
+        margin-bottom: -10px;
+        margin-top: -20px;
+        transform: translateY(-100%) translateX(0%);
+    }
 
-  .service-info {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5px;
-    margin-bottom: -65px;
-  }
+    .service-info {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5px;
+        margin-bottom: -65px;
+    }
 
-  .info-text-heading {
-    width: 165px;
-    margin-right: -10px;
-    font-size: 14px;
-    line-height: 17px;
-    transform: translateY(0%);
-  }
+    .info-text-heading {
+        width: 165px;
+        margin-right: -10px;
+        font-size: 14px;
+        line-height: 17px;
+        transform: translateY(0%);
+    }
 
-  .info-text-specifics {
-      font-size: 15px;
-      line-height: 16.5px;
-      transform: translateY(1%);
-  }
+    .info-text-specifics {
+        font-size: 15px;
+        line-height: 16.5px;
+        transform: translateY(1%);
+    }
 
-  .publication-button-menu {
-    margin-top: 72px;
-    margin-bottom: -50px;
-  }
+    .publication-button-menu {
+        margin-top: 72px;
+        margin-bottom: -50px;
+    }
 
-  .menu-item {
-    background-color: #009aff;
-    color: #fff;
-    font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
-    font-size: 16.88px;
-    cursor: pointer;
-    padding: 16px 0px 16px 40px;
-    height:53px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
+    .menu-item {
+        background-color: rgb(0,154,255);
+        color: rgb(255,255,255);
+        font-family: "Helvetica Bold", "Helvetica", "Arial", sans-serif;
+        font-size: 16.88px;
+        cursor: pointer;
+        padding: 16px 0px 16px 40px;
+        height:53px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 1px;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
 
-  footer {
-    height: 125px;
-    margin-top: 80px;
-  }
+    footer {
+        height: 125px;
+        margin-top: 80px;
+    }
 
-  .footer-logos img {
-    width: 30%;
-    margin: 0px 35% 0px 35%;
-    margin-top: 15px
-  }
+    .footer-logos img {
+        width: 30%;
+        margin: 0px 35% 0px 35%;
+        margin-top: 15px
+    }
 
-  .footer-logos p {
-    font-size: 12px;
-    margin-top: 10px;
-    text-align:center;
-  }
+    .footer-logos p {
+        font-size: 12px;
+        margin-top: 10px;
+        text-align:center;
+    }
 
 }
 
 @media only screen and (max-width: 700px) {
 
     .hairline {
-      margin-top: -15px;
+        margin-top: -15px;
     }
 
     #main-header {
@@ -813,41 +772,39 @@ footer {
     }
 
     .second-header {
-      height: 135px;
-      width: 100%;
-      margin-bottom: 9%;
-      margin-top: 160px;
-      letter-spacing: auto;
+        height: 135px;
+        width: 100%;
+        margin-bottom: 9%;
+        margin-top: 160px;
+        letter-spacing: auto;
     }
 
-      .publication img {
-      width: 40%;
-      margin: 52px 30% 0px 30%;
-        
-  }
+    .publication img {
+        width: 40%;
+        margin: 52px 30% 0px 30%;
+    }
 
     .second-header div h2 {
         margin-bottom: 0px;
     }
 
     .service-info {
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 10px;
-      margin-bottom: -50px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10px;
+        margin-bottom: -50px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -10px;
-      font-size: 20px;
-      transform: translateY(2%);
+        width: 165px;
+        margin-right: -10px;
+        font-size: 20px;
+        transform: translateY(2%);
     }
 
     .info-text-specifics {
-      font-size: 20px;
+        font-size: 20px;
     }
-
 
     .usa-today-logo {
         margin: 20px 0px 20px 20%;
@@ -855,156 +812,151 @@ footer {
         content: url(../img/usa-today-mobile-logo.png);
     }
 
-    .my-newspaper-service-logo {
-        float: none;
-        margin: 75px 20% 0px -20%;
-        transform: scale(1.7) translateX(-15%);
+    .my-newspaper-service-logo img {
+        float: right;
+        left: -21%;
+        margin: -5px 11% 0px 0px;
+        position: relative;
+        right: 50%; 
         text-align: left;
     }
+
 }
 
 @media only screen and (max-width: 680px) {
 
     .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 16px;
-      margin-bottom: -40px;
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-top: 16px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -15px;
-      font-size: 19px;
-      line-height: 24px;
+        width: 165px;
+        margin-right: -15px;
+        font-size: 19px;
+        line-height: 24px;
     }
 
     .info-text-specifics {
-      font-size: 19px;
-      line-height: 25px;
+        font-size: 19px;
+        line-height: 25px;
     }
 
-  .menu-item {
-    font-size: 25px;
-      padding: 29px 0px 29px 40px;
-      height: 100px;
-      width: 100%;
-      margin-left: 0%;
-      margin-right: 0%;
-      margin-top: 2px;
-  }
-
-   .publication img {
-      width: 40%;
-      margin: 52px 30% 0px 30%;
-        
-  }
-
-  .second-header div h2 {
-      font-size: 30.46px;
-      letter-spacing: auto;
-  }
-
-  .hairline {
-      margin-top: -25px;
+    .menu-item {
+        font-size: 25px;
+        padding: 29px 0px 29px 40px;
+        height: 100px;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2px;
     }
 
+    .publication img {
+        width: 40%;
+        margin: 52px 30% 0px 30%;
+    }
+
+    .second-header div h2 {
+        font-size: 30.46px;
+        letter-spacing: auto;
+    }
+
+    .hairline {
+        margin-top: -25px;
+    }
 
 }
 
 @media only screen and (max-width: 620px) {
 
-   .publication img {
-      width: 40%;
-      margin: 52px 30% 0px 30%;
-        
-  }
+    .publication img {
+        width: 40%;
+        margin: 52px 30% 0px 30%;   
+    }
 
-  .usa-today-logo {
+    .usa-today-logo {
         margin: 20px 13.1% 20px 13.1%;
         max-width: 73.8%;
         content: url(../img/usa-today-mobile-logo.png);
     }
 
-    .my-newspaper-service-logo {
-        float: none;
-        margin: 75px 20% 0px -20%;
-        transform: scale(1.7) translateX(-15%);
-        text-align: left;
+    .my-newspaper-service-logo img{
+        margin: -10px 11% 0px 0px;
+        transform: translateX(27.5%);
+        width: 80%;
     }
 
-     .publication img {
+    .publication img {
         width: 50%;
         margin: 52px 25% 0px 25%;
     }
 
-  .second-header div h2 {
-      font-size: 30.46px;
-      letter-spacing: auto;
-  }
+    .second-header div h2 {
+        font-size: 30.46px;
+        letter-spacing: auto;
+    }
 
-      .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 16px;
-      margin-bottom: -40px;
+    .service-info {
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-top: 16px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -15px;
-      font-size: 17px;
-      line-height: 24px;
+        width: 165px;
+        margin-right: -15px;
+        font-size: 17px;
+        line-height: 24px;
     }
 
     .info-text-specifics {
-      font-size: 17px;
-      line-height: 25px;
+        font-size: 17px;
+        line-height: 25px;
     }
 
-        .hairline {
-      margin-top: -5px;
+    .hairline {
+        margin-top: -5px;
     }
-
 
 } 
 
 @media only screen and (max-width: 520px) {
 
+    .publication img {
+        width: 50%;
+        margin: 52px 25% 0px 25%;  
+    }
 
+    .second-header div h2 {
+        font-size: 30.46px;
+        letter-spacing: auto;
+    }
 
-  .publication img {
-      width: 50%;
-      margin: 52px 25% 0px 25%;
-        
-  }
-
-  .second-header div h2 {
-      font-size: 30.46px;
-      letter-spacing: auto;
-  }
-
-      .hairline {
-      margin-top: -5px;
+    .hairline {
+        margin-top: -5px;
     }
 
     .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 15px;
-      margin-bottom: -40px;
+        margin-left: 5%;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -68px;
-      font-size: 14px;
-      line-height: 26px;
+        width: 165px;
+        margin-right: -68px;
+        font-size: 14px;
+        line-height: 26px;
     }
 
     .info-text-specifics {
-      font-size: 16px;
-      line-height: 24px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .menu-item {
@@ -1020,27 +972,26 @@ footer {
     }
 
     button.menu-item:after {
-      content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-      font-size: 13px;
-      color: #fff;
-      float: right;
-      padding: 5px 7% 5px 0px;
+        content: url(../img/right-arrow.png); 
+        font-size: 13px;
+        color: rgb(255,255,255);
+        float: right;
+        padding: 5px 7% 5px 0px;
     }
 
     .footer-logos img {
-      width: 60%;
-      margin: 0px 20% 0px 20%;
-      margin-top: 60px
+        width: 60%;
+        margin: 60px 20% 0px 20%;
     }
 
     .footer-logos p {
-      margin-top: 30px;
-      font-size: 14px;
-      text-align:center;
+        margin-top: 30px;
+        font-size: 14px;
+        text-align:center;
     }
 
     footer {
-      height: 210px;
+        height: 210px;
     }
 
 
@@ -1049,183 +1000,128 @@ footer {
 @media only screen and (max-width: 450px) {
 
     .service-info {
-      margin-left: 1.0%;
-      margin-right: 0%;
-      margin-top: 15px;
-      margin-bottom: -40px;
+        margin-left: 1.0%;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -88px;
-      font-size: 13px;
-      line-height: 26px;
-      transform: translateY(-0.25%);
+        width: 165px;
+        margin-right: -88px;
+        font-size: 13px;
+        line-height: 26px;
+        transform: translateY(-0.25%);
     }
 
     .info-text-specifics {
-      font-size: 14px;
-      line-height: 26px;
-      margin-right: 0px;
+        font-size: 14px;
+        line-height: 26px;
+        margin-right: 0px;
     }
 
-        .hairline {
-      margin-top: -15px;
+    .hairline {
+        margin-top: -15px;
     }
 
+    .my-newspaper-service-logo img{
+        margin: -10px 11% 0px 0px;
+        transform: translateX(27.5%);
+        width: 80%;
+    }
 
 
 }
 
-/*
-
-@media only screen and (max-width: 441px) {
-
-    .hairline {
-      margin-top: -90px;
-    }
-
-    .my-newspaper-service-logo {
-        float: none;
-        margin: 80px 20% 0px -20%;
-        transform: scale(1.7) translateX(-15%);
-        text-align: left;
-    }
-
-    #main-header {
-        height: 150px;
-    }
-
-    .publication img {
-      width: 75%;
-      margin-top: -20px;
-        
-  }
-  .second-header {
-    margin-bottom: 9%;
-      margin-top: 190px;
-  }
-
-  .second-header div h2 {
-      font-size: 30.46px;
-      letter-spacing: auto;
-  }
-
-    .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 13px;
-      margin-bottom: -40px;
-    }
-
-    .info-text-heading {
-      width: 165px;
-      margin-right: -70px;
-      font-size: 12px;
-      line-height: 28px;
-    }
-
-    .info-text-specifics {
-      font-size: 16px;
-      line-height: 23px;
-      transform: translateY(-0.5%);
-    }
-
-    footer {
-      height: 210px;
-    }
-
-} */
 
 @media only screen and (max-width: 410px) {
 
-  .menu-item {
-      font-size: 16px;
-      padding-top: 15px;
-      height: 50px;
-  }
+    .menu-item {
+        font-size: 16px;
+        padding-top: 15px;
+        height: 50px;
+    }
 
-  button.menu-item:after {
-      content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
-      font-size: 13px;
-      color: #fff;
-      float: right;
-      padding: 5px 7% 5px 0px;
-      transform: translateY(-19%);
-  }
+    button.menu-item:after {
+        content: url(../img/right-arrow.png); /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: rgb(255,255,255);
+        float: right;
+        padding: 5px 7% 5px 0px;
+        transform: translateY(-19%);
+    }
 
     .service-info {
-      margin-left: 1.0%;
-      margin-right: 0%;
-      margin-top: 15px;
-      margin-bottom: -40px;
+        margin-left: 1.0%;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -88px;
-      font-size: 13px;
-      line-height: 27px;
-      transform: translateY(1.2%);
+        width: 165px;
+        margin-right: -88px;
+        font-size: 13px;
+        line-height: 27px;
+        transform: translateY(1.2%);
     }
 
     .info-text-specifics {
-      font-size: 14px;
-      line-height: 26px;
-      margin-right: 0px;
+        font-size: 14px;
+        line-height: 26px;
+        margin-right: 0px;
     }
 
-      .second-header div h2 {
-      font-size: 25.46px;
-      letter-spacing: auto;
+    .second-header div h2 {
+        font-size: 25.46px;
+        letter-spacing: auto;
     }
 
-        .hairline {
-      margin-top: -15px;
+    .hairline {
+        margin-top: -15px;
     }
 
 
 
-    /*.my-newspaper-service-logo img{
+    .my-newspaper-service-logo img{
         margin: -10px 11% 0px 0px;
         transform: translateX(27.5%);
-        width: 90%;
-    }*/
+        width: 80%;
+    }
 
 
 } 
 
 @media only screen and (max-width: 380px) {
 
-     #main-header {
-      height: 150px;
+    #main-header {
+        height: 150px;
     }
 
-      .publication img {
-      width: 50%;
-      margin: 22px 25% 0px 25%;
-        
-  }
+    .publication img {
+        width: 50%;
+        margin: 22px 25% 0px 25%;
+    }
 
     .service-info {
-      margin-left: 1.0%;
-      margin-right: 0%;
-      margin-top: 15px;
-      margin-bottom: -40px;
+        margin-left: 1.0%;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -88px;
-      font-size: 12px;
-      line-height: 26px;
-      transform: translateY(-0%);
+        width: 165px;
+        margin-right: -88px;
+        font-size: 12px;
+        line-height: 26px;
+        transform: translateY(-0%);
     }
 
     .info-text-specifics {
-      font-size: 13px;
-      line-height: 26px;
-      margin-right: 0px;
+        font-size: 13px;
+        line-height: 26px;
+        margin-right: 0px;
     }
 
 
@@ -1234,181 +1130,52 @@ footer {
 @media only screen and (max-width: 350px) {
 
     #main-header {
-      height: 150px;
-    }
-
-      .publication img {
-      width: 50%;
-      margin: 22px 25% 0px 25%;
-        
-  }
-
-    .service-info {
-      margin-left: 1.0%;
-      margin-right: 0%;
-      margin-top: 15px;
-      margin-bottom: -40px;
-    }
-
-    .info-text-heading {
-      width: 165px;
-      margin-right: -105px;
-      font-size: 10.5px;
-      line-height: 29px;
-      transform: translateY(1.4%);
-    }
-
-    .info-text-specifics {
-      font-size: 10.5px;
-      line-height: 29px;
-      margin-right: 0px;
-    }
-
-        .hairline {
-      margin-top: -25px;
-    }
-
-
-}
-
-
-/*
-
-@media only screen and (max-width: 380px) {
-
-
-    .my-newspaper-service-logo {
-        margin: 85px 11% 0px 0px;
-        left: -9%;
-    }
-
-    .my-newspaper-service-logo img{
-        width: 50%;
-    }
-
-    #main-header {
         height: 150px;
     }
 
     .publication img {
-      width: 65%;
-      margin-left: 18%;
-      margin-top: -50px;
-        
-  }
-
-    .hairline {
-      margin-top: -100px;
+        width: 50%;
+        margin: 22px 25% 0px 25%;
     }
-
-  .second-header div h2 {
-      font-size: 25.46px;
-      letter-spacing: auto;
-  }
 
     .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 13px;
-      margin-bottom: -60px;
+        margin-left: 1.0%;
+        margin-right: 0%;
+        margin-top: 15px;
+        margin-bottom: -40px;
     }
 
     .info-text-heading {
-      width: 165px;
-      margin-right: -70px;
-      font-size: 12px;
-      line-height: 28px;
+        width: 165px;
+        margin-right: -105px;
+        font-size: 10.5px;
+        line-height: 29px;
+        transform: translateY(1.4%);
     }
 
     .info-text-specifics {
-      font-size: 16px;
-      line-height: 23px;
-      transform: translateY(-0.5%);
+        font-size: 10.5px;
+        line-height: 29px;
+        margin-right: 0px;
     }
 
+    .hairline {
+        margin-top: -25px;
+    }
 
 }
 
 
 
-@media only screen and (max-width: 370px) {
-
-  .hairline {
-      margin-top: -90px;
-    }
-} 
-
-@media only screen and (max-width: 320px) {
-
-  .hairline {
-      margin-top: -90px;
-    }
-
-  .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 13px;
-      margin-bottom: -40px;
-    }
-
-    .info-text-heading {
-      width: 165px;
-      margin-right: -75px;
-      font-size: 12px;
-      line-height: 28px;
-    }
-
-    .info-text-specifics {
-      font-size: 15px;
-      line-height: 24.5px;
-      transform: translateY(0%);
-      letter-spacing: -0.75px;
-    }
-
-
-
-}   
-
-@media only screen and (max-width: 300px) {
-
-
-
-  .service-info {
-      margin-left: 5%;
-      margin-right: 0%;
-      margin-top: 13px;
-      margin-bottom: -40px;
-    }
-
-    .info-text-heading {
-      width: 165px;
-      margin-right: -75px;
-      font-size: 12px;
-      line-height: 28px;
-    }
-
-    .info-text-specifics {
-      font-size: 15px;
-      line-height: 24.5px;
-      transform: translateY(0%);
-      letter-spacing: -0.75px;
-    }
-
-}
-
-*/    
 
 @media only screen and (max-width: 290px) {
 
-
     .menu-item {
-      font-size: 13px;
-      padding-top: 15px;
-      height: 50px;
-      margin-right: 2%;
+        font-size: 13px;
+        padding-top: 15px;
+        height: 50px;
+        margin-right: 2%;
     }
-
-
 
 } 
 
