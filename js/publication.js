@@ -32,9 +32,9 @@ function setParameters(data) {
             while (element.firstChild) {
                 element.removeChild(element.firstChild);
             }
-            element.appendChild(document.createTextNode(val));
+            element.appendChild(document.createTextNode(val.toLowerCase()));
             element = document.getElementById("mcis-email-link");
-            element.setAttribute('href', 'mailto:' + val);
+            element.setAttribute('href', 'mailto:' + val.toLowerCase());
         }
         if (key == 'workingHours' && val != '') {
             var element = document.getElementById("mcis-working-hours");
