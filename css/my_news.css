@@ -845,13 +845,13 @@
         border-radius: 5px;
         border-style: none;
         margin-bottom: 27px;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 25px 0px 25px 0px;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 18px 0px 18px 0px;
         position: relative;
         text-align: center;
         text-align: center;
-        width: 80%;
+        width: 50%;
         z-index: 2;
     }
 
@@ -865,7 +865,7 @@
 
     #mcas-state-menu{
         margin-bottom: 60px;
-        margin-top: -20px;
+        margin-top: -200px;
     }
 
     .pbss-hairline-left {
@@ -894,6 +894,10 @@
 
     .mcas-accordion:after {
         transform: translateY(50%);
+    }
+
+    #mcas-states {
+    	margin-top: -40px;
     }
 
 }
@@ -972,19 +976,23 @@
         border-radius: 5px;
         border-style: none;
         margin-bottom: 27px;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 25px 0px 25px 0px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 14px 0px 14px 0px;
         position: relative;
         text-align: center;
         text-align: center;
-        width: 90%;
+        width: 60%;
         z-index: 2;
     }
 
     #mcas-state-menu{
         height: 3800px;
         margin-top: 22px;
+    }
+
+    #mcas-states {
+    	margin-top: -20px;
     }
 
     .mcas-accordion {
@@ -1065,6 +1073,14 @@
         text-align:center;
     }
 
+    .pbss-state-heading {
+        color: rgb(13,13,13);
+        color: rgba(13,13,13, 1.0);
+        font-size: 26px;
+        margin-top: -20px;
+        text-align: center;
+    }
+
 }
 
 @media only screen and (max-width: 680px) {
@@ -1078,6 +1094,10 @@
         text-align: left;
         transform: translateX(15%);
         width: 80%;
+    }
+
+    #mcas-states {
+    	margin-top: -20px;
     }
 
 }
@@ -1158,7 +1178,7 @@
 
 }
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 600px) {
 
 	.csh-text-container {
         margin-top: 300px;
@@ -1271,14 +1291,26 @@
         line-height: 65px;
         padding-top: 260px;
         text-align: center;
+
     }
 
     .csh-tagline {
         font-size: 21.52px;
         line-height: 35.37px;
-        margin-left: -4%;
         margin-top: -40px;
         text-align: center;
+    }
+
+    .pbss-state-heading {
+	    color: rgb(13,13,13);
+	    color: rgba(13,13,13, 1.0);
+	    font-size: 24px;
+	    margin: -10px 0px -12px 0px;
+	    text-align: center;
+	}
+
+	#pbss-usa-today-button {
+        padding: 10px 0px 10px 0px;
     }
 
 }
@@ -1355,14 +1387,14 @@
     .pbss-state-heading {
         color: rgb(13,13,13);
         color: rgba(13,13,13, 1.0);
-        font-size: 30px;
-        margin-bottom: 32px;
+        font-size: 22px;
+        margin-bottom: 12px;
         margin-top: -20px;
         text-align: center;
     }
 
     #mcas-state-menu{
-        margin-top: -20px;
+        margin-top: -30px;
     }
 
     .mcas-accordion {
@@ -1414,7 +1446,7 @@
     }
 
     .csh-title {
-        font-size: 27.5px;
+        font-size: 26.5px;
         line-height: 55px;
         padding-top: 260px;
         text-align: center;
@@ -1462,6 +1494,10 @@
        text-align:center;
     }
 
+    #mcas-state-menu{
+        margin-top: -50px;
+    }
+
 }
 
 @media only screen and (max-width: 330px) {
@@ -1481,17 +1517,8 @@
         width: 100%;
     }
 
-    .mh-my-newspaper-service-logo {
-        left: -6%;
-        margin: 15px 11% 0px 0px;
-    }
-
-    .mh-service-logo-image-not-container{
-        width: 85%;
-    }
-
     .csh-title {
-        font-size: 24.83px;
+        font-size: 23.00px;
         line-height: 60px;
         padding-top: 260px;
         text-align: center;
@@ -1524,20 +1551,6 @@
     .csh-hero-section {
         height: 370px;
         width: 100%;
-    }
-
-    .mh-usa-today-logo {
-        margin: 40px 5% 20px 5%;
-        max-width: 90%;
-    }
-
-    .mh-my-newspaper-service-logo {
-        left: -6%;
-        margin: 15px 11% 0px 0px;
-    }
-
-    .mh-service-logo-image-not-container{
-        width: 85%;
     }
 
     .csh-title {
