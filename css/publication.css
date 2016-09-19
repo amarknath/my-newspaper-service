@@ -543,11 +543,11 @@
         visibility: visible; 
     }
 
-    .mh-mns-image {
+    /*.mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
-    }
+    }*/
 
     .mcis-hairline {
         margin-top: 95px;
@@ -623,11 +623,11 @@
         text-align:center;
     }
 
-    .mh-mns-image {
+    /*.mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
-    }
+    }*/
 
     .mcis-hairline {
         margin-top: 45px;
@@ -643,11 +643,11 @@
 
 @media only screen and (max-width: 1000px) {
 
-    .mh-mns-image {
+    /*.mh-mns-image {
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
-    }
+    }*/
 
     .mcis-hairline {
         margin-top: 45px;
@@ -667,6 +667,7 @@
         margin-right: 5%;
         margin-top: -52.5px;
         width: 35%;
+        transform: translateY(-20%);
     }
 
     .mcis-hairline {
@@ -703,6 +704,13 @@
         display: inline-block;
         margin: 17px 0px 20px 5%;
         width: 40%;  
+    }
+
+    .mh-mns-image {
+        margin-right: 5%;
+        margin-top: -52.5px;
+        width: 35%;
+        transform: translateY(-5%);
     }
 
     .sh-actual-pub-logo {
@@ -847,6 +855,8 @@
         position: relative;
         right: 50%; 
         text-align: left;
+        transform: translateX(10%);
+        width: 80%;
     }
 
 }
@@ -894,6 +904,17 @@
 
     .mcis-hairline {
         margin-top: -25px;
+    }
+
+    .mh-mns-image {
+        float: right;
+        left: -21%;
+        margin: -5px 11% 0px 0px;
+        position: relative;
+        right: 50%; 
+        text-align: left;
+        transform: translateX(15%);
+        width: 80%;
     }
 
 }
