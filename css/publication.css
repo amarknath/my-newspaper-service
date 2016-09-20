@@ -81,17 +81,23 @@
     top:0;
 }
 
+.mh-firefox-ie-placeholder {
+    visibility: hidden;
+}
+
 .mh-usa-today-logo {
-    content: url(../img/usa-today-desktop-logo.png);
+    background: url(../img/usa-today-desktop-logo.png);
+    background-position: center;
+    background-size: cover;
     display: inline-block;
-    margin: 25px 0px 20px 11%;
-    max-width: 400px;
+    margin: 25px 0px 20px 5%;
+    width: 480px;
 }
 
 .mh-mns-image {
     display: inline-block;
     float: right;
-    margin: -60px 11% 0px 0px;
+    margin: -55px 11% 0px 0px;
     max-width: 300px;
 }
 
@@ -665,7 +671,7 @@
 
     .mh-mns-image {
         margin-right: 5%;
-        margin-top: -52.5px;
+        margin-top: -50.5px;
         width: 35%;
         transform: translateY(-20%);
     }
@@ -682,7 +688,7 @@
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 810px) {
 
     .mcis-hairline {
         margin-top: -40px;
@@ -703,12 +709,13 @@
     .mh-usa-today-logo {
         display: inline-block;
         margin: 17px 0px 20px 5%;
-        width: 40%;  
+        height: 35px;
+        width: 42.5%;    
     }
 
     .mh-mns-image {
         margin-right: 5%;
-        margin-top: -52.5px;
+        margin-top: -45.5px;
         width: 35%;
         transform: translateY(-5%);
     }
@@ -843,9 +850,13 @@
     }
 
     .mh-usa-today-logo {
-        content: url(../img/usa-today-mobile-logo.png);
+        background: url(../img/usa-today-mobile-logo.png);
+        background-position: center;
+        background-size: cover;
+        display: inline-block;
         margin: 20px 0px 20px 20%;
-        width: 100%;
+        width: 400px;
+        height: 105px;
     }
 
     .mh-mns-image {
@@ -927,9 +938,7 @@
     }
 
     .mh-usa-today-logo {
-        content: url(../img/usa-today-mobile-logo.png);
-        margin: 20px 13.1% 20px 13.1%;
-        max-width: 73.8%;
+         margin: 20px 0px 20px 17%;
     }
 
     .mh-mns-image {
@@ -974,6 +983,13 @@
 } 
 
 @media only screen and (max-width: 520px) {
+
+	.mh-usa-today-logo {
+        margin: 20px 0px 20px 16%;
+        max-width: 73.8%;
+        height: 91px;
+        width: 345px;
+    }
 
     .sh-actual-pub-logo {
         margin: 52px 25% 0px 25%;  
@@ -1042,6 +1058,27 @@
 
     #fb-footer {
         height: 210px;
+    }
+
+}
+
+@media only screen and (max-width: 490px) {
+
+    .mh-usa-today-logo {
+        margin: 30px 0px 20px 16%;
+        max-width: 74.8%;
+        height: 91px;
+        width: 345px;
+    }	
+}
+
+@media only screen and (max-width: 470px) {
+
+	    .mh-usa-today-logo {
+        margin: 30px 0px 20px 16%;
+        max-width: 80.8%;
+        height: 81px;
+        width: 310px;
     }
 
 }
@@ -1138,6 +1175,17 @@
 
 } 
 
+@media only screen and (max-width: 390px) {
+
+	.mh-usa-today-logo {
+        margin: 20px 0px 20px 7.5%;
+        max-width: 90%;
+        height: 81px;
+        width: 290;
+    }
+
+}
+
 @media only screen and (max-width: 380px) {
 
     #mh-main-header {
@@ -1174,6 +1222,13 @@
 
 @media only screen and (max-width: 350px) {
 
+	.mh-usa-today-logo {
+        margin: 20px 0px 20px 5%;
+        max-width: 90%;
+        height: 81px;
+        width: 280;
+    }
+
     #mh-main-header {
         height: 150px;
     }
@@ -1206,6 +1261,17 @@
 
     .mcis-hairline {
         margin-top: -25px;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+
+	.mh-usa-today-logo {
+        margin: 20px 0px 20px 5%;
+        max-width: 90%;
+        height: 75px;
+        width: 235;
     }
 
 }
