@@ -726,8 +726,9 @@
 
     .csh-text-container {
         margin-left: 8.5%;
-        width: 90%;
-        min-width: 90.0%;
+        width: 80%;
+        min-width: 80.0%;
+        margin-right: -10px;
     }
 
     .csh-title {
@@ -735,7 +736,7 @@
         color: rgba(255,255,255, 1.0);
         font-size: 86.29px;
         line-height: 78px;
-        padding-top: 400px;
+        padding-top: 380px;
     }
 
     .csh-tagline {
