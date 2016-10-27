@@ -6,6 +6,7 @@
 				"email" : "mtgadvertiser@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "montgomeryadvertiser",
+				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=MontgomeryAdvertiser&PublicationId=Montgomery&PublicationName=Montgomery%20Advertiser"
 			}
 		}
@@ -13,11 +14,13 @@
 	"Arizona" : [
 		{
 			"The Arizona Republic,Phoenix" : {
-				"phone" : "1-800-332-6733",
+				"phone" : "1-800-332-6733, 1-602-444-1000",
 				"email" : "azrepubliccustomerservice@gannett.com",
 				"workingHours" : "7:00am - 5:00pm",
 				"sitename" : "azcentral",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=portclintonnewsherald&PublicationId=PortClinton&PublicationName=News%20Herald"
+				"use2xLogo" : "false",
+				"weekendHours" : "7:00am to 11:00am",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=azcentral&PublicationId=Phoenix&PublicationName=Arizona%20Republic"
 			}
 		}
 	],
@@ -28,7 +31,8 @@
 				"email" : "homedel@baxterbulletin.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "baxterbulletin",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=muncieStarPress&PublicationId=Muncie&PublicationName=The%20Star%20Press"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=BaxterBulletin&PublicationId=Baxter&PublicationName=The%20Baxter%20Bulletin"
 			}
 		}
 	],
@@ -39,7 +43,8 @@
 				"email" : "thedesertsun@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "desertsun",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=pnj&PublicationId=Pensacola&PublicationName=News%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DesertSun&PublicationId=PalmSprings&PublicationName=The%20Desert%20Sun"
 			}
 		},
 		{
@@ -48,7 +53,8 @@
 				"email" : "thesalinascalifornian@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "thecalifornian",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=SheboyganPress&PublicationId=Sheboygan&PublicationName=The%20Sheboygan%20Press"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thecalifornian&PublicationId=Salinas&PublicationName=The%20Salinas%20Californian"
 			}
 		},
 		{
@@ -57,7 +63,8 @@
 				"email" : "tulareadvanceregister@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "visaliatimesdelta",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=TheDailyJournal&PublicationId=Vineland&PublicationName=The%20Daily%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tvisaliatimesdelta&PublicationId=Tulare&PublicationName=Tulare%20Advance-Register"
 			}
 		},
 		{
@@ -66,7 +73,8 @@
 				"email" : "visaliatimesdelta@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "visaliatimesdelta",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=lohud&PublicationId=Westchester&PublicationName=The%20Journal%20News"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=VisaliaTimesDelta&PublicationId=Visalia&PublicationName=Visalia%20Times-Delta"
 			}
 		}
 	],
@@ -77,7 +85,8 @@
 				"email" : "circulation@coloradoan.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "coloradoan",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=fdlreporter&PublicationId=FondDuLac&PublicationName=The%20Reporter"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Coloradoan&PublicationId=FortCollins&PublicationName=Fort%20Collins%20Coloradoan"
 			}
 		}
 	],
@@ -88,7 +97,8 @@
 				"email" : "wilmingtonnewsjournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "delawareonline",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=zanesvilletimesrecorder&PublicationId=Zanesville&PublicationName=Times%20Recorder"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=delawareonline&PublicationId=Wilmington&PublicationName=The%20News%20Journal"
 			}
 		}
 	],
@@ -99,7 +109,8 @@
 				"email" : "floridatoday@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "floridatoday",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=pressconnects&PublicationId=Binghamton&PublicationName=Press%20SunBulletin"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=FloridaToday&PublicationId=Brevard&PublicationName=Florida%20Today"
 			}
 		},
 		{
@@ -108,7 +119,8 @@
 				"email" : "ftmnewspress@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "news-press",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Coloradoan&PublicationId=FortCollins&PublicationName=Fort%20Collins%20Coloradoan"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=News-Press&PublicationId=FortMyers&PublicationName=The%20News-Press"
 			}
 		},
 		{
@@ -117,7 +129,8 @@
 				"email" : "newsjournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "pnj",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=azcentral&PublicationId=Phoenix&PublicationName=Arizona%20Republic"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=pnj&PublicationId=Pensacola&PublicationName=News%20Journal"
 			}
 		},
 		{
@@ -126,7 +139,8 @@
 				"email" : "tallahasseedemocrat@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "tallahassee",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=usatoday&PublicationId=USAT&PublicationName=USAT"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tallahassee&PublicationId=Tallahassee&PublicationName=Tallahassee%20Democrat"
 			}
 		}
 	],
@@ -137,7 +151,8 @@
 				"email" : "indianapolisstar@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "indystar",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=HattiesburgAmerican&PublicationId=Hattiesburg&PublicationName=Hattiesburg%20American"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=indystar&PublicationId=Indianapolis&PublicationName=The%20Indianapolis%20Star"
 			}
 		},
 		{
@@ -146,7 +161,8 @@
 				"email" : "jounalandcourier@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "jconline",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=JacksonSun&PublicationId=JacksonTN&PublicationName=The%20Jackson%20Sun"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=jconline&PublicationId=LafayetteIN&PublicationName=Journal%20Courier"
 			}
 		},
 		{
@@ -155,7 +171,8 @@
 				"email" : "thestarpress@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thestarpress",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=dnj&PublicationId=Murfreesboro&PublicationName=The%20Daily%20News%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=muncieStarPress&PublicationId=Muncie&PublicationName=The%20Star%20Press"
 			}
 		},
 		{
@@ -164,7 +181,8 @@
 				"email" : "palladiumitem@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "pal-item",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=StatesmanJournal&PublicationId=Salem&PublicationName=Statesman%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=pal-item-Item&PublicationId=Richmond&PublicationName=Palladium-Item"
 			}
 		}
 	],
@@ -172,19 +190,21 @@
 		{
 			"The Des Moines Register" : {
 				"phone" : "1-877-424-0225",
-				"email" : "newsubs@dmreg.com",
+				"email" : "customerservice@registermedia.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "desmoinesregister",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=CoshoctonTribune&PublicationId=Coshocton&PublicationName=Coshocton%20Tribune"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DesMoinesRegister&PublicationId=DesMoines&PublicationName=The%20Des%20Moines%20Register"
 			}
 		},
 		{
 			"Iowa City Press-Citizen" : {
-				"phone" : "1-877-242-0071",
+				"phone" : "1-811-424-0071",
 				"email" : "customerservice@press-citizen.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "press-citizen",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=indystar&PublicationId=Indianapolis&PublicationName=The%20Indianapolis%20Star"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Press-Citizen&PublicationId=IowaCity&PublicationName=Press-Citizen"
 			}
 		}
 	],
@@ -195,7 +215,8 @@
 				"email" : "louisvillecourierjournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "courier-journal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=LansingStateJournal&PublicationId=Lansing&PublicationName=Lansing%20State%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Courier-Journal&PublicationId=Louisville&PublicationName=Courier-Journal"
 			}
 		}
 	],
@@ -206,6 +227,7 @@
 				"email" : "thetowntalk@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thetowntalk",
+				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=TheTownTalk&PublicationId=Alexandria&PublicationName=the%20Town%20Talk"
 			}
 		},
@@ -215,7 +237,8 @@
 				"email" : "lafdailyadvertiser@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "theadvertiser",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=jconline&PublicationId=LafayetteIN&PublicationName=Journal%20Courier"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=theadvertiser&PublicationId=LafayetteLA&PublicationName=Daily%20Advertiser"
 			}
 		},
 		{
@@ -224,6 +247,7 @@
 				"email" : "monroenewsstar@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thenewsstar",
+				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=theNewsStar&PublicationId=Monroe&PublicationName=The%20News-Star"
 			}
 		},
@@ -233,7 +257,8 @@
 				"email" : "opeldailyworld@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "dailyworld",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thenorthwestern&PublicationId=OshKosh&PublicationName=Oshkosh%20Northwestern"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DailyWorld&PublicationId=Opelousas&PublicationName=Daily%20World"
 			}
 		},
 		{
@@ -242,7 +267,8 @@
 				"email" : "timesshreveport@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "shreveporttimes",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=News-Leader&PublicationId=Springfield&PublicationName=News-Leader"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=shreveporttimes&PublicationId=Shreveport&PublicationName=The%20Times"
 			}
 		}
 	],
@@ -253,7 +279,8 @@
 				"email" : "salisburythedailytimes@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "delmarvanow",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=shreveporttimes&PublicationId=Shreveport&PublicationName=The%20Times"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=delmarvanow&PublicationId=Salisbury&PublicationName=The%20Daily%20Times"
 			}
 		}
 	],
@@ -264,6 +291,7 @@
 				"email" : "battlecreekenquirer@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "battlecreekenquirer",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=BattleCreekEnquirer&PublicationId=BattleCreek&PublicationName=Enquirer"
 			}
 		},
@@ -273,7 +301,8 @@
 				"email" : "cserv@michigan.com ",
 				"workingHours" : "8:00am - 5:00pm",
 				"sitename" : "freep",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DesMoinesRegister&PublicationId=DesMoines&PublicationName=The%20Des%20Moines%20Register"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=freep&PublicationId=Detroit&PublicationName=Detroit%20Free%20Press"
 			}
 		},
 		{
@@ -282,7 +311,8 @@
 				"email" : "lansingstatejournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "lansingstatejournal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=LancasterEagleGazette&PublicationId=Lancaster&PublicationName=Lancaster%20Eagle-Gazette"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=LansingStateJournal&PublicationId=Lansing&PublicationName=Lansing%20State%20Journal"
 			}
 		},
 		{
@@ -291,7 +321,8 @@
 				"email" : "porthurontimesherald@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thetimesherald",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=PoughkeepsieJournal&PublicationId=Poughkeepsie&PublicationName=Poughkeepsie%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thetimesherald&PublicationId=PortHuron&PublicationName=Times%20Herald"
 			}
 		}
 	],
@@ -302,7 +333,8 @@
 				"email" : "saintcloudtimes@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "sctimes",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=theSpectrum&PublicationId=StGeorge&PublicationName=The%20Spectrum"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=sctimes&PublicationId=StCloud&PublicationName=St.%20Cloud%20Time"
 			}
 		}
 	],
@@ -313,7 +345,8 @@
 				"email" : "customerservice@hattiesburgamerican.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "hattiesburgamerican",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=GreenBayPressGazette&PublicationId=GreenBay&PublicationName=Green%20Bay%20Press-Gazette"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=HattiesburgAmerican&PublicationId=Hattiesburg&PublicationName=Hattiesburg%20American"
 			}
 		},
 		{
@@ -322,7 +355,8 @@
 				"email" : "clarionledger@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "clarionledger",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=IthacaJournal&PublicationId=Ithaca&PublicationName=The%20Ithaca%20Journal"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ClarionLedger&PublicationId=JacksonMS&PublicationName=The%20Clarion-Ledger"
 			}
 		}
 	],
@@ -333,7 +367,8 @@
 				"email" : "springfieldnewsleader@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "news-leader",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=sctimes&PublicationId=StCloud&PublicationName=St.%20Cloud%20Time"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=News-Leader&PublicationId=Springfield&PublicationName=News-Leader"
 			}
 		}
 	],
@@ -344,7 +379,8 @@
 				"email" : "tribcirc@greatfallstribune.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "greatfallstribune",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thenews-messenger&PublicationId=Fremont&PublicationName=The%20News%20Messenger"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=GreatFallsTribune&PublicationId=GreatFalls&PublicationName=Great%20Falls%20Tribune"
 			}
 		}
 	],
@@ -355,7 +391,8 @@
 				"email" : "renogazettejournal@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "rgj",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DemocratandChronicle&PublicationId=Rochester&PublicationName=Democrat%20and%20Chronicle"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=rgj&PublicationId=Reno&PublicationName=Reno%20Gazette%20Journal"
 			}
 		}
 	],
@@ -366,6 +403,7 @@
 				"email" : "asburyparkpress@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "app",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=app&PublicationId=AsburyPark&PublicationName=Asbury%20Park%20Press"
 			}
 		},
@@ -375,7 +413,8 @@
 				"email" : "couriernews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "mycentraljersey",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=FloridaToday&PublicationId=Brevard&PublicationName=Florida%20Today"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=mycentraljersey&PublicationId=Bridgewater&PublicationName=Courier%20News"
 			}
 		},
 		{
@@ -384,7 +423,8 @@
 				"email" : "courierpost@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "courierpostonline",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=BurlingtonFreePress&PublicationId=Burlington&PublicationName=Burlington%20Free%20Press"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=courierpostonline&PublicationId=CherryHill&PublicationName=Courier-Post"
 			}
 		},
 		{
@@ -393,7 +433,8 @@
 				"email" : "homenewstribune@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "mycentraljersey",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=freep&PublicationId=Detroit&PublicationName=Detroit%20Free%20Press"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=mycentraljersey&PublicationId=EastBrunswick&PublicationName=Home%20News%20Tribune"
 			}
 		},
 		{
@@ -402,6 +443,7 @@
 				"email" : "dailyrecord@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "dailyrecord",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DailyRecord&PublicationId=Morristown&PublicationName=Daily%20Record"
 			}
 		},
@@ -411,7 +453,8 @@
 				"email" : "vinelandthedailyjournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thedailyjournal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=WausauDailyHerald&PublicationId=Wausau&PublicationName=Wausau%20Daily%20Herald"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=TheDailyJournal&PublicationId=Vineland&PublicationName=The%20Daily%20Journal"
 			}
 		}
 	],
@@ -422,6 +465,7 @@
 				"email" : "AlamogordoDailyNews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "alamogordonews",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=alamogordonews&PublicationId=&PublicationName=Alamogordo%20Daily%20News"
 			}
 		},
@@ -431,6 +475,7 @@
 				"email" : "CarlsbadCurrentArgus@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "currentargus",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=currentargus&PublicationId=&PublicationName=Carlsbad%20Current-Argus"
 			}
 		},
@@ -440,6 +485,7 @@
 				"email" : "DemingHeadlight@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "demingheadlight",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=demingheadlight&PublicationId=&PublicationName=The%20Deming%20Headlight"
 			}
 		},
@@ -449,6 +495,7 @@
 				"email" : "TheDailyTimesinFarmington@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "daily-times",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=daily-times"
 			}
 		},
@@ -458,6 +505,7 @@
 				"email" : "LasCrucesSunNews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "lcsun-news",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=lcsun-news&PublicationId=&PublicationName=Las%20Cruces%20Sun-News"
 			}
 		},
@@ -467,6 +515,7 @@
 				"email" : "Ruidoso@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "ruidosonews",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ruidosonews&PublicationId=&PublicationName=Ruidoso%20News"
 			}
 		},
@@ -476,6 +525,7 @@
 				"email" : "SilverCitySunNews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "scsun-news",
+				"use2xLogo" : "false",
 				"chatUrl" : "NA"
 			}
 		}
@@ -487,7 +537,8 @@
 				"email" : "pressandsun@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "pressconnects",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=BaxterBulletin&PublicationId=Baxter&PublicationName=The%20Baxter%20Bulletin"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=pressconnects&PublicationId=Binghamton&PublicationName=Press%20SunBulletin"
 			}
 		},
 		{
@@ -496,7 +547,8 @@
 				"email" : "stargazette@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "stargazette",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=mycentraljersey&PublicationId=EastBrunswick&PublicationName=Home%20News%20Tribune"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=StarGazette&PublicationId=Elmira&PublicationName=Star-Gazette"
 			}
 		},
 		{
@@ -505,7 +557,8 @@
 				"email" : "ithacajournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "ithacajournal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Press-Citizen&PublicationId=IowaCity&PublicationName=Press-Citizen"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=IthacaJournal&PublicationId=Ithaca&PublicationName=The%20Ithaca%20Journal"
 			}
 		},
 		{
@@ -514,16 +567,18 @@
 				"email" : "thepoughkeepsiejournal@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "poughkeepsiejournal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=rgj&PublicationId=Reno&PublicationName=Reno%20Gazette%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=PoughkeepsieJournal&PublicationId=Poughkeepsie&PublicationName=Poughkeepsie%20Journal"
 			}
 		},
 		{
 			"Rochester Democrat and Chronicle" : {
-				"phone" : "1-800-780-9565",
+				"phone" : "1-800-790-9565",
 				"email" : "democratandchronicle@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "democratandchronicle",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thecalifornian&PublicationId=Salinas&PublicationName=The%20Salinas%20Californian"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DemocratandChronicle&PublicationId=Rochester&PublicationName=Democrat%20and%20Chronicle"
 			}
 		},
 		{
@@ -532,7 +587,8 @@
 				"email" : "westchesterthejournalnews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "lohud",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=wisconsinrapidstribune&PublicationId=WisconsinRapids&PublicationName=Wisconsin%20Rapids%20Daily%20Tribune"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=lohud&PublicationId=Westchester&PublicationName=The%20Journal%20News"
 			}
 		}
 	],
@@ -543,6 +599,7 @@
 				"email" : "citizentimes@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "citizen-times",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Citizen-Times&PublicationId=Asheville&PublicationName=Citizen-Times"
 			}
 		}
@@ -554,7 +611,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "bucyrustelegraphforum",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=mycentraljersey&PublicationId=Bridgewater&PublicationName=Courier%20News"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=bucyrustelegraphforum&PublicationId=Bucyrus&PublicationName=Telegraph-Forum"
 			}
 		},
 		{
@@ -563,7 +621,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "chillicothegazette",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=courierpostonline&PublicationId=CherryHill&PublicationName=Courier-Post"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ChillicotheGazette&PublicationId=Chillicothe&PublicationName=Chillicothe%20Gazette"
 			}
 		},
 		{
@@ -572,7 +631,8 @@
 				"email" : "CincinnatiEnquirer@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "cincinnati",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ChillicotheGazette&PublicationId=Chillicothe&PublicationName=Chillicothe%20Gazette"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Cincinnati&PublicationId=Cincinnati&PublicationName=The%20Enquirer"
 			}
 		},
 		{
@@ -581,7 +641,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "coshoctontribune",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=TheLeafChronicle&PublicationId=Clarksville&PublicationName=The%20Leaf-Chronicle"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=CoshoctonTribune&PublicationId=Coshocton&PublicationName=Coshocton%20Tribune"
 			}
 		},
 		{
@@ -590,7 +651,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thenews-messenger",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=News-Press&PublicationId=FortMyers&PublicationName=The%20News-Press"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thenews-messenger&PublicationId=Fremont&PublicationName=The%20News%20Messenger"
 			}
 		},
 		{
@@ -599,7 +661,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "lancastereaglegazette",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=theadvertiser&PublicationId=LafayetteLA&PublicationName=Daily%20Advertiser"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=LancasterEagleGazette&PublicationId=Lancaster&PublicationName=Lancaster%20Eagle-Gazette"
 			}
 		},
 		{
@@ -608,6 +671,7 @@
 				"email" : "customerservice@nncogannett.com",
 				"workingHours" : "8.00am - 7.00pm",
 				"sitename" : "mansfieldnewsjournal",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thenewsjournal&PublicationId=Mansfield&PublicationName=News%20Journal"
 			}
 		},
@@ -617,6 +681,7 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "marionstar",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=MarionStar&PublicationId=Marion&PublicationName=The%20Marion%20Star"
 			}
 		},
@@ -626,7 +691,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "newarkadvocate",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DailyWorld&PublicationId=Opelousas&PublicationName=Daily%20World"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=newarkadvocate&PublicationId=Newark&PublicationName=The%20Advocate"
 			}
 		},
 		{
@@ -635,7 +701,8 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "portclintonnewsherald",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thetimesherald&PublicationId=PortHuron&PublicationName=Times%20Herald"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=portclintonnewsherald&PublicationId=PortClinton&PublicationName=News%20Herald"
 			}
 		},
 		{
@@ -644,6 +711,7 @@
 				"email" : "nncocsr@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "zanesvilletimesrecorder",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=zanesvilletimesrecorder&PublicationId=Zanesville&PublicationName=Times%20Recorder"
 			}
 		}
@@ -655,7 +723,8 @@
 				"email" : "salemstatesmanjournal@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "statesmanjournal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=delmarvanow&PublicationId=Salisbury&PublicationName=The%20Daily%20Times"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=StatesmanJournal&PublicationId=Salem&PublicationName=Statesman%20Journal"
 			}
 		}
 	],
@@ -666,6 +735,7 @@
 				"email" : "ChambersburgPublicOpinion@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "publicopiniononline",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=publicopiniononline"
 			}
 		},
@@ -675,6 +745,7 @@
 				"email" : "HanoverEveningSun@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "eveningsun",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=eveningsun"
 			}
 		},
@@ -684,6 +755,7 @@
 				"email" : "LebanonDailyNews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "ldnews",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ldnews&PublicationId=&PublicationName=Lebanon%20Daily%20News"
 			}
 		},
@@ -693,6 +765,7 @@
 				"email" : "YorkDailyRecord@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "ydr",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ydr&PublicationId=&PublicationName=York%20Daily%20Record"
 			}
 		},
@@ -702,6 +775,7 @@
 				"email" : "YorkDispatch@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "yorkdispatch",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=yorkdispatch&PublicationId=&PublicationName=York%20Dispatch"
 			}
 		}
@@ -713,6 +787,7 @@
 				"email" : "greenvillenews@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "greenvilleonline",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=greenvilleonline&PublicationId=Greenville&PublicationName=The%20Greenville%20News"
 			}
 		}
@@ -724,7 +799,8 @@
 				"email" : "siouxfallsargusleadermedia@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "argusleader",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=NewsLeader&PublicationId=Staunton&PublicationName=The%20News%20Leader"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ArgusLeader&PublicationId=SiouxFalls&PublicationName=Argus%20Leader"
 			}
 		}
 	],
@@ -735,7 +811,8 @@
 				"email" : "leafchronicle@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "theleafchronicle",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Cincinnati&PublicationId=Cincinnati&PublicationName=The%20Enquirer"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=TheLeafChronicle&PublicationId=Clarksville&PublicationName=The%20Leaf-Chronicle"
 			}
 		},
 		{
@@ -744,7 +821,8 @@
 				"email" : "jacksontnsun@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "jacksonsun",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ClarionLedger&PublicationId=JacksonMS&PublicationName=The%20Clarion-Ledger"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=JacksonSun&PublicationId=JacksonTN&PublicationName=The%20Jackson%20Sun"
 			}
 		},
 		{
@@ -753,7 +831,8 @@
 				"email" : "customer@dnj.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "dnj",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tennessean&PublicationId=Nashville&PublicationName=The%20Tennessean"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=dnj&PublicationId=Murfreesboro&PublicationName=The%20Daily%20News%20Journal"
 			}
 		},
 		{
@@ -762,7 +841,8 @@
 				"email" : "customer@tennessean.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "tennessean",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=newarkadvocate&PublicationId=Newark&PublicationName=The%20Advocate"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tennessean&PublicationId=Nashville&PublicationName=The%20Tennessean"
 			}
 		}
 	],
@@ -773,6 +853,7 @@
 				"email" : "ElPasoTimes@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "elpasotimes",
+				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=elpasotimes"
 			}
 		}
@@ -784,7 +865,8 @@
 				"email" : "circulation@thespectrum.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thespectrum",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=StevensPointJournal&PublicationId=StevensPoint&PublicationName=Stevens%20Point%20Journal"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=theSpectrum&PublicationId=StGeorge&PublicationName=The%20Spectrum"
 			}
 		}
 	],
@@ -795,7 +877,8 @@
 				"email" : "freepress@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "burlingtonfreepress",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=bucyrustelegraphforum&PublicationId=Bucyrus&PublicationName=Telegraph-Forum"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=BurlingtonFreePress&PublicationId=Burlington&PublicationName=Burlington%20Free%20Press"
 			}
 		}
 	],
@@ -806,7 +889,8 @@
 				"email" : "customerservice@gannett.com",
 				"workingHours" : "8.00am - 7.00pm",
 				"sitename" : "newsleader",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tallahassee&PublicationId=Tallahassee&PublicationName=Tallahassee%20Democrat"
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=NewsLeader&PublicationId=Staunton&PublicationName=The%20News%20Leader"
 			}
 		}
 	],
@@ -817,6 +901,7 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8.00am - 7.00pm",
 				"sitename" : "postcrescent",
+				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=PostCrescent&PublicationId=Appleton&PublicationName=The%20Post%20Crescent"
 			}
 		},
@@ -826,7 +911,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "fdlreporter",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=StarGazette&PublicationId=Elmira&PublicationName=Star-Gazette"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=fdlreporter&PublicationId=FondDuLac&PublicationName=The%20Reporter"
 			}
 		},
 		{
@@ -835,7 +921,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "greenbaypressgazette",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=GreatFallsTribune&PublicationId=GreatFalls&PublicationName=Great%20Falls%20Tribune"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=GreenBayPressGazette&PublicationId=GreenBay&PublicationName=Green%20Bay%20Press-Gazette"
 			}
 		},
 		{
@@ -844,6 +931,7 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "htrnews",
+				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=htrnews&PublicationId=Manitowoc&PublicationName=Herald%20Times%20Reporter"
 			}
 		},
@@ -853,6 +941,7 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "marshfieldnewsherald",
+				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=MarshfieldNewsHerald&PublicationId=Marshfield&PublicationName=Marshfield%20News-Herald"
 			}
 		},
@@ -862,7 +951,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "thenorthwestern",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=DesertSun&PublicationId=PalmSprings&PublicationName=The%20Desert%20Sun"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=thenorthwestern&PublicationId=OshKosh&PublicationName=Oshkosh%20Northwestern"
 			}
 		},
 		{
@@ -871,7 +961,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "sheboyganpress",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ArgusLeader&PublicationId=SiouxFalls&PublicationName=Argus%20Leader"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=SheboyganPress&PublicationId=Sheboygan&PublicationName=The%20Sheboygan%20Press"
 			}
 		},
 		{
@@ -880,7 +971,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "stevenspointjournal",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tvisaliatimesdelta&PublicationId=Tulare&PublicationName=Tulare%20Advance-Register"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=StevensPointJournal&PublicationId=StevensPoint&PublicationName=Stevens%20Point%20Journal"
 			}
 		},
 		{
@@ -889,7 +981,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "wausaudailyherald",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=delawareonline&PublicationId=Wilmington&PublicationName=The%20News%20Journal"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=WausauDailyHerald&PublicationId=Wausau&PublicationName=Wausau%20Daily%20Herald"
 			}
 		},
 		{
@@ -898,7 +991,8 @@
 				"email" : "wisconsincoe@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "wisconsinrapidstribune",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=pal-item-Item&PublicationId=Richmond&PublicationName=Palladium-Item"
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=wisconsinrapidstribune&PublicationId=WisconsinRapids&PublicationName=Wisconsin%20Rapids%20Daily%20Tribune"
 			}
 		}
 	]
