@@ -59,7 +59,7 @@
 		},
 		{
 			"Tulare Advance-Register" : {
-				"phone" : "1-888-487-9665",
+				"phone" : "1-888-487-9565",
 				"email" : "tulareadvanceregister@gannett.com",
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "visaliatimesdelta",
@@ -847,6 +847,16 @@
 		}
 	],
 	"Texas" : [
+		{
+			"Corpus Christi Caller-Times" : {
+				"phone" : "844-900-7096",
+				"email" : "caller-times@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "caller",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=caller&PublicationId=CorpusChristi&PublicationName=Caller-Times"
+			}
+		},
 		{
 			"El Paso Times" : {
 				"phone" : "1-800-351-1677",
