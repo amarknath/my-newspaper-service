@@ -408,6 +408,16 @@
 			}
 		},
 		{
+			"The Bergen Record" : {
+				"phone" : "1-888-282-3422",
+				"email" : "northjerseymediagroup.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "northjersey",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey"
+			}
+		},
+		{
 			"Courier News, Bridgewater" : {
 				"phone" : "1-800-675-8645",
 				"email" : "couriernews@gannett.com",
@@ -425,6 +435,16 @@
 				"sitename" : "courierpostonline",
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=courierpostonline&PublicationId=CherryHill&PublicationName=Courier-Post"
+			}
+		},
+		{
+			"The Herald News" : {
+				"phone" : "1-888-282-3422",
+				"email" : "northjerseymediagroup.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "northjersey",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey"
 			}
 		},
 		{
