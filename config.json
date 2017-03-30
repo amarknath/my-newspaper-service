@@ -456,6 +456,26 @@
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=TheDailyJournal&PublicationId=Vineland&PublicationName=The%20Daily%20Journal"
 			}
+		},
+		{
+			"The Bergen Record" : {
+				"phone" : "1-888-282-3422",
+				"email" : "northjerseymediagroup@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "northjersey",
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey&PublicationId=Northjersey&PublicationName=NorthJerseyMediaGroup"
+			}
+		},
+		{
+			"The Herald News" : {
+				"phone" : "1-888-282-3423",
+				"email" : "northjerseymediagroup@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "northjersey",
+				"use2xLogo" : "false",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey&PublicationId=Northjersey&PublicationName=NorthJerseyMediaGroup"
+			}
 		}
 	],
 	"New Mexico" : [
