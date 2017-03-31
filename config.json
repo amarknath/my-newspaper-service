@@ -976,6 +976,16 @@
 			}
 		},
 		{
+			"The Journal Sentinel, Milwaukee" : {
+				"phone" : "1-844-900-7103 ",
+				"email" : "milwaukeejournalsentinel@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "milwaukeejournalsentinel",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=jsonline "
+			}
+		},
+		{
 			"Oshkosh Northwestern" : {
 				"phone" : "1-877-424-5048",
 				"email" : "wisconsincoe@gannett.com",
