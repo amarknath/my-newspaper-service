@@ -414,7 +414,7 @@
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "northjersey",
 				"use2xLogo" : "true",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey"
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey&PublicationId=Northjersey&PublicationName=NorthJerseyMediaGroup"
 			}
 		},
 		{
@@ -444,7 +444,7 @@
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "northjersey",
 				"use2xLogo" : "true",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey"
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey&PublicationId=Northjersey&PublicationName=NorthJerseyMediaGroup"
 			}
 		},
 		{
@@ -846,6 +846,24 @@
 			}
 		},
 		{
+			"Knoxville News Sentinel" : {
+				"phone" : "844-900-7097",
+				"email" : "knoxvillenewssentinel@gannett.com",
+				"workingHours" : "7:00am - 3:00pm",
+				"sitename" : "knoxnews",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=knoxnews&PublicationId=Knoxville&PublicationName=NewsSentinel"
+			}
+		},
+		{
+			"The Commercial Appeal, Memphis" : {
+				"phone" : "844-900-7099",
+				"email" : "memphiscommercialappeal@gannett.com",
+				"workingHours" : "6:00am - 5:00pm",
+				"sitename" : "commercialappeal",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=commercialappeal&PublicationId=Memphis&PublicationName=TheCommercialAppeal"
+			}
+		},
+		{
 			"The Daily News Journal, Murfreesboro" : {
 				"phone" : "1-800-342-8237",
 				"email" : "customer@dnj.com",
@@ -979,10 +997,10 @@
 			"The Journal Sentinel, Milwaukee" : {
 				"phone" : "1-844-900-7103 ",
 				"email" : "milwaukeejournalsentinel@gannett.com",
-				"workingHours" : "8:00am - 7:00pm",
+				"workingHours" : "8:00am - 5:00pm",
 				"sitename" : "jsonline",
 				"use2xLogo" : "true",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=jsonline "
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=jsonline&PublicationId=Milwaukee&PublicationName=JournalSentinel"
 			}
 		},
 		{
