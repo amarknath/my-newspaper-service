@@ -48,6 +48,16 @@
 			}
 		},
 		{
+			"Redding Record Searchlight" : {
+				"phone" : "1-844-900-7107",
+				"email" : "reddingrecordsearchlight@gannett.com",
+				"workingHours" : "7:00am - 6:00pm",
+				"sitename" : "redding",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=ReddingSearchlight&PublicationId=Redding&PublicationName=Redding%20RecordSearchlight"
+			}
+		},
+		{
 			"The Salinas Californian" : {
 				"phone" : "1-877-424-4917",
 				"email" : "thesalinascalifornian@gannett.com",
@@ -65,6 +75,16 @@
 				"sitename" : "visaliatimesdelta",
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tvisaliatimesdelta&PublicationId=Tulare&PublicationName=Tulare%20Advance-Register"
+			}
+		},
+		{
+			"Ventura County Star" : {
+				"phone" : "1-844-331-9990",
+				"email" : "venturacountystar@gannett.com",
+				"workingHours" : "7:00am - 6:00pm",
+				"sitename" : "vcstar",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=VenturaCountyStar&PublicationId=Ventura&PublicationName=Ventura%20CountyStar"
 			}
 		},
 		{
