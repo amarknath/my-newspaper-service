@@ -84,7 +84,7 @@
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "vcstar",
 				"use2xLogo" : "true",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=VenturaCountyStar&PublicationId=Ventura&PublicationName=Ventura%20CountyStar"
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=vcstar&PublicationId=Ventura&PublicationName=Ventura%20CountyStar"
 			}
 		},
 		{
@@ -1039,6 +1039,18 @@
 				"sitename" : "newsleader",
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=NewsLeader&PublicationId=Staunton&PublicationName=The%20News%20Leader"
+			}
+		}
+	],
+	"Washington" : [
+		{
+			"The Kitsap Sun" : {
+				"phone" : "1-844-900-7106",
+				"email" : "kitsapsun@gannett.com",
+				"workingHours" : "7.00am - 6.00pm",
+				"sitename" : "kitsapsun",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=kitsapsun&PublicationId=Bremerton&PublicationName=KitsapSun"
 			}
 		}
 	],
