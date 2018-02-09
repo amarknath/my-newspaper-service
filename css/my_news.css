@@ -443,6 +443,11 @@
     background-color: rgba(145,210,234, 1.0);
 }
 
+.mcas-accordion.washington {
+    background-color: rgb(145,211,234);
+    background-color: rgba(145,211,234, 1.0);
+}
+
 .mcas-accordion.wisconsin {
     background-color: rgb(150,212,235);
     background-color: rgba(150,212,235, 1.0);
