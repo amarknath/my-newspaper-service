@@ -13,7 +13,7 @@
 	],
 	"Arizona" : [
 		{
-			"The Arizona Republic,Phoenix" : {
+			"The Arizona Republic, Phoenix" : {
 				"phone" : "1-800-332-6733, 1-602-444-1000",
 				"email" : "azrepubliccustomerservice@gannett.com",
 				"workingHours" : "7:00am - 5:00pm",
@@ -1021,7 +1021,7 @@
 	"Vermont" : [
 		{
 			"The Burlington Free Press" : {
-				"phone" : "1-800-427-3163",
+				"phone" : "1-800-427-3126",
 				"email" : "freepress@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "burlingtonfreepress",
