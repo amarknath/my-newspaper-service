@@ -871,7 +871,17 @@
 		}
 	],
 	"South Carolina" : [
-		{
+		{			
+			"Anderson Independent Mail" : {
+                "phone" : "1-844-900-7102",
+                "email" : "andersonindependentmail@gannett.com",
+                "workingHours" : "8:00am - 7:00pm",
+                "sitename" : "independentmail",
+                "use2xLogo" : "false",
+                "chatUrl" : "https://chat.usatodaynetwork.com/?PublicationBasename=independentmail"
+            }
+		},
+		{	
 			"The Greenville News" : {
 				"phone" : "1-800-736-7136",
 				"email" : "greenvillenews@gannett.com",
