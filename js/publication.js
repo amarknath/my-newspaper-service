@@ -55,7 +55,7 @@ function setParameters(data) {
             element.setAttribute('href', 'https://account.' + val + '.com/personal-information');
 
             var element = document.getElementById("pbm-member-guide");
-            element.setAttribute('href', 'http://' + val + '.com/memberguide');
+            element.setAttribute('href', 'https://' + val + '.com/memberguide');
 
             var element = document.getElementById("pbm-e-newspaper");
             element.setAttribute('href', 'https://account.' + val + '.com/enewspaper');
@@ -85,9 +85,9 @@ function setParameters(data) {
             var img = new Image();
             img.className = 'sh-actual-pub-logo';
             if (val == 'true')
-                img.src = 'http://www.gannett-cdn.com/sites/' + siteName + '/images/footer-logo@2x.png';
+                img.src = 'https://www.gannett-cdn.com/sites/' + siteName + '/images/footer-logo@2x.png';
             else {
-                img.src = 'http://www.gannett-cdn.com/sites/' + siteName + '/images/footer-logo.png';
+                img.src = 'https://www.gannett-cdn.com/sites/' + siteName + '/images/footer-logo.png';
             }            
             element.appendChild(img);
 
