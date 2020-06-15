@@ -651,6 +651,16 @@
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=IthacaJournal&PublicationId=Ithaca&PublicationName=The%20Ithaca%20Journal"
 			}
 		},
+        {   
+            "Times Herald-Record, Middletown" : {
+                "phone" : "1-888-620-1700",
+                "email" : "customerservice@th-record.com",
+                "workingHours" : "6:00am - 3:00pm",
+                "sitename" : "recordonline",
+                "use2xLogo" : "false",
+                "chatUrl" : "https://cm.recordonline.com/live-chat"
+            }
+        },
 		{
 			"Poughkeepsie Journal" : {
 				"phone" : "1-877-424-4341",
@@ -806,6 +816,28 @@
 			}
 		}
 	],
+    "Oklahoma" : [
+        {
+            "The Ardmoreite" : {
+                "phone" : "1-580-221-6592",
+                "email" : "customercare@ardmoreite.com",
+                "workingHours" : "8:00am - 5:00pm",
+                "sitename" : "ardmoreite",
+                "use2xLogo" : "false",
+                "chatUrl" : ""
+            }
+        },
+        {
+            "The Shawnee News-Star" : {
+                "phone" : "1-405-214-3945",
+                "email" : "customercare@news-star.com",
+                "workingHours" : "8:30am - 5:00pm",
+                "sitename" : "news-star",
+                "use2xLogo" : "false",
+                "chatUrl" : ""
+            }
+        }
+    ],
 	"Oregon" : [
 		{
 			"Statesman Journal, Salem" : {
