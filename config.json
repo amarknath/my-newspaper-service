@@ -657,7 +657,7 @@
                 "email" : "customerservice@th-record.com",
                 "workingHours" : "6:00am - 3:00pm",
                 "sitename" : "recordonline",
-                "use2xLogo" : "false",
+                "use2xLogo" : "true",
                 "chatUrl" : "https://cm.recordonline.com/live-chat"
             }
         },
@@ -823,7 +823,7 @@
                 "email" : "customercare@ardmoreite.com",
                 "workingHours" : "8:00am - 5:00pm",
                 "sitename" : "ardmoreite",
-                "use2xLogo" : "false",
+                "use2xLogo" : "true",
                 "chatUrl" : ""
             }
         },
@@ -833,7 +833,7 @@
                 "email" : "customercare@news-star.com",
                 "workingHours" : "8:30am - 5:00pm",
                 "sitename" : "news-star",
-                "use2xLogo" : "false",
+                "use2xLogo" : "true",
                 "chatUrl" : ""
             }
         }
