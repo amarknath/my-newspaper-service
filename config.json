@@ -824,7 +824,7 @@
                 "workingHours" : "8:00am - 5:00pm",
                 "sitename" : "ardmoreite",
                 "use2xLogo" : "true",
-                "chatUrl" : ""
+                "chatUrl" : "NA"
             }
         },
         {
@@ -834,7 +834,7 @@
                 "workingHours" : "8:30am - 5:00pm",
                 "sitename" : "news-star",
                 "use2xLogo" : "true",
-                "chatUrl" : ""
+                "chatUrl" : "NA"
             }
         }
     ],
