@@ -394,18 +394,23 @@
 }
 
 .mcas-accordion.ohio {
-    background-color: rgb(52,171,217);
-    background-color: rgba(52,171,217, 1.0);
+    background-color: rgb(52,171,216);
+    background-color: rgba(52,171,216, 1.0);
+}
+
+.mcas-accordion.oklahoma {
+    background-color: rgb(52,171,218);
+    background-color: rgba(52,171,218, 1.0);
 }
 
 .mcas-accordion.oregon {
-    background-color: rgb(65,176,219);
-    background-color: rgba(65,176,219, 1.0);
+    background-color: rgb(65,176,220);
+    background-color: rgba(65,176,220, 1.0);
 }
 
 .mcas-accordion.pennsylvania {
-    background-color: rgb(77,181,221);
-    background-color: rgba(77,181,221, 1.0);
+    background-color: rgb(77,181,222);
+    background-color: rgba(77,181,222, 1.0);
 }
 
 .mcas-accordion.southcarolina {
@@ -441,6 +446,11 @@
 .mcas-accordion.virginia {
     background-color: rgb(145,210,234);
     background-color: rgba(145,210,234, 1.0);
+}
+
+.mcas-accordion.washington {
+    background-color: rgb(145,211,234);
+    background-color: rgba(145,211,234, 1.0);
 }
 
 .mcas-accordion.wisconsin {
@@ -486,7 +496,7 @@
     background-color: rgb(37,37,37);
     background-color: rgba(37,37,37, 1.0);
     bottom: 0;
-    height: 234px;
+    height: 275px;
     left: 0;
     margin-top: 200px;
     width: 100%;
@@ -505,8 +515,16 @@
     text-align:center;
 }
 
+.fs-copyright a {
+    color: rgb(255,255,255,1.0);
+}
+
 .mcas-white-space {
     height: 100px;
+}
+
+.fs-footer-logos a {
+    color: rgb(255,255,255,1.0);
 }
 
 @media only screen and (min-width: 1920px) {
@@ -621,7 +639,7 @@
 
 
     .fs-mns-footer {
-        height: 234px;
+        height: 275px;
         width: 100%;
     }
 

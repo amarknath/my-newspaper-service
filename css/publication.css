@@ -220,7 +220,7 @@
     background-color: rgba(37,37,37, 1.0);
     bottom: 0;
     font-size: 17px;
-    height: 234px;
+    height: 275px;
     left: 0;
     margin-top: 65px;
     width: 100%;
@@ -237,6 +237,10 @@
     font-size: 17px;
     margin-top: 30px;
     text-align:center;
+}
+
+.fb-copyright a {
+    color: rgb(255,255,255,1.0);
 }
 
 @media only screen and (min-width: 1440px) {
@@ -494,7 +498,7 @@
     }
 
     #fb-footer {
-        height: 234px;
+        height: 275px;
         width: 100%;
     }
 

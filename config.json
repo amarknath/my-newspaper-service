@@ -13,7 +13,7 @@
 	],
 	"Arizona" : [
 		{
-			"The Arizona Republic,Phoenix" : {
+			"The Arizona Republic, Phoenix" : {
 				"phone" : "1-800-332-6733, 1-602-444-1000",
 				"email" : "azrepubliccustomerservice@gannett.com",
 				"workingHours" : "7:00am - 5:00pm",
@@ -48,6 +48,16 @@
 			}
 		},
 		{
+			"Redding Record Searchlight" : {
+				"phone" : "1-844-900-7107",
+				"email" : "reddingrecordsearchlight@gannett.com",
+				"workingHours" : "7:00am - 6:00pm",
+				"sitename" : "redding",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=redding&PublicationId=Redding&PublicationName=Redding%20RecordSearchlight"
+			}
+		},
+		{
 			"The Salinas Californian" : {
 				"phone" : "1-877-424-4917",
 				"email" : "thesalinascalifornian@gannett.com",
@@ -64,7 +74,17 @@
 				"workingHours" : "7:00am - 6:00pm",
 				"sitename" : "visaliatimesdelta",
 				"use2xLogo" : "false",
-				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tvisaliatimesdelta&PublicationId=Tulare&PublicationName=Tulare%20Advance-Register"
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=VisaliaTimesDelta&PublicationId=Tulare&PublicationName=Tulare%20Advance-Register"
+			}
+		},
+		{
+			"Ventura County Star" : {
+				"phone" : "1-844-331-9990",
+				"email" : "venturacountystar@gannett.com",
+				"workingHours" : "7:00am - 6:00pm",
+				"sitename" : "vcstar",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=vcstar&PublicationId=Ventura&PublicationName=Ventura%20CountyStar"
 			}
 		},
 		{
@@ -114,6 +134,16 @@
 			}
 		},
 		{
+			"Naples Daily News" : {
+				"phone" : "1-844-900-7105",
+				"email" : "naplesdailynews@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "naplesnews",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=naplesnews&PublicationId=Naples&PublicationName=Naples%20News"
+			}
+		},
+		{
 			"The News-Press, Fort Myers" : {
 				"phone" : "1-800-468-0233",
 				"email" : "ftmnewspress@gannett.com",
@@ -142,9 +172,29 @@
 				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Tallahassee&PublicationId=Tallahassee&PublicationName=Tallahassee%20Democrat"
 			}
-		}
+		}, 
+		{
+			"Treasure Coast Newspapers"  :{
+				"phone" : "1-844-331-0264",
+				"email" : "treasurecoastnewspapers@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "tcpalm",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=tcpalm&PublicationId=TreasureCoast&PublicationName=TCPalm"
+			}
+		} 
 	],
 	"Indiana" : [
+		{
+			"Evansville Courier & Press" : {
+				"phone" : "1-844-900-7104",
+				"email" : "evansvillecourierpress@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "courierpress",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=courierpress&PublicationId=Evansville&PublicationName=CourierPress"
+			}
+		},
 		{
 			"The Indianapolis Star" : {
 				"phone" : "1-888-357-7827",
@@ -217,6 +267,16 @@
 				"sitename" : "courier-journal",
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=Courier-Journal&PublicationId=Louisville&PublicationName=Courier-Journal"
+			}
+		},
+		{
+			"Henderson Gleanor" : {
+				"phone" : "1-844-900-7104",
+				"email" : "evansvillecourierpress@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "thegleaner",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=courierpress&PublicationId=Evansville&PublicationName=CourierPress"
 			}
 		}
 	],
@@ -316,6 +376,16 @@
 			}
 		},
 		{
+			"Livingston Daily Press & Argus" : {
+				"phone" : "1-888-840-4809",
+				"email" : "cserv@michigan.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "livingstondaily",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=livingstondaily&PublicationId=Livingston&PublicationName=Livingston%20Daily"
+			}
+		},
+		{
 			"Times Herald, Port Huron" : {
 				"phone" : "1-800-686-1213",
 				"email" : "porthurontimesherald@gannett.com",
@@ -408,6 +478,16 @@
 			}
 		},
 		{
+			"The Bergen Record" : {
+				"phone" : "1-888-282-3422",
+				"email" : "northjerseymediagroup@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "northjersey",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey&PublicationId=Northjersey&PublicationName=NorthJerseyMediaGroup"
+			}
+		},
+		{
 			"Courier News, Bridgewater" : {
 				"phone" : "1-800-675-8645",
 				"email" : "couriernews@gannett.com",
@@ -425,6 +505,16 @@
 				"sitename" : "courierpostonline",
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=courierpostonline&PublicationId=CherryHill&PublicationName=Courier-Post"
+			}
+		},
+		{
+			"The Herald News" : {
+				"phone" : "1-888-282-3422",
+				"email" : "northjerseymediagroup@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "northjersey",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=northjersey&PublicationId=Northjersey&PublicationName=NorthJerseyMediaGroup"
 			}
 		},
 		{
@@ -561,6 +651,16 @@
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=IthacaJournal&PublicationId=Ithaca&PublicationName=The%20Ithaca%20Journal"
 			}
 		},
+        {   
+            "Times Herald-Record, Middletown" : {
+                "phone" : "1-888-620-1700",
+                "email" : "customerservice@th-record.com",
+                "workingHours" : "6:00am - 3:00pm",
+                "sitename" : "recordonline",
+                "use2xLogo" : "true",
+                "chatUrl" : "https://cm.recordonline.com/live-chat"
+            }
+        },
 		{
 			"Poughkeepsie Journal" : {
 				"phone" : "1-877-424-4341",
@@ -716,6 +816,28 @@
 			}
 		}
 	],
+    "Oklahoma" : [
+        {
+            "The Ardmoreite" : {
+                "phone" : "1-580-221-6592",
+                "email" : "customercare@ardmoreite.com",
+                "workingHours" : "8:00am - 5:00pm",
+                "sitename" : "ardmoreite",
+                "use2xLogo" : "true",
+                "chatUrl" : "NA"
+            }
+        },
+        {
+            "The Shawnee News-Star" : {
+                "phone" : "1-405-214-3945",
+                "email" : "customercare@news-star.com",
+                "workingHours" : "8:30am - 5:00pm",
+                "sitename" : "news-star",
+                "use2xLogo" : "true",
+                "chatUrl" : "NA"
+            }
+        }
+    ],
 	"Oregon" : [
 		{
 			"Statesman Journal, Salem" : {
@@ -781,7 +903,17 @@
 		}
 	],
 	"South Carolina" : [
-		{
+		{			
+			"Anderson Independent Mail" : {
+                "phone" : "1-844-900-7102",
+                "email" : "andersonindependentmail@gannett.com",
+                "workingHours" : "8:00am - 7:00pm",
+                "sitename" : "independentmail",
+                "use2xLogo" : "false",
+                "chatUrl" : "https://chat.usatodaynetwork.com/?PublicationBasename=independentmail"
+            }
+		},
+		{	
 			"The Greenville News" : {
 				"phone" : "1-800-736-7136",
 				"email" : "greenvillenews@gannett.com",
@@ -826,6 +958,24 @@
 			}
 		},
 		{
+			"Knoxville News Sentinel" : {
+				"phone" : "844-900-7097",
+				"email" : "knoxvillenewssentinel@gannett.com",
+				"workingHours" : "7:00am - 3:00pm",
+				"sitename" : "knoxnews",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=knoxnews&PublicationId=Knoxville&PublicationName=NewsSentinel"
+			}
+		},
+		{
+			"The Commercial Appeal, Memphis" : {
+				"phone" : "844-900-7099",
+				"email" : "memphiscommercialappeal@gannett.com",
+				"workingHours" : "6:00am - 5:00pm",
+				"sitename" : "commercialappeal",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=commercialappeal&PublicationId=Memphis&PublicationName=TheCommercialAppeal"
+			}
+		},
+		{
 			"The Daily News Journal, Murfreesboro" : {
 				"phone" : "1-800-342-8237",
 				"email" : "customer@dnj.com",
@@ -848,6 +998,16 @@
 	],
 	"Texas" : [
 		{
+			"Abilene Reporter-News" : {
+				"phone" : "1-844-900-7098",
+				"email" : "abilenereporternews@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "reporternews",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=reporternews&PublicationId=Abilene&PublicationName=ReporterNews"
+			}
+		},
+		{
 			"Corpus Christi Caller-Times" : {
 				"phone" : "844-900-7096",
 				"email" : "caller-times@gannett.com",
@@ -866,6 +1026,26 @@
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=elpasotimes"
 			}
+		},
+		{
+			"San Angelo Standard-Times" : {
+				"phone" : "1-844-331-0047",
+				"email" : "sanangelostandardtimes@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "gosanangelo",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=gosanangelo&PublicationId=SanAngelo&PublicationName=StandardTimes"
+			}
+		},
+		{
+			"Wichita Falls Times Record News" : {
+				"phone" : "1-877-424-5647",
+				"email" : "wichitafallstimesrecordnews@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "timesrecordnews",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=timesrecordnews&PublicationId=WichitaFalls&PublicationName=TimesRecordNews"
+			}
 		}
 	],
 	"Utah" : [
@@ -883,7 +1063,7 @@
 	"Vermont" : [
 		{
 			"The Burlington Free Press" : {
-				"phone" : "1-800-427-3163",
+				"phone" : "1-800-427-3126",
 				"email" : "freepress@gannett.com",
 				"workingHours" : "8:00am - 7:00pm",
 				"sitename" : "burlingtonfreepress",
@@ -901,6 +1081,18 @@
 				"sitename" : "newsleader",
 				"use2xLogo" : "false",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=NewsLeader&PublicationId=Staunton&PublicationName=The%20News%20Leader"
+			}
+		}
+	],
+	"Washington" : [
+		{
+			"The Kitsap Sun" : {
+				"phone" : "1-844-900-7106",
+				"email" : "kitsapsun@gannett.com",
+				"workingHours" : "7.00am - 6.00pm",
+				"sitename" : "kitsapsun",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=kitsapsun&PublicationId=Bremerton&PublicationName=KitsapSun"
 			}
 		}
 	],
@@ -953,6 +1145,16 @@
 				"sitename" : "marshfieldnewsherald",
 				"use2xLogo" : "true",
 				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=MarshfieldNewsHerald&PublicationId=Marshfield&PublicationName=Marshfield%20News-Herald"
+			}
+		},
+		{
+			"The Journal Sentinel, Milwaukee" : {
+				"phone" : "1-844-900-7103 ",
+				"email" : "milwaukeejournalsentinel@gannett.com",
+				"workingHours" : "8:00am - 7:00pm",
+				"sitename" : "jsonline",
+				"use2xLogo" : "true",
+				"chatUrl" : "https://chat.gannett.com/HtmlChat.jsp?PublicationBasename=jsonline&PublicationId=Milwaukee&PublicationName=JournalSentinel"
 			}
 		},
 		{
